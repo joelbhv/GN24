@@ -17,11 +17,11 @@ send-supported-versions: false
 # List of all Minecraft protocol versions: http://wiki.vg/Protocol_version_numbers
 block-protocols: []
 # Change the blocked disconnect message
-block-disconnect-msg: You are using an unsupported Minecraft version!
+block-disconnect-msg: Nur Clients von 1.8 bis 1.13
 # If you use ProtocolLib, we can't reload without kicking the players.
 # (We don't suggest using reload either, use a plugin manager)
 # You can customise the message we kick people with if you use ProtocolLib here.
-reload-disconnect-msg: Server reload, please rejoin!
+reload-disconnect-msg: Achtung reload, bitte rejoinen!
 # 
 # ----------------------------------------------------------#
 #                  GLOBAL PACKET LIMITER                   #

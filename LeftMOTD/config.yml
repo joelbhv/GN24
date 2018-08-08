@@ -3,5 +3,5 @@ cfg-version: 2
 customSlots: false
 spaces: 5
 leftMOTDs:
-  - '&e&nJoin Today!&r'
-  - '&6&nBest Survival Experience!&r'
+  - '&e&nJoin Heute!&r'
+  - '&6&nDie beste Survival Erfahrung!&r'

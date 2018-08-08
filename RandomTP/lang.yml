@@ -1,4 +1,4 @@
-NOPERMISSION: '&cYou do not have permission to perform this action'
+NOPERMISSION: '&cDafür hast du leider keine Rechte'
 ECONOMYNOTFOUND: '&cNo economy plugin was detected, so price was put to 0'
 NOTVALIDBLOCKNUMBER: '&c%variable% is not a valid number of distance'
 EMPTYBLOCKNUMBER: '&cDistance cannot be empty'

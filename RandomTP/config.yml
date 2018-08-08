@@ -7,9 +7,9 @@ SignBackup:
   taskeveryseconds: 300
 SignFormat:
 - '&7[&aRandomTP&7]'
-- '&2Blocks: %distance%'
-- '&cPrice: %price%'
-- '&a(Click here)'
+- '&2Blöcke: %distance%'
+- '&cPreis: %price%'
+- '&a(Hier klicken)'
 Inventory:
   Rows: 1
   MenuName: '&nRandom Teleport'
@@ -25,9 +25,9 @@ Inventory:
       permission: randomtp.use.user
       lore:
       - '&r'
-      - '&8◆ &eTeleport distance: %distance% blocks'
-      - '&8◆ &eCost: 10 ⛃'
-      - '&6Click to teleport'
+      - '&8◆ &eTeleport Entfernung: %distance% blöcke'
+      - '&8◆ &ePreis: 10 ⛃'
+      - '&6Klicke zum Teleportieren'
     '1':
       id: '272'
       slot: 1
@@ -39,9 +39,9 @@ Inventory:
       permission: randomtp.use.user
       lore:
       - '&r'
-      - '&8◆ &eTeleport distance: %distance% blocks'
-      - '&8◆ &eCost: 20 ⛃'
-      - '&6Click to teleport'
+      - '&8◆ &eTeleport Entfernung: %distance% blöcke'
+      - '&8◆ &ePreis: 20 ⛃'
+      - '&6Klicke zum Teleportieren'
     '2':
       id: '267'
       slot: 2
@@ -53,8 +53,8 @@ Inventory:
       permission: randomtp.use.vip
       lore:
       - '&r'
-      - '&8◆ &eTeleport distance: %distance% blocks'
-      - '&8◆ &eCost: %cost% ⛃'
-      - '&6Click to teleport'
+      - '&8◆ &eTeleport Entfernung: %distance% blöcke'
+      - '&8◆ &ePreis: %cost% ⛃'
+      - '&6Klicke zum Teleportieren'
       - '&r'
-      - '&cDonator Only Perk.'
+      - '&cNur für Premiumm.'

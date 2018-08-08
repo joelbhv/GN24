@@ -51,7 +51,7 @@ protection:
         - version
         - icanhasbukkit
       unknowncommand:
-        message: Unknown command. Type "/help" for help.
+        message: GameNetz24 > Diesen Commmand kennen wir nicht. Probiere /help
         commands: []
   commands:
     consoleonly:

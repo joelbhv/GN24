@@ -96,7 +96,7 @@ npc:
       cached-skin-uuid: f7e78d21-0726-4d98-929c-1531f13b29e0
       player-skin-name: thealamightyloaf
       player-skin-signature: yRxCN/2Liorj8OvOw/fC3BJY2fvHz/DakAVXjtIuLBqkyCv6t0AoVu2ErcU5H6P9wBMxcFLG81iNyzHr702fLkI2rVW+pYV9vKi5r/hmZkde5X90jzD48Vlhr+ZVyfRYwu/kP2sJhLThhVETCtyB9Dycvdcz1PulLO3X2l8Rn8NcS4OZeKY1WRGF6Si5IDoPKdRPs1M/ge6Johd5DT1AHoe4XozCZgIoXMbmRLj4fI+xTYfbxz8YWqqVA9osiRjsLGXghmamEoE78IRtzSO92DTBht/IVxIKSUtoX9/WEpsqmIEBbgRUrVw1tH4dLMgKX8PWygj6RuftQWL6B/VLdvkWRDTDCNNRF7dXUhDe4TP1Aq9+qTP70amt/rxXv0tu4/7fY0gGMDDk+nN+i65Uy9kKbKYe0aHQASBdIQxgER5kaiRpgd8CxyJmpNPev4RfKBEQ9qJDCGwPHUWG4ZW4CqNNw1tTzGsOkUzWWYG3H0VUqCvy10cLND3KDNUzGMKTRqg6J6qZZAQbRYSnZgT3qt8eF4zUmX8i/6e0FLrMA/N+WXyoxRSQ/5K5Cl6mE6S8XIgd0p+X0RmkFlKVniuj7t7YJ3NJKP0k2xBlELKGO+ZYJ76F6MkGncC16wc+G2igijBHGQ7HJGb2TAY91fBup5GnzXY6w8cI+kDaIIaqWH0=
-    name: §6Quest Merchant
+    name: §6Quest geber
     uuid: c1851308-9d2b-4b6a-9f35-a7a0f6b6b4b1
     traits:
       gravity:
@@ -137,7 +137,7 @@ npc:
       cached-skin-uuid: a39ef57a-387c-4cd1-9740-59b732ebc7a5
       player-skin-name: merchant
       player-skin-signature: P4UeuGXZXFqL2JOAFAXWiKKEHi5u9YFvqUi3TgFdxtz8Sipfs0M7TGJsrk9zgYlDQ/wf9yG04tBof+yNKVNRG9x6Zrz65Fqn1pmnTCk8Bv5Jr/aITasle+QHIGnyFKFv2gCKA8sC0eFDFrcC5eIRuUbez28uWy4JKrOg1ssESVINbdPbpwfhuSBZ+NNVvo0MpSwQhFOE6dVom/J3XJ1uft2cXNWLVT3cFwwpIhIS8dCeZ36nVHVcinGm4+EguA5dVCREHHGpBo5g4XNaOWu6/ORZQasQwkmHrVwnCY0Zgfwpb7EonMe6G+1gvH1Eylj+MPYsBRD9cfYRwoao5dk94+0lZZk/nZFar2avJfM0jb33lu5UtyO+wvMcZGYcgS/jW6KR5yZRqs77l7/SUU6GNfpdW9yhQ9q/0ekGtGwCjRqls6mrJwmngcECBkUxiY1of7aB+1NI7RSY9Mz22bv1VWl3KkfhNp0ETvYrG9959DDhhlQg20+r18YdKMpXSBHT/HWqCbe9ovz9qWSM4q5SdeKTNnfNaW9d8OQcSakj8s66yK9okmpIJj1SYAI3mCs4DxQKoOy290UrT1sB3Z0/9+7Tf55g7Qyk3YUBkL5K1QVsrg3jgTD7VzEBop3ub2J6RtTH55OwztOUbDUco4jdGpaxoiTcgdbYVdeA4nb73MA=
-    name: §cDaily Reward
+    name: §cTäglicher Bonus
     uuid: 62c99e10-45c0-4d84-b34d-338247d4d5bc
     traits:
       spawned: true
@@ -166,7 +166,7 @@ npc:
       cached-skin-uuid: 3904e547-4213-43e3-9404-4add31e2202f
       player-skin-name: joe
       player-skin-signature: sx6H5nmwlGP640axFIYfTatq+SU1q1yFwIewlOXQVBTZ9geFl4dwAgVPoVJ5dbqDc5lmg35/ltNUyNgJs5oTjT+4dG4ZTV6WCQzDvC6HXPNCMjRbZfUbk59c30ngNAB8ExpJodcrqieYNwffc9UaV91ZO6gUqRYVym/1mjc6O2FmnehwZAB/OGY5kZo8/lIO2aSpmJAeVOqjNadlZnHJ1jW8o2Rb1ZL4or8pjlrxxRA/Mrkko8hX8JfhNYTSbJ8K0ndxAB8lPhLVkJjg8FHjhMonbaeUEvymSEw/G3fTc/9W201Rk9mP59B7HjD6WfYMwrLK00XOzBePK89WPUIRI50+yLXQCSbYCPaZg69BxldqoOx6NXUO+9gWtzirdeuDzqWjKZ9E8o2k/ntdjO2fT+2nyZo4Oiju8gjhwPR303e2SQYOxKpOYrDTCLidZMHOsdIoWLJ/AObAg/+V7wZr6h2nZ5X3nz4K6qWQ5y8G27tMo2qZfo2Ccg5VdgudNZhFkoZc9Cy+72+6hFdQrWVfgxpCLCHfn9UmGMpzBumXs0TeiaMsS1dA3f2by7L9TUH5UrOOMWUwq6AfClfFgty5ldtsRZjzVCLFfsxf6gf82l6DcX7qrhghCl8rH2wFA63d2M9g6GxaGdrV0xK6TgtDJ432YBV6el8yXNxbX8TS0oA=
-    name: §eBanker
+    name: §eWährungshändler
     uuid: 69f17209-2d99-4d14-bf96-ff58fd56bad9
     traits:
       spawned: true
@@ -195,7 +195,7 @@ npc:
       cached-skin-uuid: a47df667-8be9-4755-bf2c-985a1fda964b
       player-skin-signature: cnPUgGICzo1BAgPEA5ASSJSTVNRcH+rQKN5d2HhlBs+ebiVBFJm9GKzv9k7SVWtqZH6T+rCTZKuSezFnK2vPysR20HeSszTlaXzQ6NnttjirCUQutgy4FW/GqhdlGrBMU8Vw0nVTnMsljkd7GL6XlqwtprjHLNylaR1rBe+K9KfEWFsWCqMWVtK5Eu11PTrYuqel75byfPEQTTFOJpO8BCHe7tt8bv7Kf6jR3dDPEpfebzcYkpvxj8E9k6HuCgLfVjta9gO/FAuE//gMOZrPF1G4mRwKrCJCTkSMSUbyWIWmDnD5/SI6O6o5IecIfZ4HWspjMrUw1N5dHdMWHa7ox9BYO2JyYbRyZnxi1PiqAICJMK566qgacooH/M0KfQyI6PdqhGT7ZepFTbBggk/xH5CPPgTn+hpIWOJ7Jk7KA+29jHvVGwFwtUwjWD8grg2BuxnkJ2LEQ/I71M9uyvB8CAQ6IJTrwlLHlBGHyVhgHsq3932/35hhR2pBZf+ku26tXITmkfua0/bbHM0GMd8/SZU/1t7L+786dG7S/+RaaS7/B5trUkej19UCQ8Cru/7Ig7xDQmFn9iVZTdM803ynJP6slvR7Bu1JZaA7FpJOrp4TQXQd9sA4BfFwM5Jdn6qS3YuulURlHivtH3/6hrO6Ze0PTMVedk902GgI1j9XEOs=
       player-skin-name: auction
-    name: §bAuctioneer
+    name: §bAutkionshaus
     uuid: 8084969f-7bad-4c08-991a-507147e4f0ac
     traits:
       type: PLAYER

@@ -7,9 +7,9 @@ firstjoin:
   # Broadcast the message to all players
   broadcast: false
   # Title message
-  title: '&8◆ &6&l&nSURVIVAL&r &8◆'
+  title: '&8◆ &6&l&nGameNetz24-Survival&r &8◆'
   # Subtitle message
-  subtitle: '&eWelcome to the server!'
+  subtitle: '&eWillkommen auf deinem Survival Server!'
   # Fade in time in TICKS (20 ticks = 1 sec)
   fadein: 25
   # Stay on screen time in TICKS
@@ -22,9 +22,9 @@ rejoin:
   # Broadcast the message to all players
   broadcast: false
   # Title message
-  title: '&8◆ &6&l&nSURVIVAL&r &8◆'
+  title: '&8◆ &6&l&nGameNetz24-Survival&r &8◆'
   # Subtitle message
-  subtitle: '&eWelcome back!'
+  subtitle: '&eWillkommen zurück!!'
   # Fade in time in TICKS (20 ticks = 1 sec)
   fadein: 25
   # Stay on screen time in TICKS
