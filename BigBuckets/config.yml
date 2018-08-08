@@ -1,0 +1,4 @@
+limit: 20
+smallBucketCraftingCapacity: 10
+mediumBucketCraftingCapacity: 50
+bigBucketCraftingCapacity: 100

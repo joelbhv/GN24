@@ -1,0 +1,24 @@
+oldcrate:
+  location: world, -588.471, 72.200, 845.510
+  lines:
+  - '&8◆ &7&nOld Crate&r &8◆'
+  - '&7Left-click to preview'
+  - '&7Right-click to open'
+antiquecrate:
+  location: world, -588.605, 72.200, 842.410
+  lines:
+  - '&8◆ &6&nAntique Crate&r &8◆'
+  - '&7Left-click to preview'
+  - '&7Right-click to open'
+ancientcrate:
+  location: world, -585.466, 72.200, 839.490
+  lines:
+  - '&8◆ &e&nAncient Crate&r &8◆'
+  - '&7Left-click to preview'
+  - '&7Right-click to open'
+mythicalcrate:
+  location: world, -582.512, 72.200, 839.492
+  lines:
+  - '&8◆ &c&nMythical Crate&r &8◆'
+  - '&7Left-click to preview'
+  - '&7Right-click to open'

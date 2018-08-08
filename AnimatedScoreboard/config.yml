@@ -1,0 +1,10 @@
+worlds:
+  world: default
+  world_the_end: default
+  world_nether: default
+permissions:
+  adminboard: animatedscoreboard.admin
+check_updates: true
+debug_mode: false
+enable-triggers: true
+placeholderapi: true

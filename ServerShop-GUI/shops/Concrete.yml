@@ -1,0 +1,225 @@
+stock:
+  '0':
+    Type: Item
+    Reward: CONCRETE
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '1':
+    Type: Item
+    Reward: CONCRETE:1
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '2':
+    Type: Item
+    Reward: CONCRETE:2
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '3':
+    Type: Item
+    Reward: CONCRETE:3
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '4':
+    Type: Item
+    Reward: CONCRETE:4
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '5':
+    Type: Item
+    Reward: CONCRETE:5
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '6':
+    Type: Item
+    Reward: CONCRETE:6
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '7':
+    Type: Item
+    Reward: CONCRETE:7
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '8':
+    Type: Item
+    Reward: CONCRETE:8
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '9':
+    Type: Item
+    Reward: CONCRETE:9
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '10':
+    Type: Item
+    Reward: CONCRETE:10
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '11':
+    Type: Item
+    Reward: CONCRETE:11
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '12':
+    Type: Item
+    Reward: CONCRETE:12
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '13':
+    Type: Item
+    Reward: CONCRETE:13
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '14':
+    Type: Item
+    Reward: CONCRETE:14
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '15':
+    Type: Item
+    Reward: CONCRETE:15
+    Pricetype: Money
+    Price: 90.0
+    Sell: 10.0
+    Amount: 32
+  '16':
+    Type: Item
+    Reward: CONCRETE_POWDER
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '17':
+    Type: Item
+    Reward: CONCRETE_POWDER:1
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '18':
+    Type: Item
+    Reward: CONCRETE_POWDER:2
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '19':
+    Type: Item
+    Reward: CONCRETE_POWDER:3
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '20':
+    Type: Item
+    Reward: CONCRETE_POWDER:4
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '21':
+    Type: Item
+    Reward: CONCRETE_POWDER:5
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '22':
+    Type: Item
+    Reward: CONCRETE_POWDER:6
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '23':
+    Type: Item
+    Reward: CONCRETE_POWDER:7
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '24':
+    Type: Item
+    Reward: CONCRETE_POWDER:8
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '25':
+    Type: Item
+    Reward: CONCRETE_POWDER:9
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '26':
+    Type: Item
+    Reward: CONCRETE_POWDER:10
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '27':
+    Type: Item
+    Reward: CONCRETE_POWDER:11
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '28':
+    Type: Item
+    Reward: CONCRETE_POWDER:12
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '29':
+    Type: Item
+    Reward: CONCRETE_POWDER:13
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '30':
+    Type: Item
+    Reward: CONCRETE_POWDER:14
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32
+  '31':
+    Type: Item
+    Reward: CONCRETE_POWDER:15
+    Pricetype: Money
+    Price: 77.5
+    Sell: 7.5
+    Amount: 32

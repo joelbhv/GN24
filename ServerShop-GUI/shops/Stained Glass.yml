@@ -1,0 +1,120 @@
+stock:
+  '0':
+    Type: Item
+    Reward: STAINED_GLASS
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '1':
+    Type: Item
+    Reward: STAINED_GLASS:1
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '2':
+    Type: Item
+    Reward: STAINED_GLASS:2
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '3':
+    Type: Item
+    Reward: STAINED_GLASS:3
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '4':
+    Type: Item
+    Reward: STAINED_GLASS:4
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '5':
+    Type: Item
+    Reward: STAINED_GLASS:5
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '6':
+    Type: Item
+    Reward: STAINED_GLASS:6
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '7':
+    Type: Item
+    Reward: STAINED_GLASS:7
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '8':
+    Type: Item
+    Reward: STAINED_GLASS:8
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '9':
+    Type: Item
+    Reward: STAINED_GLASS:9
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '10':
+    Type: Item
+    Reward: STAINED_GLASS:10
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '11':
+    Type: Item
+    Reward: STAINED_GLASS:11
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '12':
+    Type: Item
+    Reward: STAINED_GLASS:12
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '13':
+    Type: Item
+    Reward: STAINED_GLASS:13
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '14':
+    Type: Item
+    Reward: STAINED_GLASS:14
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '15':
+    Type: Item
+    Reward: STAINED_GLASS:15
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '16':
+    Type: Item
+    Reward: GLASS
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32

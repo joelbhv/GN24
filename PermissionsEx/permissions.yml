@@ -1,0 +1,246 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&8(&7Traveler&8)&7 '
+    permissions:
+    - disease.info
+    - disease.craft.arrow.*
+    - disease.craft.*
+    - crazyenchantments.gkitz
+    - modifyworld.*
+    - essentials.pay
+    - essentials.balance
+    - essentials.balancetop
+    - essentials.balance.others
+    - essentials.exp
+    - essentials.tpahere
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.kit
+    - essentials.kits.starter
+    - essentials.ignore
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.msg
+    - essentials.realname
+    - essentials.rules
+    - essentials.ping
+    - essentials.warp
+    - essentials.warps.*
+    - essentials.list
+    - essentials.spawn
+    - essentials.signs.use.*
+    - essentials.sethome
+    - essentials.home
+    - essentials.delhome
+    - deluxemenus.view.*
+    - crazyauctions.access
+    - crazyauctions.sell
+    - crazyauctions.sell.7
+    - crazyauctions.bid
+    - crazyauctions.bid.7
+    - crazyenchantments.access
+    - crazyenchantments.info
+    - crazyenchantments.tinker
+    - crazyenchantments.blacksmith
+    - crazyenchantments.access
+    - crazyenchantments.limit.5
+    - crazycrates.access
+    - dr.claim
+    - deluxetags.gui
+    - deluxetags.select
+    - quests.command
+    - randomtp.gui
+    - randomtp.use.user
+    - shop.open.*
+    - kitpreview.use
+    - furniture.place.all
+    - trading.trade
+  explorer:
+    options:
+      prefix: '&8(&fExplorer&8)&7'
+    permissions:
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.two
+    - deluxetags.tag.Miner
+    - deluxetags.tag.Killstreak
+    - deluxetags.tag.Naughty
+    - deluxetags.tag.Builder
+    - deluxetags.tag.CaveExplorer
+    - trail.heart
+    - trail.angry
+    - trail.magic
+    - trail.fun
+    - trail.cloud
+    - trail.allow
+    inheritance:
+    - default
+  coal:
+    options:
+      prefix: '&8(&8Coal&8)&f '
+    permissions:
+    - essentials.kits.fisherman
+    - essentials.ptime
+    - essentials.hat
+    - dr.advanced
+    - randomtp.use.vip
+    - epicpets.pet.*
+    - epicpets.gui.open.*
+    - epicpets.particles.*
+    - epicpets.gui.action.preferences.*
+    - trail.allow
+    - rank.coal
+    inheritance:
+    - default
+  iron:
+    options:
+      prefix: '&8(&fIron&8)&f '
+    permissions:
+    - essentials.kits.food
+    - essentials.pweather
+    - essentials.msg.color
+    - essentials.nick
+    - betterbowtrails.all.menu
+    - betterbowtrails.use
+    - betterbowtrails.use.menu
+    - betterbowtrails.set
+    - betterbowtrails.amount.*
+    - betterbowtrails.type.*
+    - betterbowtrails.remove.*
+    - betterbowtrails.explosion.*
+    - betterbowtrails.donator
+    - rank.iron
+    inheritance:
+    - coal
+  gold:
+    options:
+      prefix: '&8(&eGold&8)&f '
+    permissions:
+    - essentials.kits.blacksmith
+    - essentials.sethome.multiple.three
+    - essentials.clearinventory
+    - trail.all
+    - trail.blocks
+    - trail.rain
+    - trail.rain.builder
+    - trail.wings
+    - trail.wing.bf
+    - trail.wing.angel
+    - rank.gold
+    inheritance:
+    - iron
+  diamond:
+    options:
+      prefix: '&8(&bDiamond&8)&f '
+    permissions:
+    - essentials.kits.horse
+    - essentials.ext
+    - essentials.heal
+    - essentials.feed
+    - deluxetags.tag.*
+    - rank.diamond
+    inheritance:
+    - gold
+  emerald:
+    options:
+      prefix: '&8(&a&lEmerald&r&8)&f '
+    permissions:
+    - essentials.kits.horse2
+    - essentials.sethome.multiple.unlimited
+    - decoheads.use
+    - rank.emerald
+    inheritance:
+    - diamond
+  helper:
+    options:
+      prefix: '&8(&2Helper&8)&a '
+    permissions:
+    - ab.kick.use
+    - ab.kick.notify
+    - ab.ban.notify
+    - ab.tempban.notify
+    - ab.ipban.notify
+    - ab.mute.perma
+    - ab.mute.temp
+    - ab.mute.notify
+    - ab.tempmute.notify
+    - ab.warn.perma
+    - ab.warn.temp
+    - ab.warn.notify
+    - ab.tempwarn.notify
+    - ab.warns.own
+    - ab.warns.other
+    - ab.check
+    - essentials.msg.url
+    - essentials.chat.url
+    - AntiAd.allow
+    - AntiAd.alert
+    inheritance:
+    - default
+  moderator:
+    options:
+      prefix: '&8(&3Moderator&8)&b '
+    permissions:
+    - ab.ban.temp
+    - ab.warn.undo
+    - essentials.chat.spy
+    inheritance:
+    - helper
+  srmoderator:
+    options:
+      prefix: '&8(&5SrModerator&8)&d '
+    permissions:
+    - ab.ban.undo
+    - essentials.god
+    - essentials.vanish
+    - essentials.fly
+    - essentials.fly.safelogin
+    inheritance:
+    - moderator
+  admin:
+    options:
+      prefix: '&8(&4Admin&8)&4 '
+    permissions:
+    - ab.ipban.perma
+    - ab.ipban.temp
+    inheritance:
+    - srmoderator
+  manager:
+    options:
+      prefix: '&8(&4Manager&8)&4 '
+    permissions:
+    - ab.ipban.perma
+    - ab.ipban.temp
+    inheritance:
+    - srmoderator
+  developer:
+    options:
+      prefix: '&8(&4Developer&8)&4 '
+    permissions:
+    - '*'
+  owner:
+    options:
+      prefix: '&8(&4Owner&8)&4 '
+    permissions:
+    - '*'
+schema-version: 1
+users:
+  ac6073cb-41d4-4d9f-ae48-acb0d748ab67:
+    permissions:
+    - deluxetags.tag.RedstoneMaster
+    - deluxetags.tag.Powerful
+    - trail.slime
+    - deluxetags.tag.Awesome
+    - deluxetags.tag.TNT
+    group:
+    - iron
+    - explorer
+    options:
+      name: JosephGamerYT
+  bc62175f-dd8c-4006-8df6-452dd6286cb3:
+    group:
+    - owner
+    options:
+      name: GrossVerdiener

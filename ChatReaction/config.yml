@@ -1,0 +1,52 @@
+# ChatReaction version 1.7.1 configuration file
+debug: false
+check_updates: true
+reaction_stats:
+  track_stats: false
+  top_players_size: 100
+  hostname: localhost
+  port: 3306
+  database: chatreaction
+  prefix: ''
+  username: root
+  password: ''
+reaction:
+  interval: 500
+  time_limit: 30
+  players_needed_to_start: 2
+  word_character_length: 10
+  ignore_case: false
+  use_custom_words: true
+  split_words_by_line: true
+  scramble_custom_words: true
+  scramble_at_random: true
+  scramble_spaces: false
+  disabled_worlds:
+  - world_nether
+  - world_the_end
+  reward_amount: 1
+  rewards:
+  - eco give @p 20
+messages:
+  reaction_start:
+  - '&9Reaktions-Spiel > &Bewege den Cursor um das Wort zum schreiben zu sehen!'
+  reaction_start_tooltip: '&f%word%'
+  scramble_start:
+  - '&9Reaktions-Spiel > &bBewege den Cursor, um das Wort zu entschlüsseln!'
+  scramble_start_tooltip: '&f%word%'
+  reaction_end:
+  - '&9Reaktions-Spiel > &cNiemand hat das Wort schnell genug bekommen &4:('
+  scramble_end:
+  - '&9Reaktions-Spiel > &cNiemand hat das Wort schnell genug bekommen &4:('
+  - '&cDas Wort war &f%word%'
+  reaction_win:
+  - '&9Reaktions-Spiel > &f%player% &ahat in &f%time% &aSekunden gewonnen!'
+  scramble_win:
+  - '&9Reaktions-Spiel > &f%player% &ahat das Wort &f%word% &ain &f%time% &aSekunden
+    entschlüsselt!'
+hooks:
+  qaplugin:
+    enabled: true
+    hint:
+      charge: true
+      charge_amount: 100.0

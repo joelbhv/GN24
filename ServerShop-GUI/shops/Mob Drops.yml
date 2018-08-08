@@ -1,0 +1,113 @@
+stock:
+  '0':
+    Type: Item
+    Reward: SPIDER_EYE
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 8
+  '1':
+    Type: Item
+    Reward: STRING
+    Pricetype: Money
+    Price: 55.0
+    Sell: 5.5
+    Amount: 16
+  '2':
+    Type: Item
+    Reward: BONE
+    Pricetype: Money
+    Price: 45.0
+    Sell: 4.0
+    Amount: 16
+  '3':
+    Type: Item
+    Reward: ARROW
+    Pricetype: Money
+    Price: 50.0
+    Sell: 5.0
+    Amount: 16
+  '4':
+    Type: Item
+    Reward: SULPHUR
+    Pricetype: Money
+    Price: 75.0
+    Sell: 15
+    Amount: 16
+  '5':
+    Type: Item
+    Reward: ROTTEN_FLESH
+    Pricetype: Money
+    Price: 25.0
+    Sell: 2.0
+    Amount: 16
+  '6':
+    Type: Item
+    Reward: FEATHER
+    Pricetype: Money
+    Price: 35.0
+    Sell: 2.0
+    Amount: 16
+  '7':
+    Type: Item
+    Reward: POISONOUS_POTATO
+    Pricetype: Money
+    Price: 35.0
+    Sell: 2.0
+    Amount: 8
+  '8':
+    Type: Item
+    Reward: SLIME_BALL
+    Pricetype: Money
+    Price: 60.0
+    Sell: 15.0
+    Amount: 16
+  '9':
+    Type: Item
+    Reward: BLAZE_POWDER
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 16
+  '10':
+    Type: Item
+    Reward: MAGMA_CREAM
+    Pricetype: Money
+    Price: 70.0
+    Sell: 2.5
+    Amount: 16
+  '11':
+    Type: Item
+    Reward: BLAZE_ROD
+    Pricetype: Money
+    Price: 50.0
+    Sell: 5.0
+    Amount: 8
+  '12':
+    Type: Item
+    Reward: ENDER_PEARL
+    Pricetype: Money
+    Price: 40.0
+    Sell: 4.0
+    Amount: 16
+  '13':
+    Type: Item
+    Reward: GHAST_TEAR
+    Pricetype: Money
+    Price: 50.0
+    Sell: 5.0
+    Amount: 4
+  '14':
+    Type: Item
+    Reward: INK_SACK
+    Pricetype: Money
+    Price: 65.0
+    Sell: 15.0
+    Amount: 16
+  '15':
+    Type: Item
+    Reward: LEATHER
+    Pricetype: Money
+    Price: 40.0
+    Sell: 8.0
+    Amount: 8

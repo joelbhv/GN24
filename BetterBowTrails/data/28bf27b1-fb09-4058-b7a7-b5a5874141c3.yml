@@ -1,0 +1,6 @@
+particleID: diamond_block
+particleName: '&b&lDiamond'
+tillDespawn: false
+particlesPerTick: 5
+Explosion: true
+bought: MemorySection[path='bought', root='YamlConfiguration'],Emerald,&a&lEmerald,Diamond,&b&lDiamond

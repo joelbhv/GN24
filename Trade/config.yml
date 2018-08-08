@@ -1,0 +1,52 @@
+message:
+  commandHelp:
+  - '&cInvalid Command.'
+  - '&7Usage: /toggletrade'
+  - '&7Description: Enables / Disables recieving trade requests.'
+  commandTradeEnabled:
+  - '&aTrade - &lENABLED'
+  commandTradeDisabled:
+  - '&cTrade - &lDISABLED'
+  tradeDisabled:
+  - '&e&l%partner% &ehas trade disabled'
+  tradeWrongButton:
+  - '&cWrong button.'
+  tradeBusy:
+  - '&e&l%partner% is already trading with someone else.'
+  tradeBusyOther:
+  - '&e&l&partner% &eis currently busy'
+  tradeAccepted:
+  - '&a&lTrade accepted.'
+  tradeCancel:
+  - '&e&lTrade cancelled.'
+  tradePartnerCancel:
+  - '&eTrade cancelled by &l%player% &e'
+  tradeTradingWith:
+  - '&eTrading with &l%partner% &e...'
+  tradePartnerTradingWith:
+  - '&eTrading with &l%player% &e...'
+  tradeModified:
+  - '&cTrade modified, unaccepted.'
+  tradePartnerModified:
+  - '&cTrade modified by &l%player%&c, unaccepted.'
+  tradeCancelCombat:
+  - '&cTrade cancelled, entered combat.'
+  tradePartnerCancelCombat:
+  - '&c&l%player% &centered combat, trade cancelled.'
+  tradeNoRoom:
+  - '&c&lNot enough room.'
+  - '&c&l$partnerSlotsNeeded% &7more free slots to complete this trade.'
+  tradePartnerNoRoom:
+  - '&c%player% does not have enough room for this trade.'
+  tradeNoRoomPartner:
+  - '&c&lNot enough room.'
+  - '&7You need &l%playerSlotsNeeded% &7more free slots to complete this trade.'
+  tradePartnerNoRoomPartner:
+  - '&c&l%player% does not have enough room for this trade.'
+  tradeAccept:
+  - '&eTrade accepted, waiting for &l%partner%'
+  tradePartnerAccept:
+  - '&a&l%player% has accepted the trade.'
+  - '&7Click the gray button (dye) to confirm.'
+  tradeDisconnect:
+  - '&c&l%player% &chas logged out, trade cancelled.'

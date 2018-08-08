@@ -1,0 +1,286 @@
+## For more block/item id's go here: http://minecraft-ids.grahamedgecombe.com (item must be in your current version of Minecraft!)
+## WARNING! For particle id's the item must be a PLACEABLE item! (Good: sapling) (Bad: apple)
+
+Settings:
+  Menu:
+    Title: '&nBow Trails'
+    ##Lore used for all menu items! Use %item% to replace it with the title of the trail!
+    AllLores:
+    - ''
+    - '&7Clicke für Equip %item%!'
+    Close: false
+    Size:
+      ParticleRows: 5
+      GuiRows: 6
+    Permission:
+      Allowed:
+        Lore:
+        - ''
+        - '&a&l✔ FREIGESCHALTET'
+        - '&7Klicke um den Trail auszuwählen.'
+      NotAllowed:
+        ## Leave as "%item%" if you don't want to change the item if they don't have permission to equip the item!
+        Item: '%item%'
+        Lore:
+        - ''
+        - '&c&l✘ GESPERRT'
+        - '&7Du kannst dieses Trail nicht nutzen.'
+  NextPage:
+    Slot: 9
+    Name: '&e&l>>>'
+    Item: 'book'
+    Lore:
+    - '&7Klicke für nächste Seite.'
+  LastPage:
+    Slot: 1
+    Name: '&e&l<<<'
+    Item: 'book'
+    Lore:
+    - '&7Klicke für letzte Seite.'
+  ParticleAmount:
+    Enabled: true
+    SendMessage: true
+    Slot: 3
+    Name: '&aÄndere Partikel Mänge'
+    Item: 'blaze_powder'
+    Lore:
+    - '&7Ändere die Partikelmenge'
+    - '&7die jeden Tick erscheint.'
+    - ''
+    - '&eMMomentane Partikelmenge: &7%current%'
+    - ''
+    - '&7&nLinks Klick zum erhöhen.'
+    - '&7&nRechts Klick zum verringern.'
+    Close: false
+  Remove:
+    Enabled: true
+    SendMessage: true
+    Slot: 4
+    Name: '&cTrail Entferner'
+    Item: 'barrier'
+    Lore:
+    - '&7Entferne alle aktiven Trails.'
+    - ''
+    - '&eMomentaner Trail: &7%current%'
+    Current:
+      None: 'None'
+    Close: false
+  ToggleTrailType:
+    Enabled: true
+    SendMessage: true
+    Slot: 6
+    Name: '&dSchalte Partikel Typ um'
+    Item: 'arrow'
+    Lore:
+    - '&7Ändere ob dein Trail'
+    - '&7nur im Flug angezeigt wird'
+    - '&7oder bis es despawnt.'
+    - ''
+    - '&eMomentane Option: &7%current%'
+    Current:
+      Flight: 'Flug'
+      Despawn: 'Despawn'
+    Close: false
+  Explosion:
+    Enabled: true
+    SendMessage: true
+    Slot: 7
+    Name: '&bSchalte Explosions Effekt um'
+    Item: 'tnt'
+    Lore:
+    - '&7Schalte um ob eine Explosions'
+    - '&7Effekt gezeigt wird wenn'
+    - '&7der Pfeil landet.'
+    - ''
+    - '&eMomentane Option: &7%current%'
+    Current:
+      Enabled: '&aEingeschaltet'
+      Disabled: '&cDeaktiviert'
+    Close: false
+
+Menu:
+  StainedGlass:
+    Name: '&f&lWhite'
+    Item: 'stained_glass'
+    ParticleID: 'stained_glass'
+  StainedGlass1:
+    Name: '&6&lOrange'
+    Item: 'stained_glass:1'
+    ParticleID: 'stained_glass:1'
+  StainedGlass2:
+    Name: '&d&lLight Purple'
+    Item: 'stained_glass:2'
+    ParticleID: 'stained_glass:2'
+  StainedGlass3:
+    Name: '&b&lLight Blue'
+    Item: 'stained_glass:3'
+    ParticleID: 'stained_glass:3'
+  StainedGlass4:
+    Name: '&e&lYellow'
+    Item: 'stained_glass:4'
+    ParticleID: 'stained_glass:4'
+  StainedGlass5:
+    Name: '&a&lGreen'
+    Item: 'stained_glass:5'
+    ParticleID: 'stained_glass:5'
+  StainedGlass6:
+    Name: '&c&lPink'
+    Item: 'stained_glass:6'
+    ParticleID: 'stained_glass:6'
+  StainedGlass7:
+    Name: '&8&lGray'
+    Item: 'stained_glass:7'
+    ParticleID: 'stained_glass:7'
+  StainedGlass8:
+    Name: '&7&lLight Gray'
+    Item: 'stained_glass:8'
+    ParticleID: 'stained_glass:8'
+  StainedGlass9:
+    Name: '&9&lDark Aqua'
+    Item: 'stained_glass:9'
+    ParticleID: 'stained_glass:9'
+  StainedGlass10:
+    Name: '&5&lDark Purple'
+    Item: 'stained_glass:10'
+    ParticleID: 'stained_glass:10'
+  StainedGlass11:
+    Name: '&1&lDark Blue'
+    Item: 'stained_glass:11'
+    ParticleID: 'stained_glass:11'
+  StainedGlass12:
+    Name: '&6&lBrown'
+    Item: 'stained_glass:12'
+    ParticleID: 'stained_glass:12'
+  StainedGlass13:
+    Name: '&2&lDark Green'
+    Item: 'stained_glass:13'
+    ParticleID: 'stained_glass:13'
+  StainedGlass14:
+    Name: '&4&lRed'
+    Item: 'stained_glass:14'
+    ParticleID: 'stained_glass:14'
+  StainedGlass15:
+    Name: '&8&lBlack'
+    Item: 'stained_glass:15'
+    ParticleID: 'stained_glass:15'
+  Wool:
+    Name: '&f&lWhite Wool'
+    Item: 'wool'
+    ParticleID: 'wool'
+  Wool1:
+    Name: '&6&lOrange Wool'
+    Item: 'wool:1'
+    ParticleID: 'wool:1'
+  Wool2:
+    Name: '&d&lLight Purple Wool'
+    Item: 'wool:2'
+    ParticleID: 'wool:2'
+  Wool3:
+    Name: '&b&lLight Blue Wool'
+    Item: 'wool:3'
+    ParticleID: 'wool:3'
+  Wool4:
+    Name: '&e&lYellow Wool'
+    Item: 'wool:4'
+    ParticleID: 'wool:4'
+  Wool5:
+    Name: '&a&lGreen Wool'
+    Item: 'wool:5'
+    ParticleID: 'wool:5'
+  Wool6:
+    Name: '&c&lPink Wool'
+    Item: 'wool:6'
+    ParticleID: 'wool:6'
+  Wool7:
+    Name: '&8&lGray Wool'
+    Item: 'wool:7'
+    ParticleID: 'wool:7'
+  Wool8:
+    Name: '&7&lLight Gray Wool'
+    Item: 'wool:8'
+    ParticleID: 'wool:8'
+  Wool9:
+    Name: '&9&lDark Aqua Wool'
+    Item: 'wool:9'
+    ParticleID: 'wool:9'
+  Wool10:
+    Name: '&5&lDark Purple Wool'
+    Item: 'wool:10'
+    ParticleID: 'wool:10'
+  Wool11:
+    Name: '&1&lDark Blue Wool'
+    Item: 'wool:11'
+    ParticleID: 'wool:11'
+  Wool12:
+    Name: '&6&lBrown Wool'
+    Item: 'wool:12'
+    ParticleID: 'wool:12'
+  Wool13:
+    Name: '&2&lDark Green Wool'
+    Item: 'wool:13'
+    ParticleID: 'wool:13'
+  Wool14:
+    Name: '&4&lRed Wool'
+    Item: 'wool:14'
+    ParticleID: 'wool:14'
+  Wool15:
+    Name: '&8&lBlack Wool'
+    Item: 'wool:15'
+    ParticleID: 'wool:15'
+  Diamond:
+    Name: '&b&lDiamond'
+    Item: 'diamond_block'
+    ParticleID: 'diamond_block'
+  Gold:
+    Name: '&6&lGold'
+    Item: 'gold_block'
+    ParticleID: 'gold_block'
+  Lapis:
+    Name: '&1&lLapis'
+    Item: 'lapis_block'
+    ParticleID: 'lapis_block'
+  Redstone:
+    Name: '&c&lRedstone'
+    Item: 'redstone_block'
+    ParticleID: 'redstone_block'
+  Emerald:
+    Name: '&a&lEmerald'
+    Item: 'emerald_block'
+    ParticleID: 'emerald_block'
+  ##Legitament Particles! Look at: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+  Barrier:
+    Name: '&c&lBarrier'
+    Item: 'barrier'
+    ParticleID: 'barrier'
+  Firework:
+    Name: '&f&lFirework'
+    Item: 'nether_star'
+    ParticleID: 'fireworks_spark'
+  Heart:
+    Name: '&c&lHeart'
+    Item: 'wool:14'
+    ParticleID: 'heart'
+  Spit:
+    Name: '&f&lLlama Spit'
+    Item: 'wool'
+    ParticleID: 'spit'
+  VillagerHappy:
+    Name: '&e&lHappy'
+    Item: 'emerald'
+    ParticleID: 'villager_happy'
+  VillagerAngry:
+    Name: '&5&lAngry'
+    Item: 'redstone'
+    ParticleID: 'villager_Angry'
+  Colors:
+    Name: '&a&lC&b&lo&c&ll&d&lo&e&lr&6&ls'
+    Item: 'melon'
+    ParticleID: 'redstone'
+  Notes:
+    Name: '&a&lN&b&lo&c&lt&d&le&e&ls'
+    Item: 'note_block'
+    ParticleID: 'note'
+  Spell:
+    Name: '&a&lS&b&lp&c&le&d&ll&e&ll'
+    Item: 'potion'
+    ParticleID: 'spell_mob'

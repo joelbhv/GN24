@@ -1,0 +1,50 @@
+stock:
+  '0':
+    Type: Item
+    Reward: COAL
+    Pricetype: Money
+    Price: 30.0
+    Sell: 5.0
+    Amount: 32
+  '1':
+    Type: Item
+    Reward: IRON_INGOT
+    Pricetype: Money
+    Price: 50.0
+    Sell: 10.0
+    Amount: 16
+  '2':
+    Type: Item
+    Reward: GOLD_INGOT
+    Pricetype: Money
+    Price: 75.0
+    Sell: 20.0
+    Amount: 16
+  '3':
+    Type: Item
+    Reward: INK_SACK:4
+    Pricetype: Money
+    Price: 50.0
+    Sell: 10.0
+    Amount: 32
+  '4':
+    Type: Item
+    Reward: REDSTONE
+    Pricetype: Money
+    Price: 65.0
+    Sell: 10.0
+    Amount: 32
+  '5':
+    Type: Item
+    Reward: DIAMOND
+    Pricetype: Money
+    Price: 75.0
+    Sell: 10.0
+    Amount: 8
+  '6':
+    Type: Item
+    Reward: EMERALD
+    Pricetype: Money
+    Price: 85.0
+    Sell: 10.0
+    Amount: 4

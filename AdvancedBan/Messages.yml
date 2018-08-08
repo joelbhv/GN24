@@ -1,0 +1,238 @@
+General:
+  Prefix: "&cPunishments >"
+  NoPerms: "&7You do not have permission to do this."
+  LayoutNotFound: "&7Unable to find a layout with that name."
+  # This will be the replacement for the %DURATION% variable
+  TimeLayoutD: "%D%day(s) %H%h %M%min and %S%sec"
+  TimeLayoutH: "%H%hour(s) %M%min and %S%sec"
+  TimeLayoutM: "%M%min and %S%sec"
+  TimeLayoutS: "%S% seconds"
+  FailedFetch: "&cCould not fetch the UUID of %NAME%! See console for details."
+
+
+Ban:
+  Usage: "&7/ban [Name] [Grund]"
+  Done: "&c%NAME% &7wurde vom Server gebannt."
+  AlreadyDone: "&c%NAME% &7ist schon gebannt."
+  Exempt: "&7Du darfst folgende Person nicht bannen: &c%NAME%&7."
+  Layout:
+  - '&cDu wurdest permanent von Survival-Dawn ausgeschlossen.'
+  - '&7'
+  - "&cGrund: &8\xbb &7%Grund%"
+  - "&cGebannt von: &8\xbb &7%OPERATOR%"
+  - '&7'
+  - '&cDu findest es nicht gerechtfertigt? Beschwere dich.'
+  - "&cForum: &8\xbb &7www.s.com"
+  - "&cDiscord: &8\xbb &7discord.gg/sJuHDva"
+  Notification:
+  - "&cBan > &c%OPERATOR% &7has permanently banned &c%NAME% &7for &c%Grund%&7."
+
+Ipban:
+  Usage: "&7/banip [Name/IP] [Grund]"
+  Layout:
+  - '&cDu wurdest permanent vom Server gebannt.'
+  - '&7'
+  - "&cGrund: &8\xbb &7%Grund%"
+  - "&cGebannt von: &8\xbb &7%OPERATOR%"
+  - '&7'
+  - '&cDu findest es nicht gerechtfertigt? Beschwere dich.'
+  - "&cForums: &8\xbb &7Survival-Dawn.xyz"
+  - "&cDiscord: &8\xbb &7discord.gg/sJuHDva"
+  Notification:
+  - "&cBan > &c%OPERATOR% &7wurde permanent von &c%NAME% &7für &c%Grund%&7 gebannt."
+  IpNotCashed: "&7There was no IP found for &c%NAME%&7."
+
+Tempban:
+  Usage: "&7/tempban [Name] [Xmo/Xd/Xh/Xm/Xs] [Grund]"
+  MaxDuration: "&7Du darfst nicht länger als folgendes bannen: &c%MAX%sec&7."
+  Layout:
+  - '&cDu wurdest temporär von Survival-Dawn gebannt.'
+  - '&7'
+  - "&cGrund: &8\xbb &7%Grund%"
+  - "&cLaenge: &8\xbb &7%DURATION%"
+  - "&cGebannt von: &8\xbb &7%OPERATOR%"
+  - '&7'
+  - '&cDu findest es nicht gerechtfertigt? Beschwere dich.'
+  - "&cForums: &8\xbb &7Survival-Dawn.xyz"
+  - "&cDiscord: &8\xbb &7discord.gg/sJuHDva"
+  Notification:
+  - "&cBan > &c%OPERATOR% &7has temporarily banned &c%NAME% &7for &c%Grund%&7 for &c%DURATION%&7."
+
+Tempipban:
+  Usage: "&7/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs] [Grund]"
+  MaxDuration: "&7You are not allowed to temporarily ban for more than &c%MAX%sec&7."
+  Layout:
+  - '&cYou have been temporarily IP banned from this server.'
+  - '&7'
+  - "&cGrund &8\xbb &7%Grund%"
+  - "&cDuration &8\xbb &7%DURATION%"
+  - "&cGebannt von: &8\xbb &7%OPERATOR%"
+  - '&7'
+  - '&cUnfairly punished? Appeal on the forums.'
+  - "&cForums &8\xbb &7Survival-Dawn.xyz"
+  - "&cDiscord &8\xbb &7discord.gg/sJuHDva"
+  Notification:
+  - "&cBan > &c%OPERATOR% &7has temporarily IP banned &c%NAME% &7for &c%Grund%&7 for &c%DURATION%&7."
+
+Mute:
+  Usage: "&7/mute [Name] [Grund]"
+  Done: "&c%NAME% &7wurde auf den Server Stumm geschaltet."
+  AlreadyDone: "&c%NAME% &7ist schon gemuted."
+  Exempt: "&7Du darfst &c%NAME%&7 nicht muten."
+  Layout:
+  - '&r'
+  - "&cDu wurdest permanent für &7%Grund%&c gemuted."
+  - "&7◆ &cGemuted von: &7%OPERATOR%"
+  - '&cDu findest es nicht gerechtfertigt? Beschwere dich.'
+  - '&cForum: &survival-dawn.xyz'
+  - '&r'
+  Notification:
+  - "&cMute > &c%OPERATOR% &7has permanently muted &c%NAME% &7for &c%Grund%&7."
+
+Tempmute:
+  Usage: "&7/tempmute [Name] [Xmo/Xd/Xh/Xm/Xs] [Grund]"
+  MaxDuration: "&7You are not allowed to temporarily mute for more than &c%MAX%sec&7."
+  Layout:
+  - '&r'
+  - "&cYou are temporarily muted for &7%Grund%&c."
+  - "&7* &cMuted by: &7%OPERATOR%"
+  - "&7* &cExpires in: &7%DURATION%"
+  - '&cIf you believe you were unfairly punished'
+  - '&cyou can appeal on the forums: &7yourserver.com'
+  - '&r'
+  Notification:
+  - "&cMute > &c%OPERATOR% &7has temporarily muted &c%NAME% &7for &c%Grund%&7 for &c%DURATION%&7."
+
+Warn:
+  Usage: "&7/warn [Name] [Grund]"
+  Done: "&c%NAME% &7has been warned on this server."
+  Exempt: "&7You are not allowed to warn &c%NAME%&7."
+  Layout:
+  - '&r'
+  - '&cYou have been warned for &7%Grund%&c.'
+  - '&7◆ &cWarned by: &7%OPERATOR%'
+  - '&7You currently have &c%COUNT% &7warning(s).'
+  - '&r'
+  Notification:
+  - "&cWarning > &c%OPERATOR% &7has warned &c%NAME% &7for &c%Grund%&7."
+
+Tempwarn:
+  Usage: "&7&o/tempwarn [Name] [Xmo/Xd/Xh/Xm/Xs] [Grund]"
+  MaxDuration: "&7You are not allowed to temporarily warn for more than &c%MAX%sec&7."
+  Layout:
+  - '&r'
+  - '&cYou have been warned for &7%Grund%&c.'
+  - '&7◆ &cWarned by: &7%OPERATOR%'
+  - '&7◆ &cExpires in: &7%DURATION%'
+  - '&7You currently have &c%COUNT% &7warning(s).'
+  - '&r'
+  Notification:
+  - "&cWarning > &c%OPERATOR% &7has warned &c%NAME% &7for &c%Grund%&7 for &c%DURATION%&7."
+
+Kick:
+  Usage: "/kick [Name] [Grund]"
+  Done: "&c%NAME% &7wurde vom Server gekickt."
+  NotOnline: "&c%NAME% &7ist nicht Online."
+  Exempt: "&7You are not allowed to kick &c%NAME%&7."
+  Layout:
+  - '&cDu wurdest von Survival-Dawn.xyz gekickt.'
+  - '&7'
+  - "&cGrund: &8\xbb &7%Grund%"
+  - "&cGekickt von: &8\xbb &7%OPERATOR%"
+  - '&7'
+  - '&cDu findest es nicht gerechtfertigt? Beschwere dich'
+  - "&cForum: &8\xbb &7Survival-Dawn.xyz"
+  - "&cDiscord: &8\xbb &7discord.gg/sJuHDva"
+  Notification:
+  - "&cKick > &c%OPERATOR% &7has kicked &c%NAME% &7for &c%Grund%&7."
+
+UnBan:
+  Usage: "&7/unban [Name/IP]"
+  NotPunished: "&c%NAME% &7is not banned."
+  Done: "&a%NAME% &7was successfully unbanned."
+
+UnMute:
+  Usage: "&7/unmute [Name]"
+  NotPunished: "&c%NAME% is not muted."
+  Done: "&a%NAME% &7was successfully unmuted."
+
+UnWarn:
+  Usage: "&7/unwarn [ID] or /unwarn clear [Name]"
+  NotFound: "&7Could not find warning &e#%ID%&7."
+  Done: "&7Warning &e#%ID% &7has been successfully deleted."
+  Clear:
+    Empty: "&c%NAME% &7has no warnings."
+    Done: "&7Cleared &a%COUNT% &7warnings."
+
+UnPunish:
+  Usage: "&7/unpunish [ID]"
+  NotFound: "&7Could not find punishment &e#%ID%&7."
+  Done: "&7Punishment &a#%ID% &7has been successfully deleted."
+
+
+Banlist:
+  Usage: "&7/banlist <Page>"
+  OutOfIndex: "&7There is no page &c%PAGE%&7."
+  NoEntries: "&7There are no entries"
+  Header:
+  - "&7* &cBanlist:"
+  - "&c&oPlayer/IP &8| &e&oDuration &8| &7&oGebannt von:"
+  - "&c&oType &8> &7&oGrund"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c%TYPE% &8> &7&o%Grund%"
+  - "&7"
+  Footer: "&7Page &e%CURRENT_PAGE% &7of &e%TOTAL_PAGES% &8| &7Listed bans: &e%COUNT%"
+  PageFooter: "&7Use &e/banlist %NEXT_PAGE% &7to see the next page"
+
+History:
+  Usage: "&7/history [Name/IP] <Page>"
+  OutOfIndex: "&7There is no page &c%PAGE%&7."
+  NoEntries: "&7Could not find the history of &c%NAME%&7."
+  Header:
+  - "&7* &cHistory for %NAME%:"
+  - "&c&oName &8| &e&oDuration &8| &7&oOperator"
+  - "&c&oType &8> &7&oGrund"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c%TYPE% &8> &7&o%Grund%"
+  - "&7"
+  Footer: "&7Page &e%CURRENT_PAGE% &7of &e%TOTAL_PAGES% &8| &7Total entries: &e%COUNT%"
+  PageFooter: "&7Use &e/history %NAME% %NEXT_PAGE% &7to see the next page"
+
+Warns:
+  Usage: "&7/warns [Name] <Page>"
+  OutOfIndex: "&7There is no page &c%PAGE%&7."
+  NoEntries: "&c%NAME% &7has no warnings yet."
+  Header:
+  - "&7* &cWarnings for %NAME%:"
+  - "&c&oName &8| &e&oDuration &8| &7&oWarned by"
+  - "&c&o#ID &8> &7&oGrund"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c&l#%ID% &8> &7&o%Grund%"
+  - "&7"
+  Footer: "&7Page &e%CURRENT_PAGE% &7of &e%TOTAL_PAGES% &8| &7Active warnings: &e%COUNT%"
+  PageFooter: "&7Use &e/warns %NAME% %NEXT_PAGE% &7to see the next page"
+
+ChangeGrund:
+  Usage: "&7/change-Grund [ID or ban/mute USER] [New Grund]"
+  Done: "&7Punishment &a#%ID% &7has been successfully updated."
+  NotFound: "&7That punishment could not be found."
+
+Check:
+  Usage: "&7/check [Name]"
+  Header: "&7Checking &e%NAME%"
+  UUID: "&cUUID &8\xbb &7%UUID%"
+  IP: "&cIP &8\xbb &7%IP%"
+  Geo: "&cCountry &8\xbb &7%LOCATION%"
+  Mute: "&cMuted &8\xbb &7%DURATION%"
+  Ban: "&cBanned &8\xbb &7%DURATION%"
+  Warn: "&cWarns &8\xbb &7%COUNT%"
+  NotFound: "&7We have not been able to find &c%NAME%&7."

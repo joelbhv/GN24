@@ -1,0 +1,53 @@
+# 
+# This example file shows you how to set up special items
+# for your mobs to equip or drop.
+AS1Sword:
+  Id: 276
+  Data: 0
+  Enchantments:
+  - DAMAGE_ALL:2
+AS1Helmet:
+  Id: 310
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+AS1Chestplate:
+  Id: 307
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+AS1Leggings:
+  Id: 304
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+AS1Boots:
+  Id: 317
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+AS2Sword:
+  Id: 267
+  Data: 0
+  Enchantments:
+  - DAMAGE_ALL:2
+AS2Helmet:
+  Id: 306
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+AS2Chestplate:
+  Id: 311
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+AS2Leggings:
+  Id: 316
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+AS2Boots:
+  Id: 309
+  Data: 0
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1

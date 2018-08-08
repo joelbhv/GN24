@@ -1,0 +1,48 @@
+animationApiThreads: 4
+bungee: 
+  ipOnJoin: -
+  forceEnable: -
+  playerCount: 100
+  playerList: -1
+  servers: 1000000
+  currentServerName: 1000000
+  uuidAll: -1
+  serverIP: -1
+debug: -
+purgePF: -
+defaultLang: en
+disableWeatherChange: -
+forceReducedMode: -
+economy: 
+  balanceTypes: 
+    default: 
+      defaultValue: 100
+      name: default
+      suffix: $
+      useKMBT: -
+  #Migrate all the Economy data through Vault from an other Economy plugin, i.e. Essentials.
+  migrate: -
+  #The type of SpigotLibs vault hook, available options:
+  #NONE - do NOT hook to Vault at all (not suggested)
+  #USER - hook to Vault as an Economy user (suggested if you don't want to use SpigotLibs Economy management)
+  #PROVIDER - hook to Vault as an Economy provider (override other Economy plugins, like Essentials)
+  vaultHookType: USER
+phaHook: +
+silentErrors: -
+playerEval: -
+allowAllPermsForAuthor: +
+playerFile: 
+  backend: FILE
+  file: players.yml
+  mysql: 
+    table: PlayerData
+    database: SpigotLib
+    host: 127.0.0.1
+    password: root
+    timeout: 10000
+    username: root
+tpsMeter: 
+  enabled: +
+  checkTime: 10000
+  limit: 15
+  reportCrashAfter: 4

@@ -1,0 +1,10 @@
+&r
+&r
+&r            &fWelcome to &6&lSurvival&r&f!
+&r   &7&oExplore the world, fight monsters and
+&r          &7&obuild anything you want!
+&r
+&r        &e&lSHOP &f&nshop.yourserver.com
+&r      &6&lFORUMS &f&nforum.yourserver.com
+&r
+&r

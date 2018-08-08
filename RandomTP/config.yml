@@ -1,0 +1,60 @@
+AntiGlitcher:
+  enabled: true
+  taskeveryseconds: 30
+  antiglitchdurationseconds: 60
+SignBackup:
+  enabled: true
+  taskeveryseconds: 300
+SignFormat:
+- '&7[&aRandomTP&7]'
+- '&2Blocks: %distance%'
+- '&cPrice: %price%'
+- '&a(Click here)'
+Inventory:
+  Rows: 1
+  MenuName: '&nRandom Teleport'
+  Items:
+    '0':
+      id: '268'
+      slot: 0
+      name: '&8◆ &7&nBasic Teleport&r &8◆'
+      cost: 5
+      distance: 100
+      world: world
+      cooldown: 600
+      permission: randomtp.use.user
+      lore:
+      - '&r'
+      - '&8◆ &eTeleport distance: %distance% blocks'
+      - '&8◆ &eCost: 10 ⛃'
+      - '&6Click to teleport'
+    '1':
+      id: '272'
+      slot: 1
+      name: '&8◆ &a&nAdvanced Teleport&r &8◆'
+      cost: 10
+      distance: 250
+      world: world
+      cooldown: 600
+      permission: randomtp.use.user
+      lore:
+      - '&r'
+      - '&8◆ &eTeleport distance: %distance% blocks'
+      - '&8◆ &eCost: 20 ⛃'
+      - '&6Click to teleport'
+    '2':
+      id: '267'
+      slot: 2
+      name: '&8◆ &e&nExtreme Teleport&r &8◆'
+      cost: 0
+      distance: 1000
+      world: world
+      cooldown: 86400
+      permission: randomtp.use.vip
+      lore:
+      - '&r'
+      - '&8◆ &eTeleport distance: %distance% blocks'
+      - '&8◆ &eCost: %cost% ⛃'
+      - '&6Click to teleport'
+      - '&r'
+      - '&cDonator Only Perk.'

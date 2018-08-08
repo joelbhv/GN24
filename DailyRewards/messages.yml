@@ -1,0 +1,4 @@
+no-rewards: '&aSurvival-Dawn > &7Du hast momentan keine Belohnungen.'
+cooldown-msg: '&aSurvival-Dawn > &7Zeit bis zum nächsten Daily Reward: %h Hour(s)
+  %m Minute(s) %s Second(s)'
+no-permission: '&aSurvival-Dawn > &7Dazu hast du keine Rechte.'

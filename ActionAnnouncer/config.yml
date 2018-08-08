@@ -1,0 +1,22 @@
+# ActionAnnouncer v1.12.0 Main configuration
+announcer_enabled: true
+announcer_random: true
+announce_interval: 60
+announcement_length: 7
+announcements:
+- '&7Überlege es dir mit &e/buy &7einen Rang zu kaufen um den Server zu unterstuetzen.'
+- '&7Teleportiere dich Random in die Weld, spreche mit dem &cReisenden &7am spawn.'
+- '&7Benutze &e/panel &7um einfacher auf dem Server zu navigieren.'
+- '&7Du kannst Kisten schlüssel vom Daily Reward erhalten.'
+- '&7Nutze &e/ce &7Um Custom Enhancements für deine Items zu bekommen.'
+- '&7Starte ein Quest am Spawn oder mit &e/quest &7, so bekommst du Belohnungen.'
+- '&7BigBuckets können mehr als eine Flüssigkeit speichern!'
+- '&7Du kannst besondere Moebelstuecke im Daily Reward erhalten!'
+- '&7In der Wildniss spawnen besondere Monster!'
+- '&7Sicher Handeln? Klar mit &e/trade&7.'
+- '&7Benutze unsere Moebelstuecke um dein Haus zu Dekorieren.'
+- '&7Komm rüber zum Marktplatz um zu sehen was Angeboten wird.'
+announce_on_join: true
+join_announcement: '&eWillkommen auf dem Server &b%player%! Es sind &f%online% &eLeute
+  Online!'
+disable_sounds: false

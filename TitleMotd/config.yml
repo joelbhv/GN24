@@ -1,0 +1,34 @@
+# Like this plugin? Check out TitleMotdAdvanced
+# The advanced version of this plugin with 400+ placholders and animations
+# @ http://www.mvdw-software.be/
+
+# Message on first join
+firstjoin:
+  # Broadcast the message to all players
+  broadcast: false
+  # Title message
+  title: '&8◆ &6&l&nSURVIVAL&r &8◆'
+  # Subtitle message
+  subtitle: '&eWelcome to the server!'
+  # Fade in time in TICKS (20 ticks = 1 sec)
+  fadein: 25
+  # Stay on screen time in TICKS
+  staytime: 60
+  # Fade out time in TICKS
+  fadeout: 25
+
+# Message on rejoin
+rejoin:
+  # Broadcast the message to all players
+  broadcast: false
+  # Title message
+  title: '&8◆ &6&l&nSURVIVAL&r &8◆'
+  # Subtitle message
+  subtitle: '&eWelcome back!'
+  # Fade in time in TICKS (20 ticks = 1 sec)
+  fadein: 25
+  # Stay on screen time in TICKS
+  staytime: 60
+  # Fade out time in TICKS
+  fadeout: 25
+

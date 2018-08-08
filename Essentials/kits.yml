@@ -1,0 +1,85 @@
+# EssentialsX new Kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+# 
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - itemID[:DataValue/Durability] Amount [Enchantment:Level].. [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  starter:
+    delay: 86400
+    items:
+      - 339 4 name:&aBandage lore:Woolen_Bandage
+      - 280 3 name:&aLegSplint lore:Wooden_Splint_for_broken_leg
+      - 387 1 title:&eSurvival_Book author:Survival book:Welcome
+      - STONE_SWORD 1
+      - IRON_PICKAXE 1
+      - TORCH 16
+      - APPLE 10
+      - RABBIT_STEW 1
+      - MUSHROOM_SOUP 1
+      - FISHING_ROD 1
+      - COAL 5
+      - IRON_INGOT 2
+      - LEATHER_HELMET 1
+      - LEATHER_CHESTPLATE 1
+      - LEATHER_LEGGINGS 1
+      - LEATHER_BOOTS 1
+      - GOLDEN_SHOVEL 1
+  food:
+    delay: 604800
+    items:
+      - BREAD 9
+      - CARROT 8
+      - BAKED_POTATO 3
+      - COOKED_CHICKEN 8
+      - COOKED_RABBIT 5
+      - RAW_FISH:1 8
+      - COOKIE 11
+      - CAKE 3
+      - PUMPKIN_PIE 2
+  horse:
+    delay: 604800
+    items:
+      - SADDLE 1
+      - LEASH 5
+      - NAME_TAG 1
+      - MONSTER_EGG:100 1
+  horse2:
+    delay: 604800
+    items:
+      - SADDLE 3
+      - LEASH 5
+      - NAME_TAG 2
+      - NAME_TAG 1 name:Dinnerbone
+      - MONSTER_EGG:28 1
+      - MONSTER_EGG:29 1
+      - MONSTER_EGG:32 1
+  blacksmith:
+    delay: 604800
+    items:
+      - DIAMOND_AXE 1
+      - DIAMOND_SWORD 1
+      - EXP_BOTTLE 16
+      - ANVIL 1
+      - BUCKET 3
+      - LAVA_BUCKET 1
+  fisherman:
+    delay: 604800
+    items:
+      - FISHING_ROD 1
+      - RAW_FISH 6
+      - RAW_FISH:1 7
+      - RAW_FISH:3 6
+      - RAW_FISH:2 3
+  bandage:
+    delay: 999999
+    items:
+      - 339 1 name:&aBandage lore:Woolen_Bandage
+  splint:
+    delay: 999999
+    items:
+      - 280 1 name:&aLegSplint lore:Wooden_Splint_for_broken_leg

@@ -1,0 +1,25 @@
+prefix: '&7[&cASB&7] '
+nopermission: '%prefix&cYou don''t have the right permission!'
+toggle:
+  'on': '%prefix&aYou toggled the scoreboard &2on&a!'
+  'off': '%prefix&aYou toggled the scoreboard &coff&a!'
+reload:
+  start: '%prefix&aReloading of the plugin started!'
+  completed: '%prefix&aReload completed! Done in %MS%ms!'
+switch:
+  error: '%prefix&cPlease provide a valid scoreboard!'
+  success: '%prefix&aSwitched to scoreboard &2%scoreboard%&a!'
+  nopermission: '%prefix&cYou don''t have the right permission to switch to %scoreboard%!'
+  world: '%prefix&cYou cannot activate this scoreboard in this world!'
+  already_activated: '%prefix&cYou already have this scoreboard active!'
+trigger:
+  insert: '%prefix&cFailed to insert the trigger listener, triggers will not work!'
+  register:
+    invalid: '%prefix&cFailed to activate trigger for class: %class_name%, Invalid
+      class name!'
+    second: '%prefix&cFailed to activate trigger for class: %class_name%, Trigger
+      already active!'
+    invalid-method: '%prefix&cFailed to activate trigger for class: %class_name%,
+      Invalid method name!'
+plugin:
+  information: '%prefix&aThis server is running animated scoreboard version &2%version%&a!'

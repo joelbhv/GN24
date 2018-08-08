@@ -1,0 +1,148 @@
+stock:
+  '0':
+    Type: Item
+    Reward: POTATO_ITEM
+    Pricetype: Money
+    Price: 50.0
+    Sell: 10.0
+    Amount: 16
+  '1':
+    Type: Item
+    Reward: CARROT_ITEM
+    Pricetype: Money
+    Price: 50.0
+    Sell: 10.0
+    Amount: 16
+  '2':
+    Type: Item
+    Reward: SEEDS
+    Pricetype: Money
+    Price: 55.0
+    Sell: 5.0
+    Amount: 32
+  '3':
+    Type: Item
+    Reward: PUMPKIN_SEEDS
+    Pricetype: Money
+    Price: 55.0
+    Sell: 5.0
+    Amount: 32
+  '4':
+    Type: Item
+    Reward: MELON_SEEDS
+    Pricetype: Money
+    Price: 55.0
+    Sell: 5.0
+    Amount: 32
+  '5':
+    Type: Item
+    Reward: BEETROOT_SEEDS
+    Pricetype: Money
+    Price: 55.0
+    Sell: 5.0
+    Amount: 32
+  '6':
+    Type: Item
+    Reward: WHEAT
+    Pricetype: Money
+    Price: 70.0
+    Sell: 7.5
+    Amount: 16
+  '7':
+    Type: Item
+    Reward: SUGAR_CANE
+    Pricetype: Money
+    Price: 75.0
+    Sell: 7.0
+    Amount: 16
+  '8':
+    Type: Item
+    Reward: CACTUS
+    Pricetype: Money
+    Price: 65.0
+    Sell: 6.0
+    Amount: 16
+  '9':
+    Type: Item
+    Reward: INK_SACK:3
+    Pricetype: Money
+    Price: 50.0
+    Sell: 4.5
+    Amount: 16
+  '10':
+    Type: Item
+    Reward: PUMPKIN
+    Pricetype: Money
+    Price: 70.0
+    Sell: 7.0
+    Amount: 16
+  '11':
+    Type: Item
+    Reward: MELON_BLOCK
+    Pricetype: Money
+    Price: 65.0
+    Sell: 6.0
+    Amount: 16
+  '12':
+    Type: Item
+    Reward: SAPLING
+    Pricetype: Money
+    Price: 40.0
+    Sell: 3.5
+    Amount: 16
+  '13':
+    Type: Item
+    Reward: SAPLING:1
+    Pricetype: Money
+    Price: 40.0
+    Sell: 3.5
+    Amount: 16
+  '14':
+    Type: Item
+    Reward: SAPLING:2
+    Pricetype: Money
+    Price: 40.0
+    Sell: 3.5
+    Amount: 16
+  '15':
+    Type: Item
+    Reward: SAPLING:3
+    Pricetype: Money
+    Price: 40.0
+    Sell: 3.5
+    Amount: 16
+  '16':
+    Type: Item
+    Reward: SAPLING:4
+    Pricetype: Money
+    Price: 40.0
+    Sell: 3.5
+    Amount: 16
+  '17':
+    Type: Item
+    Reward: CHORUS_FRUIT
+    Pricetype: Money
+    Price: 60.0
+    Sell: 7.5
+    Amount: 16
+  '18':
+    Type: Item
+    Reward: NETHER_STALK
+    Pricetype: Money
+    Price: 55.0
+    Sell: 7.5
+    Amount: 16
+  '19':
+    Type: Item
+    Reward: BROWN_MUSHROOM
+    Pricetype: Money
+    Price: 15.0
+    Sell: 1.0
+    Amount: 16
+  '20':
+    Type: Item
+    Reward: RED_MUSHROOM
+    Pricetype: Money
+    Price: 15.0
+    Sell: 1.0
+    Amount: 16

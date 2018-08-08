@@ -1,0 +1,554 @@
+Settings:
+  Prefix: '&5Enchantments > ' #The prefix in the messages
+  Update-Checker: true #Toggle on and off if you get a update message when you join if there is a new update.
+  Player-Info-Backup-Message: true #Toggle this on and off if you wish to see when the players data gets backed up.
+  Reset-Players-Max-Health: true #This is for some servers that get a health duplication glitch from plugins like CombatTagPlus(v1.2.3 down)
+  InvName: '&8* &nEnchanter&r &8*' #The name of the /CE inventory
+  Enchantment-Book-Item: '403' #The item that the enchantment book is.
+  Enchantment-Book-Glowing: true #Toggle on or off if the book will have an enchanted look.
+  GUISize: 45 #The size of the GUI, must be a factor of 9
+  EnchantmentBookLore: #The lore on the enchantments books.
+    - '&8&m*--------------------------------*'
+    - '&a           %Success_Rate%% Erfolgsrate'
+    - '&c           %Destroy_Rate%% Fehlerrate'
+    - '&r'
+    - '%Description%'
+    - '&r'
+    - '&7    Ziehe Item auf Item.'
+    - '&8&m*--------------------------------*'
+  LostBook: #Lost book options.
+    Item: '340' #The item the lost books is. 340
+    Name: '%Category% Enchantment Book' #The name of the lost books.
+    Lore: #The lore of the lost books.
+      - '&7&nRechts-Klick&r &7um versteckte Enchantments zu entdecken.'
+  Scrambler:
+    Item: '388' #The item it will be. 340
+    Glowing: true #If it has the glowing effect.
+    Name: '&eVerschlüssel Rune' #The name of the item.
+    Lore: #The lore of the item.
+      - '&7Gibt den custom Enchantments Buch eine'
+      - '&7eine neue Erfolgs und Fehlrate.'
+      - '&r'
+      - '&7Ziehe aufs Buch zum benutzen.'
+    GUI: #Options for the GUI.
+      Name: '&nDrehe...' #Name of the GUI.
+      Toggle: true #If the GUI will show. Warning>> This may cause lag if a lot of players are using it all the time.
+      Pointer: #The pointer in the middle of the GUI.
+        Item: '76' #The item the pointer is. 
+        Name: '&cPointer' #The name of the pointer.
+        Lore: [] #The lore on the pointer.
+    InGUI: true #If you can buy it in the GUI.
+    Slot: 37 #The slot the item will be in.
+    GUIName: '&eVerschlüssel Rune' #Name of the item in the GUI.
+    GUILore: #The lore of the item in the GUI.
+      - '&7Gibt den custom Enchantments Buch eine'
+      - '&7eine neue Erfolgs und Fehlrate.'
+      - '&r'
+      - '&7* &eKosten: &a250 ⛃'
+  GKitz: #GKitz GUI option.
+    InGUI: true #If you can open the GKitz GUI from the main /ce gui.
+    Slot: 32 #The slot it will be in.
+    Item: '311' #The item it is.
+    Glowing: true #If the item has a glowing effect.
+    Name: '&cGKits' #The name of the item.
+    Lore: #The lore of the item.
+      - '&7Klicke um das &cGKits &7Inventar zu öffnen.'
+  ProtectionCrystal:
+    InGUI: true #If its in the GUI.
+    Slot: 38 #Slot it is in
+    Item: '406' #Item it is
+    Glowing: true #If it is enchanted
+    Protected: '&6&l* PROTECTED: &720% &6&l*' #The lore that goes on the item that is protected.
+    Lose-Protection-On-Death: true #If true then when the player dies they get the item but it loses its protection.
+    Chance: #The option to allow the protection to fail.
+      Toggle: true #Toggle if the protection has a chance of failing.
+      Success-Chance: 20 #The chance that the protection will work.
+    Name: '&6Protection Crystal' #Name of the item
+    Lore: #Lore of the item
+      - '&7Chance to give you the protected'
+      - '&7item back if you die. (20%)'
+      - '&r'
+      - '&7Drag and drop onto item to protect.'
+    GUIName: '&6Protection Crystal'
+    GUILore:
+      - '&7Chance to give you the protected'
+      - '&7item back if you die. (20%)'
+      - '&r'
+      - '&7* &eCost: &a300 ⛃'
+  BlackSmith: #Options for the Black Smith
+    InGUI: true #In the GUI.
+    Slot: 42 #Slot it is in.
+    Item: '145' #Item that shows in the GUI
+    Glowing: false #Is it enchanted
+    Name: '&dBlacksmith' #Name of the Item in the GUI
+    Lore: #Lore on the item.
+      - '&7Click to open the &dblacksmith &7inventory.'
+    GUIName: '&8* &nBlacksmith &8*' #Name of the Black Smith's GUI
+    Results:
+      None: '&c&nNo Results' #Name of the item when there are no results in the Black Smith
+      Not-Found-Lore:
+        - '&c * No results are found.'
+        - '&r'
+        - '&7Put two books of the same enchantment'
+        - '&7and level to upgrade them.'
+        - '&r'
+      Found: '&7* &eCost: &a%Cost% XP' #The lore at the bottom of the item
+    Transaction: #Options for the pricing
+      Currency: XP_Level
+      Costs: #Cost options
+        Power-Up: 5 #When an enchantment levels up 1 on an item
+        Add-Enchantment: 3 #When it adds an enchantment to the item from another item
+        Book-Upgrade: 5 #Leveling up a books power
+  Tinker: #Settings for Info item in the GUI
+    InGUI: true #Toggle whether it is in the /CE GUI or not
+    Slot: 40 #Slot it is in
+    Item: '399' #Item it is
+    Glowing: false #Whether it glows like its enchanted
+    Name: '&bTinkerer' #Name of the Item
+    Lore: #Lore of the item
+      - '&7Click to open the &btinkerer &7inventory.'
+  Info: #Settings for Info item in the GUI
+    InGUI: true #Toggle whether it is in the /CE GUI or not
+    Slot: 41 #Slot it is in
+    Item: '340' #Item it is
+    Glowing: true #Whether it glows like its enchanted
+    Name: '&eEnchantment Information' #Name of the Item
+    Lore: #Lore of the item
+      - '&7Click to view the enchantments on'
+      - '&7this server.'
+  Dust: #Settings for the Magical Dust
+    MysteryDust:
+      Item: '385' #Item mystery dust is
+      Name: '&fMystery Dust' #Name of the dust
+      Lore: #Use %Percent% to set the percent
+        - '&7 * &a1-%Percent%% &7will be on magical dust.'
+        - '&7&nRight-click&r &7to inspect the dust.'
+      Firework:
+        Toggle: true #Toggle if the firework happens on open.
+        Colors: 'Black, Gray, Lime' #The colors the firework will be.
+      Dust-Toggle:
+        Success: true #Toggle whether you can get success dust from Mystery Dust.
+        Destroy: true #Toggle whether you can get destroy dust from Mystery Dust.
+        Failed: true #Toggle whether you can get failed dust from Mystery Dust.
+      PercentRange: #Range the mystery rate will be.
+        Max: 15 #Max percent
+        #Min will always be 1.
+    SuccessDust:
+      InGUI: false #If you can buy it in the /CE GUI
+      GUIName: '&aMagical Dust' #Name of the item in the GUI
+      GUILore: #Lore in the GUI.
+        - '&7Dust can be used to increase'
+        - '&7a books success rate.'
+        - '&r'
+        - '&7* &eCost: &a50 ⛃'
+      Slot: 25 #Slot number it is in
+      Item: '353' #Item the dust is
+      Name: '&aMagical Dust' #Name of the dust
+      Lore: #Lore for the dust
+        - '&a+%Percent%% Success Rate'
+        - '&r'
+        - '&7Apply to an enchantment book to'
+        - '&7increase the success rate by &a+%Percent%%&7.'
+      PercentRange: #Range the success rate will be.
+        Max: 15 #Max percent
+        Min: 1 #Minimum percent
+    DestroyDust:
+      InGUI: false #If you can buy it in the /CE GUI
+      GUIName: '&cMagical Dust' #Name of the item in the GUI
+      GUILore: #Lore in the GUI.
+        - '&7Dust can be used to decrease'
+        - '&7a books destroy rate.'
+        - '&r'
+        - '&7* &eCost: &a50 ⛃'
+      Slot: 34 #Slot number it is in
+      Item: '331' #Item the dust is
+      Name: '&cMagical Dust' #Name of the dust
+      Lore: #Lore for the dust
+        - '&c-%Percent%% Destroy Rate'
+        - '&r'
+        - '&7Apply to an enchantment book to'
+        - '&7decrease the destroy rate by &c-%Percent%%&7.'
+      PercentRange: #Range the destroy rate will be.
+        Max: 10 #Max percent
+        Min: 2 #Minimum percent
+    FailedDust:
+      Item: '289' #Item the dust is
+      Name: '&7Failed Dust' #Name of the dust
+      Lore: #Lore for the dust
+        - '&7This dust has failed.'
+        - '&7It is now useless unless you'
+        - '&7needed to make TNT or a potion.'
+  BlackScroll: #Settings for the black scrolls
+    Item: '351' #The item the black scroll can be
+    Name: '&8Black Scroll' #The name of the black scroll
+    Item-Lore: #The lore that will be on the black scroll.
+      - '&7Removes a random custom enchantment'
+      - '&7from your item.'
+      - '&r'
+      - '&7Drag and drop onto item to apply.'
+    Chance-Toggle: false #Toggle on and off if the black scrolls have a chance of failing.
+    Chance: 75 #The chance that the black scroll will work.
+    InGUI: true #Toggle being able to buy in the /CE GUI. Cost is controlled in the SignOptions section
+    GUIName: '&8Black Scroll'
+    Glowing: false #If the item is glowing.
+    Slot: 44 #Slot you can buy the scroll at
+    Lore: #Lore of the item in the GUI
+      - '&7Removes a random custom enchantment'
+      - '&7from your item.'
+      - '&r'
+      - '&7* &eCost: &a250 ⛃'
+    SuccessChance: #Controls what the success chance will be when they get the book from the Black Scroll
+      Max: 99 #The Max percent
+      Min: 1 #The Minimum percent
+    DestroyChance: #Controls what the destroy chance will be when they get the book from the Black Scroll
+      Max: 99 #The Max percent
+      Min: 1 #The Minimum percent
+  WhiteScroll:
+    Item: '395' #The item the white scroll is.
+    Name: '&eWhite Scroll' #The name of the white scrolls.
+    Item-Lore: #The lore that will be on the white scroll.
+      - '&7Protects an item from being destroyed'
+      - '&7from a failed enchantment book.'
+      - '&r'
+      - '&7Drag and drop onto item to apply.'
+    InGUI: true #Toggle being able to buy in the /CE GUI. Cost is controlled in the SignOptions section
+    GUIName: '&eWhite Scroll'
+    Glowing: false #If the item is glowing.
+    Slot: 45 #Slot you can buy the scroll at
+    Lore: #Lore of the scroll in the GUI
+      - '&7Protects an item from being destroyed'
+      - '&7from a failed enchantment book.'
+      - '&r'
+      - '&7* &eCost: &a250 ⛃'
+    ProtectedName: '&e&l* WHITE SCROLL *' #The lore that is added to protect an item.
+  TransmogScroll:
+    Item: '339' #The item the scroll is.
+    Name: '&dTransmog Scroll' #The name of the scroll.
+    Item-Lore: #The lore that will be on the scroll.
+      - '&7Organizes your custom enchantments by'
+      - '&7rarity and adds a suffix to the name telling'
+      - '&7you how many enchantments the item has.'
+      - '&r'
+      - '&7Drag and drop onto item to apply.'
+    InGUI: false #Toggle being able to buy in the /CE GUI. Cost is controlled in the SignOptions section
+    GUIName: '&dTransmog Scroll'
+    Glowing: false #If the item is glowing.
+    Slot: 30 #Slot you can buy the scroll at
+    Lore: #Lore of the scroll in the GUI
+      - '&7Organizes your custom enchantments by'
+      - '&7rarity and adds a suffix to the name telling'
+      - '&7you how many enchantments the item has.'
+      - '&r'
+      - '&7* &eCost: &a200 ⛃'
+    Amount-of-Enchantments: ' &7[&6&n%Amount%&7]' #The suffix that will be added at the end of the item's name.
+    Amount-Toggle: true #If the amount is added to the suffix of the item's name.
+    Count-Vanilla-Enchantments: false #If it counts the vanilla enchantments in the amount.
+  EnchantmentOptions: #Options for enchanted books.
+    MaxAmountOfEnchantmentsToggle: true #Turn on an off the Max amount of enchantments. Use crazyenchantments.limit.# permission to set the limit.
+    IncludeVanillaEnchantments: false #Count Vanilla enchantments also?
+    MaxRageLevel: 3 #The max amount rage can stack when fighting.
+    Break-Rage-On-Damage: true #If the player is damaged and has a rage building it will be broken if this is enabled.
+    Right-Click-Book-Description: true #Toggles whether when you right click the enchantment book if it messages the player the description or not.
+    UnSafe-Enchantments: true #Having this set to true will allow players to use enchantments levels above the max level.
+    Blast-Full-Durability: true #Toggle if the item takes damage for every block it breaks or just one. True to take full damage or false to take only 1 damage.
+    Right-Click-Enchantment-Table: false #When set to true if a player right clicks an enchantment table it will open the /CE gui.
+    EXP-Bug: false #Only needs to be true if player's XP sometimes glitches to 1Bill after buying an item will all their XP.
+    Armor-Upgrade: #Having this enabled will allow players to try and add a higher level of an enchantment onto an item with a lower level of the enchantment.
+      Toggle: true #Toggle on or off the ability to upgrade the enchantments.
+      Enchantment-Break: true #If the book's destroy rate happens the item doesn't break but instead the current lower version of the enchantment is destroyed. If false then the item will be destroyed instead.
+    Wings: #Options for the Wings Enchantment.
+      Clouds: true #Toggle if the wings enchantment shows particles under the player's feet. Warning this option has been known to cause lag so toggle it off if you get lag.
+      Enemy-Toggle: true #This toggles on and off the wings enchantment when an enemy is # away from the player.
+      Distance: 25 #How far away the enemy has to be to toggle off the enchantment.
+      Members-Can-Fly: true #Toggle if a player is a member of a world guard region if they can fly.
+      Owners-Can-Fly: true #Toggle if a player is an owner of a world guard region if they can fly.
+      Regions: #All world guard regions the Wings enchantment can work in.
+        - 'Free_Fly'
+        - 'SafeZone'
+  Costs: #This is where you set the cost of stuff in the shop GUI. https://github.com/kicjow/Crazy-Enchantments/wiki/Currency-Types
+    Scrambler: #The item that is being bought.
+      Cost: 250 #How much the item will cost.
+      Currency: Vault #The currency that will be taken when bought.
+    ProtectionCrystal:
+      Cost: 300
+      Currency: Vault
+    TransmogScroll:
+      Cost: 200
+      Currency: Vault
+    BlackScroll:
+      Cost: 250
+      Currency: Vault
+    WhiteScroll:
+      Cost: 250
+      Currency: Vault
+    SuccessDust:
+      Cost: 50
+      Currency: Vault
+    DestroyDust:
+      Cost: 50
+      Currency: Vault
+  SignOptions: #Options for the Signs.
+    CategoryShopStyle: #What the sign will look like. The price will be determined by the category you pick
+      Line1: '&9[Book]' #Line 1 of the sign
+      Line2: '&r' #Line 2 of the sign
+      Line3: '%Category%' #Line 3 of the sign
+      Line4: '&a%Cost% EXP' #Line 4 of the sign
+      Buy-Message: '&7You have just purchased a %Category%&7 enchantment book with the enchantment: %BookName%&7.'
+    ProtectionCrystalStyle: 
+      Line1: '&9[Shop]'
+      Line2: '&r'
+      Line3: '&6Prot.Crystal'
+      Line4: '&a10,000 EXP'
+      Buy-Message: '&7You have just purchased a &6Protection Crystal&7.' #Message when buying an item.
+    ScramblerStyle: 
+      Line1: '&9[Shop]'
+      Line2: '&r'
+      Line3: '&eScramblingRune'
+      Line4: '&a7,500 EXP'
+      Buy-Message: '&7You have just purchased a &eScrambling Rune&7.' #Message when buying an item.
+    SuccessDustStyle: 
+      Line1: '&9[Shop]'
+      Line2: '&r'
+      Line3: '&aMagical Dust (S)'
+      Line4: '&a$10,000'
+      Buy-Message: '&7You have just purchased &aMagical Dust&7.'
+    DestroyDustStyle: 
+      Line1: '&9[Shop]'
+      Line2: '&r'
+      Line3: '&cMagical Dust (D)'
+      Line4: '&a$10,000'
+      Buy-Message: '&7You have just purchased &cMagical Dust&7.'
+    BlackScrollStyle: 
+      Line1: '&9[Shop]'
+      Line2: '&r'
+      Line3: 'BlackScroll'
+      Line4: '&a5,000 EXP'
+      Buy-Message: '&7You have just purchased a &8Black Scroll&7.'
+    WhiteScrollStyle:
+      Line1: '&9[Shop]'
+      Line2: '&r'
+      Line3: 'WhiteScroll'
+      Line4: '&a5,000 EXP'
+      Buy-Message: '&7You have just purchased a &eWhite Scroll&7.'
+    TransmogScrollStyle:
+      Line1: '&9[Shop]'
+      Line2: '&r'
+      Line3: 'TransmogScroll'
+      Line4: '&a2,500 EXP'
+      Buy-Message: '&7You have just purchased a &dTransmog Scroll&7.'
+  #####################
+  # Slot:<Slot> - The slot the item will go in.
+  # Item:<ID>:<MD> - The item that it will be. You can use meta data for the items.
+  # Name:<Name> - The name that will go on the item.
+  # Lore:<Line1>,<Line2>,<Line3>,<Line4> - The lore can use multiple lines by adding a , in-between letters. Example: "Lore:&7I am line1,&aI am line 2,&eI am line3"
+  #Placeholders can be used in the name and lore and they must be lowercase. 
+  #Placeholders: %vault% %xp_level% %xp_total%
+  #####################
+  GUICustomization: #This allows you to customize unclickable items into you GUI.
+    - 'Slot:12, Item:160:7, Name: '
+    - 'Slot:14, Item:160:7, Name: '
+    - 'Slot:16, Item:160:7, Name: '
+    - 'Slot:1, Item:160:15, Name: '
+    - 'Slot:2, Item:160:15, Name: '
+    - 'Slot:3, Item:160:15, Name: '
+    - 'Slot:4, Item:160:15, Name: '
+    - 'Slot:5, Item:160:15, Name: '
+    - 'Slot:6, Item:160:15, Name: '
+    - 'Slot:7, Item:160:15, Name: '
+    - 'Slot:8, Item:160:15, Name: '
+    - 'Slot:9, Item:160:15, Name: '
+    - 'Slot:10, Item:160:15, Name: '
+    - 'Slot:18, Item:160:15, Name: '
+    - 'Slot:19, Item:160:15, Name: '
+    - 'Slot:20, Item:160:15, Name: '
+    - 'Slot:21, Item:160:15, Name: '
+    - 'Slot:22, Item:160:15, Name: '
+    - 'Slot:23, Item:160:15, Name: '
+    - 'Slot:24, Item:160:15, Name: '
+    - 'Slot:25, Item:160:15, Name: '
+    - 'Slot:26, Item:160:15, Name: '
+    - 'Slot:27, Item:160:15, Name: '
+    - 'Slot:28, Item:160:15, Name: '
+    - 'Slot:29, Item:160:15, Name: '
+    - 'Slot:30, Item:160:15, Name: '
+    - 'Slot:31, Item:160:15, Name: '
+    - 'Slot:33, Item:160:15, Name: '
+    - 'Slot:34, Item:160:15, Name: '
+    - 'Slot:35, Item:160:15, Name: '
+    - 'Slot:36, Item:160:15, Name: '
+    - 'Slot:39, Item:160:15, Name: '
+    - 'Slot:43, Item:160:15, Name: '
+Categories: #You can make as many different categories as you want
+  Armor: #Name of the category
+    Name: '&a&l&nArmor' #Name in the GUI
+    Slot: 31 #The Slot number the item will be in
+    InGUI: false #Toggle if it's in the GUI or not.
+    Lore: #The lore of the Item
+      - '&eCost: &6&l20 &6XP Levels'
+    Item: '160:5' #The id for the item
+    Glowing: true #If the item is glowing in the GUI.
+    Cost: 1000 #How much each book will cost to buy.
+    Currency: XP_Total #The currency you wish to use. https://github.com/kicjow/Crazy-Enchantments/wiki/Currency-Types
+    Rarity: 1 #This allows the enchantments to be ordered with the Transmog Scrolls. The higher the number the rarer it is. Try and have each category have different rarities.
+    LostBook: #Controls the Lost Book shop for this tier
+      InGUI: true #If it shows in the /CE Gui
+      Slot: 11 #Slot it will be in
+      Item: '310' #The item that is shown in the GUI
+      Glowing: true #Is it enchanted
+      Name: '&a&l&nArmor Enchantment Book' #Name of the item
+      Lore: #Lore on the item
+        - '&7Click to purchase an &aarmor &7custom'
+        - '&7enchantment book.'
+        - '&r'
+        - '&7 ◆ You will receive a custom enchantment'
+        - '&7    book that can be applied to armor.'
+        - '&r'
+        - '&eCost: &a45 XP LEVELS'
+      Cost: 45
+      Currency: Xp_Level
+      FireworkToggle: true #Toggle on and off if when opening a lost book a firework effect happens
+      FireworkColors: 'Green, White' #The colors of the firework
+      Sound-Toggle: true
+      Sound: 'ENTITY_ENDERDRAGON_GROWL'
+      ####################
+      ## Sound Options
+      ## 1.8 and lower players use these sounds: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+      ## 1.9 and up players use these sounds: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+      ####################
+    EnchOptions: #Enchantment Options
+      SuccessPercent: #The range for the success rate that the enchantment will have
+        Max: 100 #The max success rate
+        Min: 1 #The min success rate
+      DestroyPercent: #The range for the destroy rate that the enchantment will have
+        Max: 99 #The max destroy rate
+        Min: 1 #The min destroy rate
+      MaxLvlToggle: false #Turn on and off Max Level cap
+      LvlRange: #The range of levels that can be found in the Category.
+        Max: 10
+        Min: 1
+  Weapon:
+    Name: '&b&l&nWeapon'
+    Slot: 32
+    InGUI: false
+    Lore:
+      - '&eCost: &6&l40 &6XP Levels'
+    Item: '160:11'
+    Glowing: true
+    Cost: 4000
+    Currency: XP_Total
+    Rarity: 2
+    LostBook:
+      InGUI: true
+      Slot: 13
+      Item: '261'
+      Glowing: true
+      Name: '&b&l&nWeapon Enchantment Book'
+      Lore:
+        - '&7Click to purchase a &bweapon &7custom'
+        - '&7enchantment book.'
+        - '&r'
+        - '&7 ◆ You will receive a custom enchantment'
+        - '&7    book that can be applied to weapons.'
+        - '&r'
+        - '&eCost: &a45 XP LEVELS'
+      Cost: 45
+      Currency: Xp_Level
+      FireworkToggle: true
+      FireworkColors: 'Blue, White'
+      Sound-Toggle: true
+      Sound: 'ENTITY_ENDERDRAGON_GROWL'
+    EnchOptions:
+      SuccessPercent:
+        Max: 100
+        Min: 1
+      DestroyPercent:
+        Max: 99
+        Min: 1
+      MaxLvlToggle: false
+      LvlRange:
+        Max: 10
+        Min: 1
+  Tool:
+    Name: '&d&l&nTool'
+    Slot: 33
+    InGUI: false
+    Lore:
+      - '&eCost: &6&l60 &6XP Levels'
+    Item: '160:14'
+    Glowing: true
+    Cost: 7500
+    Currency: XP_Total
+    Rarity: 3
+    LostBook:
+      InGUI: true
+      Slot: 15
+      Item: '278'
+      Glowing: true
+      Name: '&d&l&nTool Enchantment Book'
+      Lore:
+        - '&7Click to purchase a &dtool &7custom'
+        - '&7enchantment book.'
+        - '&r'
+        - '&7 ◆ You will receive a custom enchantment'
+        - '&7    book that can be applied to tools.'
+        - '&r'
+        - '&eCost: &a30 XP LEVELS'
+      Cost: 30
+      Currency: Xp_Level
+      FireworkToggle: true
+      FireworkColors: 'Magenta, White'
+      Sound-Toggle: true
+      Sound: 'ENTITY_ENDERDRAGON_GROWL'
+    EnchOptions:
+      SuccessPercent:
+        Max: 100
+        Min: 1
+      DestroyPercent:
+        Max: 99
+        Min: 1
+      MaxLvlToggle: false
+      LvlRange:
+        Max: 10
+        Min: 1
+  Random:
+    Name: '&e&l&nRandom'
+    Slot: 26
+    InGUI: false
+    Lore:
+      - '&eCost: &6&l60 &6XP Levels'
+    Item: '160:14'
+    Glowing: true
+    Cost: 15000
+    Currency: XP_Total
+    Rarity: 3
+    LostBook:
+      InGUI: true
+      Slot: 17
+      Item: '160:10'
+      Glowing: true
+      Name: '&e&l&nRandom Enchantment Book'
+      Lore:
+        - '&7Click to purchase a random custom'
+        - '&7enchantment book.'
+        - '&r'
+        - '&7 ◆ You will receive a custom enchantment book'
+        - '&7    that can be applied to tools, weapons or armor.'
+        - '&r'
+        - '&eCost: &a45 XP LEVELS'
+      Cost: 45
+      Currency: Xp_Level
+      FireworkToggle: true
+      FireworkColors: 'Yellow, White'
+      Sound-Toggle: true
+      Sound: 'ENTITY_ENDERDRAGON_GROWL'
+    EnchOptions:
+      SuccessPercent:
+        Max: 100
+        Min: 1
+      DestroyPercent:
+        Max: 99
+        Min: 1
+      MaxLvlToggle: true
+      LvlRange:
+        Max: 10
+        Min: 1

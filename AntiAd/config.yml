@@ -1,0 +1,15 @@
+# &p = Potential Advertiser
+# &new = New Line
+# &msg = Message that potentially contained an Advertisement
+
+# The message broadcasted to Mods upon advertise
+AdvToMod: '&7&p &8-- &cHat versucht abzuwerben &8-- &7 &msg'
+
+# The message broadcasted to Mods upon advertise
+AdvToAdv: '&cDu darfst auf diesen Server nicht fremd werben! Das Server Team wurde Informiert.'
+
+# Allowed links
+Allowed: 'www.survival-dawn.xyz'
+
+# Should the filter be EXTREMELY Sensitive?
+Extremely Sensitive: false

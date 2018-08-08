@@ -1,0 +1,91 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+DeadlySpider:
+  Type: SPIDER
+  Display: '&cDeadly Spider'
+  Health: 20
+  Damage: 3
+  Skills:
+  - prison{material=WEB;duration=150;breakable=false} @PIR{r=7} ~onTimer:200
+  - potion{type=WITHER;duration=200;level=1} @PIR{r=7} ~onTimer:200
+  - effect:flames @self ~onTimer:10
+  Options:
+    MovementSpeed: 0.45
+    AlwaysShowName: true
+ArmoredSkeleton:
+  Type: SKELETON
+  Display: '&aArmored Skeleton'
+  Health: 10
+  Damage: 3
+  Skills:
+  - arrowvolley{a=15;s=250;v=10;rd=40} @Target ~onTimer:100
+  - effect:flames @self ~onTimer:10
+  Equipment:
+  - AS1Sword:0
+  - AS1Helmet:4
+  - AS1Chestplate:3
+  - AS1Leggings:2
+  - AS1Boots:1
+  Options:
+    MovementSpeed: 0.35
+    AlwaysShowName: true
+ArmoredSkeleton2:
+  Type: SKELETON
+  Display: '&aArmored Skeleton'
+  Health: 10
+  Damage: 3
+  Skills:
+  - arrowvolley{a=15;s=250;v=10;rd=40} @Target ~onTimer:100
+  - effect:flames @self ~onTimer:10
+  Equipment:
+  - AS2Sword:0
+  - AS2Helmet:4
+  - AS2Chestplate:3
+  - AS2Leggings:2
+  - AS2Boots:1
+  Options:
+    MovementSpeed: 0.35
+    AlwaysShowName: true
+SkeletonKnight:
+  Type: SKELETON
+  Display: '&cSkeleton Knight'
+  Health: 16
+  Damage: 5
+  Skills:
+  - effect:flames @self ~onTimer:10
+  - potion{type=POISON;duration=80;level=2} @PIR{r=10} ~onTimer:100
+  - mount{type=SkeletonKnightHorse} @Self ~onSpawn
+  Equipment:
+  - AS1Sword:0
+  - AS2Helmet:4
+  - AS1Chestplate:3
+  - AS1Leggings:2
+  - AS2Boots:1
+  Options:
+    MovementSpeed: 0.36
+    AlwaysShowName: true
+SkeletonKnightHorse:
+  Type: SKELETON_HORSE
+  Health: 20
+ZombieKnight:
+  Type: ZOMBIE
+  Display: '&cZombie Knight'
+  Health: 20
+  Damage: 4
+  Skills:
+  - effect:flames @self ~onTimer:10
+  - potion{type=POISON;duration=80;level=2} @PIR{r=10} ~onTimer:100
+  - mount{type=ZombieKnightHorse} @Self ~onSpawn
+  Equipment:
+  - AS1Sword:0
+  - AS1Helmet:4
+  - AS1Chestplate:3
+  - AS1Leggings:2
+  - AS2Boots:1
+  Options:
+    MovementSpeed: 0.34
+    AlwaysShowName: true
+ZombieKnightHorse:
+  Type: ZOMBIE_HORSE
+  Health: 30

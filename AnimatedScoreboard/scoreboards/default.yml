@@ -1,0 +1,108 @@
+display:
+  title:
+    text:
+    - '&6&lS'
+    - '&6&lSU'
+    - '&6&lSUR'
+    - '&6&lSURV'
+    - '&6&lSURVI'
+    - '&6&lSURVIV'
+    - '&6&lSURVIVA'
+    - '&6&lSURVIVAL'
+    - '&e&lSURVIVAL'
+    - '&6&lSURVIVAL'
+    - '&6&lSURVIVA'
+    - '&6&lSURVIV'
+    - '&6&lSURVI'
+    - '&6&lSURV'
+    - '&6&lSUR'
+    - '&6&lSU'
+    - '&6&lS'
+    - '&6&l-'
+    - '&6&lD'
+    - '&6&lDA'
+    - '&6&lDAW'
+    - '&6&lDAWN'
+    - '&6&lDAW'
+    - '&6&lDA'
+    - '&6&lD'
+    random: false
+    interval: 8
+  line-1:
+    text:
+    - ' '
+    random: false
+    interval: 200
+    score: 99
+  line-2:
+    text:
+    - '&6➢ Spieler Information'
+    random: false
+    interval: 1000
+    score: 98
+  line-3:
+    text:
+    - '&e ◆ Benutzername: &7%player_name%'
+    random: false
+    interval: 1000
+    score: 97
+  line-4:
+    text:
+    - '&e ◆ Geldbeutel: &7%vault_eco_balance_formatted% ⛃'
+    random: false
+    interval: 20
+    score: 96
+  line-5:
+    text:
+    - '&e ◆ Ping: &7%player_ping%'
+    random: false
+    interval: 20
+    score: 96
+  line-6:
+    text:
+    - '&e ◆ Kills: &7%statistic_player_kills%'
+    random: false
+    interval: 100
+    score: 95
+  line-7:
+    text:
+    - '&e ◆ Tode: &7%statistic_deaths%'
+    random: false
+    interval: 100
+    score: 94
+  line-8:
+    text:
+    - ' '
+    random: false
+    interval: 1000
+    score: 93
+  line-9:
+    text:
+    - '&6➢ Position'
+    random: false
+    interval: 1000
+    score: 92
+  line-10:
+    text:
+    - '<update ticks=1>&e ◆ X: &7%player_x%</update>'
+    random: false
+    interval: 1000
+    score: 91
+  line-11:
+    text:
+    - '<update ticks=1>&e ◆ Y: &7%player_y%</update>'
+    random: false
+    interval: 1000
+    score: 90
+  line-12:
+    text:
+    - '<update ticks=1>&e ◆ Z: &7%player_z%</update>'
+    random: false
+    interval: 1000
+    score: 89
+  line-13:
+    text:
+    - ' '
+    random: false
+    interval: 1000
+    score: 88

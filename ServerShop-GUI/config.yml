@@ -1,0 +1,79 @@
+main:
+  slots: 9
+  enableCommand: true
+  enableItem: false
+  shopOpenWithItem: Compass
+  blockbuyablecommands: false
+  EnableLogs: false
+  EnableClickSound: false
+  EnableMetrics: true
+  Item_Currency: EMERALD
+  Debug: false
+  firststart: false
+  EnableSlotPermissions: false
+list:
+  '0':
+    size: 54
+    name: '&e&nBlocks'
+    icon: STONE
+    description:
+    - '&7Blocks can be purchased and'
+    - '&7sold in this category.'
+    returnbutton: true
+  '1':
+    size: 27
+    name: '&c&nWool'
+    icon: WOOL:14
+    description:
+    - '&7Wool can be purchased and'
+    - '&7sold in this category.'
+    returnbutton: true
+  '2':
+    size: 27
+    name: '&b&nStained Glass'
+    icon: STAINED_GLASS:10
+    description:
+    - '&7Stained glass can be purchased'
+    - '&7and sold in this category.'
+    returnbutton: true
+  '3':
+    size: 45
+    name: '&d&nConcrete'
+    icon: CONCRETE:5
+    description:
+    - '&7Concrete can be purchased and'
+    - '&7sold in this category.'
+    returnbutton: true
+  '4':
+    size: 27
+    name: '&f&nFarming'
+    icon: SEEDS
+    description:
+    - '&7Farming related items can be'
+    - '&7purchased and sold in this'
+    - '&7category.'
+    returnbutton: true
+  '5':
+    size: 27
+    name: '&2&nMob Drops'
+    icon: BONE
+    description:
+    - '&7Mob drops can be purchased'
+    - '&7and sold in this category.'
+    returnbutton: true
+  '6':
+    size: 27
+    name: '&3&nFood'
+    icon: COOKED_BEEF
+    description:
+    - '&7Food can be purchased'
+    - '&7and sold in this category.'
+    returnbutton: true
+  '7':
+    size: 18
+    name: '&6&nOres'
+    icon: EMERALD
+    description:
+    - '&7Ores can be purchased'
+    - '&7and sold in this category.'
+    returnbutton: true

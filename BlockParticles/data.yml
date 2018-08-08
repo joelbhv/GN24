@@ -1,0 +1,61 @@
+Locations:
+  enchanter:
+    World: world
+    X: -573
+    Y: 67
+    Z: 921
+    Particle: Snow
+  questmaster:
+    World: world
+    X: -623
+    Y: 72
+    Z: 871
+    Particle: MobSpawner
+  dailyrewards:
+    World: world
+    X: -570
+    Y: 72
+    Z: 869
+    Particle: Volcano
+  banker:
+    World: world
+    X: -532
+    Y: 70
+    Z: 880
+    Particle: HappyVillager
+  crate1:
+    World: world
+    X: -589
+    Y: 69
+    Z: 845
+    Particle: MobSpawner
+  crate2:
+    World: world
+    X: -589
+    Y: 69
+    Z: 842
+    Particle: MobSpawner
+  crate3:
+    World: world
+    X: -586
+    Y: 69
+    Z: 839
+    Particle: MobSpawner
+  crate4:
+    World: world
+    X: -583
+    Y: 69
+    Z: 839
+    Particle: MobSpawner
+  explorer:
+    World: world
+    X: -553
+    Y: 71
+    Z: 873
+    Particle: Magic
+  helper:
+    World: world
+    X: -578
+    Y: 72
+    Z: 869
+    Particle: Snow

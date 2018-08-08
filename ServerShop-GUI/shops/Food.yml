@@ -1,0 +1,92 @@
+stock:
+  '0':
+    Type: Item
+    Reward: MUSHROOM_SOUP
+    Pricetype: Money
+    Price: 5.0
+    Sell: 1.0
+    Amount: 1
+  '1':
+    Type: Item
+    Reward: RABBIT_STEW
+    Pricetype: Money
+    Price: 5.0
+    Sell: 1.0
+    Amount: 1
+  '2':
+    Type: Item
+    Reward: BEETROOT_SOUP
+    Pricetype: Money
+    Price: 5.0
+    Sell: 1.0
+    Amount: 1
+  '3':
+    Type: Item
+    Reward: BAKED_POTATO
+    Pricetype: Money
+    Price: 50.0
+    Sell: 10.0
+    Amount: 16
+  '4':
+    Type: Item
+    Reward: BREAD
+    Pricetype: Money
+    Price: 55.0
+    Sell: 15.0
+    Amount: 16
+  '5':
+    Type: Item
+    Reward: COOKED_CHICKEN
+    Pricetype: Money
+    Price: 50.0
+    Sell: 15.0
+    Amount: 16
+  '6':
+    Type: Item
+    Reward: COOKED_BEEF
+    Pricetype: Money
+    Price: 60.0
+    Sell: 20.0
+    Amount: 16
+  '7':
+    Type: Item
+    Reward: GRILLED_PORK
+    Pricetype: Money
+    Price: 60.0
+    Sell: 20.0
+    Amount: 16
+  '8':
+    Type: Item
+    Reward: PUMPKIN_PIE
+    Pricetype: Money
+    Price: 55.0
+    Sell: 15.0
+    Amount: 16
+  '9':
+    Type: Item
+    Reward: CAKE
+    Pricetype: Money
+    Price: 10.0
+    Sell: 1.0
+    Amount: 1
+  '10':
+    Type: Item
+    Reward: COOKIE
+    Pricetype: Money
+    Price: 60.0
+    Sell: 20.0
+    Amount: 64
+  '11':
+    Type: Item
+    Reward: APPLE
+    Pricetype: Money
+    Price: 35.0
+    Sell: 20.0
+    Amount: 16
+  '12':
+    Type: Item
+    Reward: GOLDEN_APPLE
+    Pricetype: Money
+    Price: 75.0
+    Sell: 10.0
+    Amount: 1

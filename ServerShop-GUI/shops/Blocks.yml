@@ -1,0 +1,344 @@
+stock:
+  '0':
+    Type: Item
+    Reward: STONE
+    Pricetype: Money
+    Price: 25.0
+    Sell: 5.0
+    Amount: 32
+  '1':
+    Type: Item
+    Reward: SMOOTH_BRICK
+    Pricetype: Money
+    Price: 30.0
+    Sell: 5.0
+    Amount: 32
+  '2':
+    Type: Item
+    Reward: SMOOTH_BRICK:2
+    Pricetype: Money
+    Price: 50.0
+    Sell: 15.0
+    Amount: 32
+  '3':
+    Type: Item
+    Reward: SMOOTH_BRICK:1
+    Pricetype: Money
+    Price: 50.0
+    Sell: 15.0
+    Amount: 32
+  '4':
+    Type: Item
+    Reward: SMOOTH_BRICK:3
+    Pricetype: Money
+    Price: 65.0
+    Sell: 20.0
+    Amount: 32
+  '5':
+    Type: Item
+    Reward: COBBLESTONE
+    Pricetype: Money
+    Price: 20.0
+    Sell: -1
+    Amount: 32
+  '6':
+    Type: Item
+    Reward: MOSSY_COBBLESTONE
+    Pricetype: Money
+    Price: 50.0
+    Sell: 20.0
+    Amount: 32
+  '7':
+    Type: Item
+    Reward: GRASS
+    Pricetype: Money
+    Price: 30.0
+    Sell: 10.0
+    Amount: 32
+  '8':
+    Type: Item
+    Reward: MYCEL
+    Pricetype: Money
+    Price: 50.0
+    Sell: 15.0
+    Amount: 32
+  '9':
+    Type: Item
+    Reward: DIRT:2
+    Pricetype: Money
+    Price: 50.0
+    Sell: 20.0
+    Amount: 32
+  '10':
+    Type: Item
+    Reward: DIRT:1
+    Pricetype: Money
+    Price: 65.0
+    Sell: 20.0
+    Amount: 32
+  '11':
+    Type: Item
+    Reward: LOG
+    Pricetype: Money
+    Price: 70.0
+    Sell: 10.5
+    Amount: 32
+  '12':
+    Type: Item
+    Reward: LOG:1
+    Pricetype: Money
+    Price: 70.0
+    Sell: 10.5
+    Amount: 32
+  '13':
+    Type: Item
+    Reward: LOG:2
+    Pricetype: Money
+    Price: 70.0
+    Sell: 10.5
+    Amount: 32
+  '14':
+    Type: Item
+    Reward: LOG:3
+    Pricetype: Money
+    Price: 70.0
+    Sell: 10.5
+    Amount: 32
+  '15':
+    Type: Item
+    Reward: LOG_2
+    Pricetype: Money
+    Price: 70.0
+    Sell: 10.5
+    Amount: 32
+  '16':
+    Type: Item
+    Reward: LOG_2:1
+    Pricetype: Money
+    Price: 70.0
+    Sell: 10.5
+    Amount: 32
+  '17':
+    Type: Item
+    Reward: SAND
+    Pricetype: Money
+    Price: 55.0
+    Sell: 15.0
+    Amount: 32
+  '18':
+    Type: Item
+    Reward: SAND:1
+    Pricetype: Money
+    Price: 75.0
+    Sell: 20.0
+    Amount: 32
+  '19':
+    Type: Item
+    Reward: CLAY
+    Pricetype: Money
+    Price: 70.0
+    Sell: 25.0
+    Amount: 32
+  '20':
+    Type: Item
+    Reward: SNOW_BLOCK
+    Pricetype: Money
+    Price: 55.0
+    Sell: 10.0
+    Amount: 32
+  '21':
+    Type: Item
+    Reward: ICE
+    Pricetype: Money
+    Price: 80.0
+    Sell: 17.5
+    Amount: 32
+  '22':
+    Type: Item
+    Reward: PACKED_ICE
+    Pricetype: Money
+    Price: 90.0
+    Sell: 20.0
+    Amount: 32
+  '23':
+    Type: Item
+    Reward: OBSIDIAN
+    Pricetype: Money
+    Price: 150.0
+    Sell: 25.0
+    Amount: 32
+  '24':
+    Type: Item
+    Reward: NETHERRACK
+    Pricetype: Money
+    Price: 50.0
+    Sell: 10.0
+    Amount: 32
+  '25':
+    Type: Item
+    Reward: NETHER_BRICK
+    Pricetype: Money
+    Price: 60.0
+    Sell: 15.0
+    Amount: 32
+  '26':
+    Type: Item
+    Reward: SOUL_SAND
+    Pricetype: Money
+    Price: 65.0
+    Sell: 20.0
+    Amount: 32
+  '27':
+    Type: Item
+    Reward: NETHER_WART_BLOCK
+    Pricetype: Money
+    Price: 65.0
+    Sell: 20.0
+    Amount: 32
+  '28':
+    Type: Item
+    Reward: RED_NETHER_BRICK
+    Pricetype: Money
+    Price: 75.0
+    Sell: 30.0
+    Amount: 32
+  '29':
+    Type: Item
+    Reward: GLOWSTONE
+    Pricetype: Money
+    Price: 75.0
+    Sell: 35.0
+    Amount: 32
+  '30':
+    Type: Item
+    Reward: MAGMA
+    Pricetype: Money
+    Price: 80.0
+    Sell: 40.0
+    Amount: 32
+  '31':
+    Type: Item
+    Reward: BONE_BLOCK
+    Pricetype: Money
+    Price: 60.0
+    Sell: 5.0
+    Amount: 32
+  '32':
+    Type: Item
+    Reward: PRISMARINE
+    Pricetype: Money
+    Price: 65.0
+    Sell: 15.0
+    Amount: 32
+  '33':
+    Type: Item
+    Reward: PRISMARINE:1
+    Pricetype: Money
+    Price: 65.0
+    Sell: 20.0
+    Amount: 32
+  '34':
+    Type: Item
+    Reward: PRISMARINE:2
+    Pricetype: Money
+    Price: 65.0
+    Sell: 20.0
+    Amount: 32
+  '35':
+    Type: Item
+    Reward: SEA_LANTERN
+    Pricetype: Money
+    Price: 75.0
+    Sell: 25.0
+    Amount: 32
+  '36':
+    Type: Item
+    Reward: GRAVEL
+    Pricetype: Money
+    Price: 30.0
+    Sell: 5.0
+    Amount: 32
+  '37':
+    Type: Item
+    Reward: ENDER_STONE
+    Pricetype: Money
+    Price: 75.0
+    Sell: 10.0
+    Amount: 32
+  '38':
+    Type: Item
+    Reward: END_BRICKS
+    Pricetype: Money
+    Price: 85.0
+    Sell: 20.0
+    Amount: 32
+  '39':
+    Type: Item
+    Reward: SLIME_BLOCK
+    Pricetype: Money
+    Price: 60.0
+    Sell: 10.0
+    Amount: 16
+  '40':
+    Type: Item
+    Reward: SPONGE
+    Pricetype: Money
+    Price: 100.0
+    Sell: 20.0
+    Amount: 4
+  '41':
+    Type: Item
+    Reward: LEAVES
+    Pricetype: Money
+    Price: 75.0
+    Sell: 5.0
+    Amount: 64
+  '42':
+    Type: Item
+    Reward: LEAVES:1
+    Pricetype: Money
+    Price: 75.0
+    Sell: 5.0
+    Amount: 64
+  '43':
+    Type: Item
+    Reward: LEAVES:2
+    Pricetype: Money
+    Price: 75.0
+    Sell: 5.0
+    Amount: 64
+  '44':
+    Type: Item
+    Reward: LEAVES:3
+    Pricetype: Money
+    Price: 75.0
+    Sell: 5.0
+    Amount: 64
+  '45':
+    Type: Item
+    Reward: LEAVES_2
+    Pricetype: Money
+    Price: 75.0
+    Sell: 5.0
+    Amount: 64
+  '46':
+    Type: Item
+    Reward: LEAVES_2:1
+    Pricetype: Money
+    Price: 75.0
+    Sell: 5.0
+    Amount: 64
+  '47':
+    Type: Item
+    Reward: PURPUR_BLOCK
+    Pricetype: Money
+    Price: 90.0
+    Sell: 20.0
+    Amount: 32
+  '48':
+    Type: Item
+    Reward: PURPUR_PILLAR
+    Pricetype: Money
+    Price: 95.0
+    Sell: 20.0
+    Amount: 32

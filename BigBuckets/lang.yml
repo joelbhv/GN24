@@ -1,0 +1,22 @@
+'   ': '#Warning Messages#'
+cantMixLiquids: Cant Mix Different Liquids!
+noPerms: Invalid Permissions!
+wrongInput: Invalid Arguments!
+wrongSize: Youre not allowed to create buckets larger than
+bbreload: Reloaded Configuration
+bbsetlimit: New Bucket size limit has been set to
+fullInv: Your Inventory is Full, So I Dropped It on The Ground!
+'  ': '#Bucket Titles#'
+emptyBucket: Big Bucket
+waterBucket: Big Water Bucket
+lavaBucket: Big Lava Bucket
+milkBucket: Big Milk Bucket
+' ': '#Lore Translations#'
+capacity: Capacity
+filled: Filled
+type: Type
+empty: Empty
+water: Water
+lava: Lava
+milk: Milk
+cant-place: Youre Not Allowed To Use Buckets At That Location!

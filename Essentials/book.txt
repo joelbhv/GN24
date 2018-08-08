@@ -1,0 +1,80 @@
+This is the book file.
+
+This file format works similar to the info.txt, motd.txt and rules.txt
+
+Place content in here that you would like to be used by books ingame.
+
+You can use this content by using the book:<section> meta option in kits or item spawning.
+
+#Colors
+Minecraft colors:
+&0 &&0  &1 &&1  &2 &&2  &3 &&3
+&4 &&4  &5 &&5  &6 &&6  &7 &&7
+&8 &&8  &9 &&9  &a &&a  &b &&b
+&c &&c  &d &&d  &e &&e  &f &&f
+&0 
+&&k &kMagic&r   &&l &lBold
+&&m &mStrike&r  &&n &nUline
+&&o &oItalic&r   &&r &rReset
+
+#Welcome
+Welcome to the server, this book will give you some informaton about this server.
+&r 
+Contents
+* Rules
+* Ranks
+* Enchanter
+* Quest Master
+* Random Teleport
+* Claiming Land
+&r
+*Rules
+1) Do not grief land.
+2) Do not use profanity.
+3) Do not disrespect players.
+4) Do not beg for items.
+5) Do not spam.
+6) Do not use modifications which give you an unfair advantage. Eg Cheats.
+7) Do not advertise other servers.
+8) Do not DOS/DOX players.
+9) Do not ask to be a staff member - apply on the forums.
+&r 
+*Ranks
+You can purchase in-game ranks with experience at the marketplace and some ranks on the store.
+In-game ranks:
+[Traveler] - Default Rank
+[Explorer]
+[Adventurer]
+Paid ranks:
+[Coal]
+[Iron]
+[Gold]
+[Diamond]
+[Emerald]
+View what the ranks give you with /ranks.
+&r 
+* Enchanter
+The enchanter, which is located at /warp enchanter, allows you to buy custom enchantments which can be applied onto certain items to give them a special ability.
+It also sells relics such as white scrolls which can be used on certain items. The lore states what they do.
+&r 
+* Quest Master
+You can start quests at the quest master. When you complete a quest, you will get a reward. This is a great way to earn coins, money or experience!
+&r 
+* Random Teleport
+You can use the command /rtp gui to teleport anywhere in the wild. This will cost you some coins but it saves you walking! :D
+&r
+* Claiming Land
+Kit starter gives you a golden shovel. You can use this golden shovel to claim land which will make it grief preventable.
+To start, simply right click one corner and right click the other corner. You can also claim with /claim.
+X----------------|
+|-----------------|
+|----------------X
+X = Where to claim
+&r
+* Diseases
+Diseases can harm you, you must craft something to get healed. See /diseases help.
+The more you get a disease, the more immune you will be to it. This means that you have a lower chance of getting it next time.
+Different infections need different medicines to cure.
+You can also visit the doctor at the hospital to get healed from anything for a fee.
+
+

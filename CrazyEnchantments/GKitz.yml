@@ -1,0 +1,659 @@
+Settings:
+  GUI-Size: 45 #Must be a factor of 9.
+  Inventory-Name: '&8* &nGkits&r &8*'
+  GUI-Customization: #This allows you to customize unclickable items into you GUI.
+    - 'Slot:1, Item:160:15, Name: '
+    - 'Slot:2, Item:160:15, Name: '
+    - 'Slot:3, Item:160:15, Name: '
+    - 'Slot:4, Item:160:15, Name: '
+    - 'Slot:5, Item:160:15, Name: '
+    - 'Slot:6, Item:160:15, Name: '
+    - 'Slot:7, Item:160:15, Name: '
+    - 'Slot:8, Item:160:15, Name: '
+    - 'Slot:9, Item:160:15, Name: '
+    - 'Slot:10, Item:160:15, Name: '
+    - 'Slot:11, Item:160:15, Name: '
+    - 'Slot:17, Item:160:15, Name: '
+    - 'Slot:18, Item:160:15, Name: '
+    - 'Slot:19, Item:160:15, Name: '
+    - 'Slot:20, Item:160:15, Name: '
+    - 'Slot:26, Item:160:15, Name: '
+    - 'Slot:27, Item:160:15, Name: '
+    - 'Slot:28, Item:160:15, Name: '
+    - 'Slot:29, Item:160:15, Name: '
+    - 'Slot:30, Item:160:15, Name: '
+    - 'Slot:31, Item:160:15, Name: '
+    - 'Slot:32, Item:160:15, Name: '
+    - 'Slot:33, Item:160:15, Name: '
+    - 'Slot:34, Item:160:15, Name: '
+    - 'Slot:35, Item:160:15, Name: '
+    - 'Slot:36, Item:160:15, Name: '
+    - 'Slot:37, Item:160:15, Name: '
+    - 'Slot:38, Item:160:15, Name: '
+    - 'Slot:39, Item:160:15, Name: '
+    - 'Slot:40, Item:160:15, Name: '
+    - 'Slot:41, Item:160:15, Name: '
+    - 'Slot:42, Item:160:15, Name: '
+    - 'Slot:43, Item:160:15, Name: '
+    - 'Slot:44, Item:160:15, Name: '
+    - 'Slot:45, Item:160:15, Name: '
+###################################
+#             Items: Options
+# Item: <ID:MD> - You can choose the item with its id and meta data.
+# Amount: <Number> - Choose how many of the item you get.
+# Name: <Name> - The display name that goes on the item.
+# Lore: <Line 1>,<Line 2>,<Line 3>,<Line 4> - The lore that will go under the enchantments. Split lines with a ','
+# Enchantments:<Enchantment>:<Level> - Choose vanilla enchantments here. Split each enchantment with a ','
+# CustomEnchantments: <Custom Enchantment>:<Level> - Choose crazy/custom enchantments here. Split enchantments with a ','
+# To chose a random level for the crazy/custom enchantments use like this 'CustomEnchantments:<Custom Enchantment>:<Min Level>-<Max Level>'
+# Example of this is shows here.
+# CustomEnchantments:Overload:1-5,Hulk:1-5 << this will add Hulk and Overload and pick a random level from 1-5 and set it as the power.
+###################################
+GKitz: #GKit options.
+  Fighter:
+    Display:
+      Slot: 11
+      Item: '276'
+      Glowing: true
+      Name: '&8* &1&l&nFighter Kit&r &8*'
+      Lore:
+        - '&7&oHunt down your enemies and slay'
+        - '&7&othem to get their loot.'
+        - '&r'
+        - '&b* Glowing'
+        - '&c* Overload'
+        - '&c* Enlightened'
+        - '&e* Plasma'
+        - '&c* Gears'
+        - '&e* Jump'
+        - '&e* Rockets'
+        - '&c* Rage'
+        - '&e* Execute'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &1&lFighter Helmet&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Glowing:1-1, Lore:&1&oUse this helmet to protect you,&1&ofrom your enemy.'
+      - 'Item:311, Amount:1, Name:&8* &1&lFighter Chestplate&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Overload:1-3,Enlightened:1-4,Plasma:1-1, Lore:&1&oUse this chestplate to protect you,&1&ofrom your enemy.'
+      - 'Item:312, Amount:1, Name:&8* &1&lFighter Leggings&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Enlightened:1-4, Lore:&1&oUse these leggings to protect you,&1&ofrom your enemy.'
+      - 'Item:313, Amount:1, Name:&8* &1&lFighter Boots&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Gears:1-3,Jump:1-3,Rockets:1-3, Lore:&1&oUse these boots to protect you,&1&ofrom your enemy.'
+      - 'Item:276, Amount:1, Name:&8* &1&lFighter Sword&r &8*, Enchantments:Sharpness:5,Fire_Aspect:2,Unbreaking:3, CustomEnchantments:Rage:1-3,Execute:1-5, Lore:&1&oUse this sword to protect you,&1&ofrom your enemy.'
+      - 'Item:322, Amount:16'
+      - 'Item:368, Amount:16'
+    Commands: []
+  Beastmaster:
+    Display:
+      Slot: 12
+      Item: '352'
+      Glowing: true
+      Name: '&8* &2&l&nBeastmaster Kit&r &8*'
+      Lore:
+        - '&7&oUse the power of your beasts'
+        - '&7&oto slay your enemy!'
+        - '&r'
+        - '&b* Glowing'
+        - '&c* Overload'
+        - '&c* Enlightened'
+        - '&c* Guards'
+        - '&e* Infestation'
+        - '&e* Necromancer'
+        - '&e* Wolves'
+        - '&c* Gears'
+        - '&e* Jump'
+        - '&c* Rage'
+        - '&c* Vampire'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &2&lBeastmaster Helmet&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Glowing:1-1,Necromancer:1-4,Guards:1-4, Lore:&2&oUse this helmet to slay your enemy!'
+      - 'Item:311, Amount:1, Name:&8* &2&lBeastmaster Chestplate&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Overload:1-3,Enlightened:1-4, Lore:&2&oUse this chestplate to slay your enemy!'
+      - 'Item:312, Amount:1, Name:&8* &2&lBeastmaster Leggings&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Wolves:1-4,Infestation:1-3, Lore:&2&oUse these leggings to slay your enemy!'
+      - 'Item:313, Amount:1, Name:&8* &2&lBeastmaster Boots&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Gears:1-3,Jump:1-3, Lore:&2&oUse these boots to slay your enemy!'
+      - 'Item:276, Amount:1, Name:&8* &2&lBeastmaster Sword&r &8*, Enchantments:Sharpness:5,Fire_Aspect:2,Unbreaking:3, CustomEnchantments:Rage:1-3,Vampire:1-4, Lore:&2&oUse this sword to slay your enemy!'
+    Commands: []
+  Grinder:
+    Display:
+      Slot: 13
+      Item: '384'
+      Glowing: true
+      Name: '&8* &3&l&nGrinder Kit&r &8*'
+      Lore:
+        - '&7&oUse the power to get a lot'
+        - '&7&oof experience.'
+        - '&r'
+        - '&c* Rage'
+        - '&e* Execute'
+        - '&c* Vampire'
+        - '&c* Lifesteal'
+        - '&c* Inquisitive'
+        - '&a* Thief'
+        - '&b* Feather'
+        - '&8* &a2,000 experience'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:276, Amount:1, Name:&8* &3&lGrinder Sword&r &8*, Enchantments:Sharpness:5,Fire_Aspect:2,Unbreaking:3,Looting:3, CustomEnchantments:Rage:1-3,Execute:1-5,Vampire:1-4,Lifesteal:1-4,Inquisitive:1-3,Thief:1-5,Feather:1-4, Lore:&3&oPowerful sword to get you a lot of,&3&oexperience.'
+    Commands:
+      - 'xp add %player% 2000'
+  Archer:
+    Display:
+      Slot: 14
+      Item: '261'
+      Glowing: true
+      Name: '&8* &4&l&nArcher Kit&r &8*'
+      Lore:
+        - '&7&oShoot down your enemies and'
+        - '&7&osteal their loot.'
+        - '&r'
+        - '&b* Lightning'
+        - '&e* Piercing'
+        - '&c* Pull'
+        - '&c* Robin'
+        - '&b* Thief'
+        - '&c* Gears'
+        - '&c* Overload'
+        - '&c* Englightened'
+        - '&b* Glowing'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &4&lArcher Helmet&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Glowing:1-1, Lore:&4&oPerfect helmet for an archer.'
+      - 'Item:311, Amount:1, Name:&8* &4&lArcher Chestplate&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Overload:1-3,Enlightened:1-4,Plasma:1-1, Lore:&4&oPerfect chestplate for an archer.'
+      - 'Item:312, Amount:1, Name:&8* &4&lArcher Leggings&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Enlightened:1-4, Lore:&4&oPerfect leggings for an archer.'
+      - 'Item:313, Amount:1, Name:&8* &4&lArcher Boots&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Gears:1-3, Lore:&4&oPerfect boots for an archer.'
+      - 'Item:261, Amount:1, Name:&8* &4&lArcher Bow&r &8*, Enchantments:Power:5,Punch:2,Unbreaking:3,Flame:1,Infinity:1, CustomEnchantments:Lightning:1-3,Piercing:1-4,Pull:1-4,Robin:1-5, Lore:&4&oShoot them down!'
+      - 'Item:262, Amount:1'
+    Commands: []
+  Enchanter:
+    Display:
+      Slot: 15
+      Item: '340'
+      Glowing: true
+      Name: '&8* &5&l&nEnchanter Kit&r &8*'
+      Lore:
+        - '&7&oEnchant your items to become'
+        - '&7&othe most powerful on the server.'
+        - '&r'
+        - '&b* 12x Common Enchantment Books'
+        - '&e* 10x Rare Enchantment Books'
+        - '&c* 6x Legendary Enchantment Books'
+        - '&5* 4x Ancient Enchantment Books'
+        - '&a* +15% Magical Dust'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items: []
+    Commands:
+      - 'ce lostbook common 12 %Player%'
+      - 'ce lostbook rare 10 %Player%'
+      - 'ce lostbook legendary 6 %Player%'
+      - 'ce lostbook ancient 4 %Player%'
+      - 'ce dust success 1 %Player% 15'
+  Berserker:
+    Display:
+      Slot: 16
+      Item: '279'
+      Glowing: true
+      Name: '&8* &6&l&nBerserker Kit&r &8*'
+      Lore:
+        - '&7&oSlay your enemies with your powerful'
+        - '&7&oaxe.'
+        - '&r'
+        - '&b* Glowing'
+        - '&c* Overload'
+        - '&c* Enlightened'
+        - '&e* Cactus'
+        - '&c* Gears'
+        - '&e* Jump'
+        - '&c* Platemail'
+        - '&e* Rekt'
+        - '&c* Blessed'
+        - '&e* Berserk'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &6&lBerserker Helmet&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Glowing:1-1,Cactus:1-3, Lore:&6&oPerfect armor for a berserker!'
+      - 'Item:311, Amount:1, Name:&8* &6&lBerserker Chestplate&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Overload:1-3,Enlightened:1-4,Molten:1-5, Lore:&6&oPerfect armor for a berserker!'
+      - 'Item:312, Amount:1, Name:&8* &6&lBerserker Leggings&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Platemail:1-2, Lore:&6&oPerfect armor for a berserker!'
+      - 'Item:313, Amount:1, Name:&8* &6&lBerserker Boots&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Gears:1-3,Jump:1-3, Lore:&6&oPerfect armor for a berserker!'
+      - 'Item:279, Amount:1, Name:&8* &6&lBerserker Axe&r &8*, Enchantments:Sharpness:5,Fire_Aspect:2,Unbreaking:3, CustomEnchantments:Rekt:1-3,Berserk:1-3,Blessed:1-4, Lore:&6&oPerfect axe for a berserker!'
+    Commands: []
+  Hulk:
+    Display:
+      Slot: 17
+      Item: '351:2'
+      Glowing: true
+      Name: '&8* &a&l&nHulk Kit&r &8*'
+      Lore:
+        - '&7&oSmash your enemies with your'
+        - '&7&ogod-like weapon.'
+        - '&r'
+        - '&b* Glowing'
+        - '&c* Overload'
+        - '&c* Enlightened'
+        - '&c* Tank'
+        - '&e* Cactus'
+        - '&c* Gears'
+        - '&e* Jump &7[Chance to get JUMP IV]'
+        - '&c* Platemail'
+        - '&e* Rekt'
+        - '&b* Bloodthirsty'
+        - '&c* Lifesteal'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &a&lHulk Helmet&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Glowing:1-1,Cactus:1-3, Lore:&a&oHulk''s protective helmet.'
+      - 'Item:311, Amount:1, Name:&8* &a&lHulk Chestplate&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Overload:1-3,Enlightened:1-4,Molten:1-5, Lore:&a&oStrong chest guard.'
+      - 'Item:312, Amount:1, Name:&8* &a&lHulk Leggings&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Platemail:1-2, Lore:&a&oHulk''s damaged trousers.'
+      - 'Item:313, Amount:1, Name:&8* &a&lHulk Boots&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Gears:1-3,Jump:1-4, Lore:&a&oHulk''s deadly boots.'
+      - 'Item:279, Amount:1, Name:&8* &a&lHulk Axe&r &8*, Enchantments:Sharpness:5,Fire_Aspect:2,Unbreaking:3, CustomEnchantments:Rekt:1-3,Bloodthirsty:1-5,Lifesteal:1-4, Lore:&a&oAn axe as powerful as Hulk''s fists.'
+    Commands: []
+  Relic:
+    Display:
+      Slot: 20
+      Item: '381'
+      Glowing: true
+      Name: '&8* &b&l&nRelic Kit&r &8*'
+      Lore:
+        - '&7&oGather powerful relics that have'
+        - '&7&othe power to do unimageinable things.'
+        - '&r'
+        - '&8* &f1x &eScrambling Rune'
+        - '&8* &f2x &eWhite Scrolls'
+        - '&8* &f2x &8Black Scrolls'
+        - '&8* &f1x &6Protection Crystal'
+        - '&8* &f16x Mystery Dust'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items: []
+    Commands:
+      - 'CE Scroll White 2 %Player%'
+      - 'CE Scroll Black 2 %Player%'
+      - 'CE Scrambler 1 %Player%'
+      - 'CE Crystal 1 %Player%'
+      - 'CE dust success 16 %Player% 2'
+  Bandit:
+    Display:
+      Slot: 21
+      Item: '371'
+      Glowing: true
+      Name: '&8* &e&l&nBandit Kit&r &8*'
+      Lore:
+        - '&7&oStealing is the best way to'
+        - '&7&oget rich, and fast!'
+        - '&r'
+        - '&c* Inquisitive'
+        - '&e* Nausea'
+        - '&b* Thief'
+        - '&e* Cactus'
+        - '&c* Tank'
+        - '&c* Platemail'
+        - '&c* Gears'
+        - '&c* Overload'
+        - '&b* Glowing'
+        - '&c* Enlightened'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &e&lBandit Helmet&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Glowing:1-1,Cactus:1-3,Enlightened:1-4, Lore:&e&oProtective cap.'
+      - 'Item:311, Amount:1, Name:&8* &e&lBandit Chestplate&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Overload:1-3,Enlightened:1-4, Lore:&e&oPerfect jacket for a bandit.'
+      - 'Item:312, Amount:1, Name:&8* &e&lBandit Leggings&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Platemail:1-2,Enlightened:1-4, Lore:&e&oPerfect trousers for a bandit.'
+      - 'Item:313, Amount:1, Name:&8* &e&lBandit Boots&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Gears:1-3,Enlightened:1-4, Lore:&e&oGearsy boots.'
+      - 'Item:276, Amount:1, Name:&8* &e&lBandit Sword&r &8*, Enchantments:Sharpness:5,Fire_Aspect:2,Unbreaking:3, CustomEnchantments:Thief:1-5,Inquisitive:1-3,Nausea:1-4, Lore:&e&oBandit''s secret weapon.'
+    Commands: []
+  Santa:
+    Display:
+      Slot: 22
+      Item: '332'
+      Glowing: true
+      Name: '&8* &c&l&nSanta Kit&r &8*'
+      Lore:
+        - '&7&oUse Santa''s gifts to wipe'
+        - '&7&oout your opponents!'
+        - '&r'
+        - '&b* Glowing'
+        - '&c* Enlightened'
+        - '&c* Overload'
+        - '&c* Platemail'
+        - '&c* Shielded'
+        - '&b* Commander'
+        - '&c* Gears'
+        - '&e* Jump'
+        - '&e* Rockets'
+        - '&b* Lightning'
+        - '&c* Pull'
+        - '&e* Smoke'
+        - '&c* Drunk'
+        - '&8* &f1x &eScrambling Rune'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &c&lSanta Helmet&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Glowing:1-1,Shielded:1-2, Lore:&c&oMade with care by Santa''s elves.'
+      - 'Item:311, Amount:1, Name:&8* &c&lSanta Chestplate&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Overload:1-3,Platemail:1-2,Enlightened:1-4, Lore:&c&oMade with care by Santa''s elves.'
+      - 'Item:312, Amount:1, Name:&8* &c&lSanta Leggings&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Commander:1-5,Smoke:1-3, Lore:&c&oMade with care by Santa''s elves.'
+      - 'Item:313, Amount:1, Name:&8* &c&lSanta Boots&r &8*, Enchantments:Protection:4,Unbreaking:3, CustomEnchantments:Gears:1-3,Jump:1-3,Rockets:1-3,Drunk:1-2, Lore:&c&oMade with care by Santa''s elves.'
+      - 'Item:261, Amount:1, Name:&8* &c&lSanta Bow&r &8*, Enchantments:Power:5,Flame:1,Infinity:1,Unbreaking:3, CustomEnchantments:Pull:1-4,Lightning:1-3, Lore:&c&oMade with care by Santa''s elves.'
+      - 'Item:262, Amount:1'
+    Commands:
+      - 'CE Scrambler 1 %Player%'
+  Raider:
+    Display:
+      Slot: 23
+      Item: '46'
+      Glowing: true
+      Name: '&8* &d&l&nRaider Kit&r &8*'
+      Lore:
+        - '&7&oUse this kit to raid your enemies'
+        - '&7&oand gain a lot of loot!'
+        - '&r'
+        - '&b* Glowing'
+        - '&b* Mermaid'
+        - '&e* Plasma'
+        - '&c* Overload'
+        - '&e* Explosive'
+        - '&e* Cactus'
+        - '&e* Rockets'
+        - '&e* Jump'
+        - '&c* Gears'
+        - '&c* Blast'
+        - '&8* &f4x &aCreeper Eggs'
+        - '&8* &f192x TNT'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &d&lRaider Helmet&r &8*, Enchantments:Protection:4,Blast_Protection:4,Unbreaking:3, CustomEnchantments:Glowing:1-1,Mermaid:1-1,Cactus:1-3, Lore:&d&oUse this to protect you when you,&d&oare raiding!'
+      - 'Item:311, Amount:1, Name:&8* &d&lRaider Chestplate&r &8*, Enchantments:Protection:4,Blast_Protection:4,Unbreaking:3, CustomEnchantments:Overload:1-3,Plasma:1-1, Lore:&d&oUse this to protect you when you,&d&oare raiding!'
+      - 'Item:312, Amount:1, Name:&8* &d&lRaider Leggings&r &8*, Enchantments:Protection:4,Blast_Protection:4,Unbreaking:3, CustomEnchantments:Explosive:1-3, Lore:&d&oUse this to protect you when you,&d&oare raiding!'
+      - 'Item:313, Amount:1, Name:&8* &d&lRaider Boots&r &8*, Enchantments:Protection:4,Blast_Protection:4,Unbreaking:3, CustomEnchantments:Gears:1-3,Jump:1-3,Rockets:1-3, Lore:&d&oUse this to protect you when you,&d&oare raiding!'
+      - 'Item:278, Amount:1, Name:&8* &d&lRaider Pickaxe&r &8*, Enchantments:Efficiency:5,Fortune:3,Unbreaking:3, CustomEnchantments:Furnace:1-5,Blast:1-3,Experience:1-3,Haste:1-3,Telepathy:1-1, Lore:&d&oHidden powers inside!'
+      - 'Item:383:50, Amount:4'
+      - 'Item:259, Amount:1'
+      - 'Item:46, Amount:192'
+    Commands: []
+  NewYear:
+    Display:
+      Slot: 24
+      Item: '401'
+      Glowing: true
+      Name: '&8* &3&l&nNew Year Kit&r &8*'
+      Lore:
+        - '&7&oWho is ready for 2018?'
+        - '&7&oCelebrate the new year with'
+        - '&7&othis amazing kit!'
+        - '&r'
+        - '&c* Decay'
+        - '&c* Starvation'
+        - '&b* Shadow'
+        - '&e* Rekt'
+        - '&e* Cursed'
+        - '&c* Overload'
+        - '&c* Enlightened'
+        - '&c* Tank'        
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &3&lNew Year Helmet&r &8*, Enchantments:Protection:4,Projectile_Protection:2,Unbreaking:3, CustomEnchantments:Overload:1-3,Enlightened:1-4,Tank:1-2, Lore:&3&oStrong helmet to protect you.'
+      - 'Item:279, Amount:1, Name:&8* &3&lNew Year Axe&r &8*, Enchantments:Sharpness:5,Fire_Aspect:2, CustomEnchantments:Decay:1-2,Starvation:1-4,Shadow:1-5,Rekt:1-3,Cursed:1-3, Lore:&3&oAxe found during the new year,&3&ocelebration.'
+    Commands:
+      - 'give %Player% minecraft:fireworks 8 0 {Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:0,Trail:1,Colors:[11743532],FadeColors:[3887386]}]}}'
+  Wizard:
+    Display:
+      Slot: 25
+      Item: '374'
+      Glowing: true
+      Name: '&8* &9&l&nWizard Kit&r &8*'
+      Lore:
+        - '&7&oCast spells and destroy your'
+        - '&7&oenemies!'
+        - '&r'
+        - '&c* Overload'
+        - '&e* Recover'
+        - '&c* Voodoo'
+        - '&e* Rockets'
+        - '&e* Jump'
+        - '&c* Gears'
+        - '&e* Infestation'
+        - '&e* Freeze'
+        - '&c* Platemail'
+        - '&c* Enlightened'
+        - '&c* Tank &7[EVERY ARMOR PIECE]'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &9&lWizard Helmet&r &8*, Enchantments:Protection:4,Projectile_Protection:4,Unbreaking:3, CustomEnchantments:Infestation:1-3,Platemail:1-2,Tank:1-2, Lore:&9&oPowerful armor piece made from spells.'
+      - 'Item:311, Amount:1, Name:&8* &9&lWizard Chestplate&r &8*, Enchantments:Protection:4,Projectile_Protection:4,Unbreaking:3, CustomEnchantments:Overload:1-3,Recover:1-1,Voodoo:1-3,Tank:1-2, Lore:&9&oPowerful armor piece made from spells.'
+      - 'Item:312, Amount:1, Name:&8* &9&lWizard Leggings&r &8*, Enchantments:Protection:4,Projectile_Protection:4,Unbreaking:3, CustomEnchantments:Freeze:1-2,Enlightened:1-4,Tank:1-2, Lore:&9&oPowerful armor piece made from spells.'
+      - 'Item:313, Amount:1, Name:&8* &9&lWizard Boots&r &8*, Enchantments:Protection:4,Projectile_Protection:4,Unbreaking:3, CustomEnchantments:Gears:1-3,Jump:1-3,Rockets:1-3,Tank:1-2, Lore:&9&oPowerful armor piece made from spells.'
+  Knight:
+    Display:
+      Slot: 26
+      Item: '306'
+      Glowing: true
+      Name: '&8* &f&l&nKnight Kit&r &8*'
+      Lore:
+        - '&7&oUse your strong armor to defend'
+        - '&7&oyourself against your enemies!'
+        - '&r'
+        - '&e* Leadership'
+        - '&c* Overload'
+        - '&c* Platemail'
+        - '&e* Rockets'
+        - '&e* Jump'
+        - '&c* Gears'
+        - '&c* Enlightened'
+        - '&e* Smoke'
+        - '&c* Drunk'
+        - '&c* Vampire'
+        - '&c* Lifesteal'
+        - '&c* Tank'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &f&lKnight Helmet&r &8*, Enchantments:Protection:4,Fire_Protection:4,Unbreaking:3, CustomEnchantments:Platemail:1-2,Drunk:1-2, Lore:&f&oStrong armor piece - perfect for a knight.'
+      - 'Item:311, Amount:1, Name:&8* &f&lKnight Chestplate&r &8*, Enchantments:Protection:4,Fire_Protection:4,Unbreaking:3, CustomEnchantments:Leadership:1-5,Overload:1-3,Tank:1-2, Lore:&f&oStrong armor piece - perfect for a knight.'
+      - 'Item:312, Amount:1, Name:&8* &f&lKnight Leggings&r &8*, Enchantments:Protection:4,Fire_Protection:4,Unbreaking:3, CustomEnchantments:Enlightened:1-4,Smoke:1-3, Lore:&f&oStrong armor piece - perfect for a knight.'
+      - 'Item:313, Amount:1, Name:&8* &f&lKnight Boots&r &8*, Enchantments:Protection:4,Fire_Protection:4,Unbreaking:3, CustomEnchantments:Gears:1-3,Jump:1-3,Rockets:1-3, Lore:&f&oStrong armor piece - perfect for a knight.'
+      - 'Item:276, Amount:1, Name:&8* &f&lKnight Sword&r &8*, Enchantments:Sharpness:5,Fire_Aspect:2,Unbreaking:3, CustomEnchantments:Vampire:1-4,Lifesteal:1-4, Lore:&f&oSlay your opponents!'
+      - 'Item:322, Amount:16'
+      - 'Item:368, Amount:16'
+  Blacksmith:
+    Display:
+      Slot: 30
+      Item: '145'
+      Glowing: true
+      Name: '&8* &e&l&nBlacksmith Kit&r &8*'
+      Lore:
+        - '&7&oForge weaponry using powerful'
+        - '&7&oitems found in this kit!'
+        - '&r'
+        - '&5* 10x Ancient Enchantment Books'
+        - '&d* 3x Transmog Scrolls'
+        - '&c* 6x Magical Destroy Dust (Random %)'
+        - '&a* 5,000 experience'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Commands:
+      - 'ce lostbook ancient 10 %Player%'
+      - 'ce scroll transmog 3 %Player%'
+      - 'ce dust destroy 6 %Player%'
+      - 'xp give %Player% 5000'
+  Valentines:
+    Display:
+      Slot: 31
+      Item: '38'
+      Glowing: true
+      Name: '&8* &c&l&nValentines Kit&r &8*'
+      Lore:
+        - '&7&oUse the power of love to destroy'
+        - '&7&oany darkness in your tracks.'
+        - '&r'
+        - '&c* 1x Rose Flower'
+        - '&f* 1x Love Letter'
+        - '&c* 1x Axe Infused with Love'
+        - '&r   &c* Lifesteal'
+        - '&r   &c* Vampire'
+        - '&r   &c* Rage'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:279, Amount:1, Name:&cAxe Infused with Love, Enchantments:Sharpness:5,Fire_Aspect:2,Unbreaking:3,Looting:3, CustomEnchantments:Vampire:1-4,Lifesteal:1-4,Rage:1-3, Lore:&c&oI see them hearts in the air!'
+      - 'Item:38, Amount:1, Name:&cSpecial Flower'
+      - 'Item:339, Amount:1, Name:&fLove Letter'
+  Easter:
+    Display:
+      Slot: 33
+      Item: '344'
+      Glowing: true
+      Name: '&8* &e&l&nEaster Kit&r &8*'
+      Lore:
+        - '&7&oIt is that time of the year'
+        - '&7&oagain where you eat too much'
+        - '&7&oeaster eggs.'
+        - '&r'
+        - '&e* 10x Easter Eggs'
+        - '&e* Freeze'
+        - '&c* Enlightened &7[Chance to get ENLIGHTENED V]'
+        - '&c* Jump &7[Chance to get JUMP IV]'
+        - '&c* Gears'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:313, Amount:1, Name:&8* &e&lEaster Boots&r &8*, Enchantments:Protection:5,Fire_Protection:5,Unbreaking:4, CustomEnchantments:Gears:1-3,Jump:1-4,Enlightened:1-5,Freeze:1-2, Lore:&e&oPerfect boots to find in an egg hunt.'
+      - 'Item:344, Amount:10, Name:&eEaster Eggs'
+  Spring:
+    Display:
+      Slot: 34
+      Item: '31:1'
+      Glowing: true
+      Name: '&8* &a&l&nSpring Kit&r &8*'
+      Lore:
+        - '&7&oNow Winter is gone and Spring'
+        - '&7&ois finally here. Say hello to'
+        - '&7&othe sunny weather'
+        - '&r'
+        - '&e* Cactus'
+        - '&e* Jump'
+        - '&c* Gears'
+        - '&c* Drunk'
+        - '&e* Corrosive'
+        - '&e* Wolves'
+        - '&e* Necromancer'
+        - '&c* Platemail'
+        - '&c* Overload'
+        - '&e* Viper'
+        - '&d* Disarmer'
+        - '&d* Rage'
+        - '&r'
+        - '&f➤ Cooldown: &73 Days'
+        - '&f➤ Available in: &7%Day%d&f, &7%Hour%h&f, &7%Minute%m&f, &7%Second%s&f.'
+        - '&r'
+        - '&7&nLeft-click&r &7to redeem.'
+        - '&7&nRight-click&r &7to preview.'
+    Auto-Equip: false
+    Cooldown: '3d'
+    Items:
+      - 'Item:310, Amount:1, Name:&8* &a&lSpring Helmet&r &8*, Enchantments:Protection:4,Fire_Protection:3,Unbreaking:3, CustomEnchantments:Cactus:1-3,Corrosive:1-3,Drunk:1-2, Lore:&a&oPerfect armor piece to be used,&a&oduring spring.'
+      - 'Item:311, Amount:1, Name:&8* &a&lSpring Chestplate&r &8*, Enchantments:Protection:4,Fire_Protection:3,Unbreaking:3, CustomEnchantments:Wolves:1-4,Necromancer:1-4,Overload:1-3, Lore:&a&oPerfect armor piece to be used,&a&oduring spring.'
+      - 'Item:312, Amount:1, Name:&8* &a&lSpring Leggings&r &8*, Enchantments:Protection:4,Fire_Protection:3,Unbreaking:3, CustomEnchantments:Platemail:1-2, Lore:&a&oPerfect armor piece to be used,&a&oduring spring.'
+      - 'Item:313, Amount:1, Name:&8* &a&lSpring Boots&r &8*, Enchantments:Protection:4,Fire_Protection:3,Unbreaking:3, CustomEnchantments:Gears:1-3,Jump:1-3,Rockets:1-3, Lore:&a&oPerfect armor piece to be used,&a&oduring spring.'
+      - 'Item:276, Amount:1, Name:&8* &a&lSpring Sword&r &8*, Enchantments:Sharpness:5,Fire_Aspect:2,Unbreaking:3, CustomEnchantments:Viper:1-3,Disarmer:1-2,Rage:1-3, Lore:&a&oPerfect weapon to be used during spring.'

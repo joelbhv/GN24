@@ -1,0 +1,815 @@
+Crate:
+  CrateType: CSGO #Type of crate (CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War/Cosmic(This requires a additional info to work.)).
+  CrateName: '&nMythical Crate' #Name of the Inventory if a GUI crate.
+  StartingKeys: 0 #Starting amount of keys when the player 1st joins.
+  InGUI: true #If the crate shows in the /cc GUI. (If the crate type is QuickCrate/CrateOnTheGo/FireCracker then the Crate will not work. Quick Crate requires a Physical Crate.)
+  Slot: 26 #Slot the item is in the GUI.
+  OpeningBroadCast: false #Enables/Disables the Broadcasts message when they open a crate.
+  BroadCast: '&6Crates > &7%Player% is opening a &nMythical Crate&r&7.' #Message that is broadcasted when opening the crate.
+  Item: '130' #Item the crate is in the GUI
+  Glowing: false #If the crate in the main /cc GUI is glowing or not.
+  Name: '&8◆ &c&nMythical Crate&r &8◆' #Name of the item in the GUI.
+  Lore: #The lore of the item in the GUI.
+    - '&7Open this crate with a key to find a reward!'    
+    - '&r'
+    - '&7 ◆ &nLeft click&r to open this crate.'
+    - '&7 ◆ &nRight click&r to preview rewards.'
+    - '&r'
+    - '&7(!) Have the key in your inventory and then'
+    - '&7  click this item to open the crate.'
+  PhysicalKey:
+    Name: '&8◆ &cMythical Crate Key &8◆' #Name of the Key.
+    Lore:
+      - '&7A special key that can be used to'
+      - '&7open a crate at &n/warp crates&r&7.'
+    Item: '351:1' #The item the key is.
+    Glowing: True #Makes the key look enchanted.
+#         For Cosmic Crates Only
+#############################################
+#  Tiers: #The tiers in the Crate
+#    Basic: #The Config Name for the Crate
+#      Name: '&8Basic Prize' #The in-game name of the Crate
+#      Color: 7 #Use the MetaData for the color of the glass
+#      Chance: 80 #Chance of that item getting picked. It would be 80/100 chance because MaxRange is 100.
+#      MaxRange: 100 #The max range that the chance will go though.
+#    UnCommon:
+#      Name: '&aUnCommon Prize'
+#      Color: 5
+#      Chance: 55
+#      MaxRange: 100
+#    Rare:
+#      Name: '&4Rare Prize'
+#      Color: 14
+#      Chance: 20
+#      MaxRange: 100
+#############################################
+  Prizes: #All the prizes that can be gotten in the Crate.
+    1:
+      DisplayName: '&8◆ &aGem Package &8◆'
+      DisplayItem: '133'
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:263, Amount:256'
+        - 'Item:351:4, Amount:128'
+        - 'Item:265, Amount:64'
+        - 'Item:266, Amount:64'
+        - 'Item:331, Amount:256'
+        - 'Item:264, Amount:32'
+        - 'Item:388, Amount:16'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Gem Package&r&7.'
+      BlackListed-Permissions: {}
+    2:
+      DisplayName: '&8◆ &250 ⛃ &8◆'
+      DisplayItem: '339'
+      DisplayAmount: 50
+      Lore: []
+      MaxRange: 100
+      Chance: 12
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n50 ⛃&r&7.'
+        - 'eco give %Player% 50'
+      BlackListed-Permissions: {}
+    3:
+      DisplayName: '&8◆ &275 ⛃ &8◆'
+      DisplayItem: '339'
+      DisplayAmount: 64
+      Lore: []
+      MaxRange: 100
+      Chance: 6
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n75 ⛃&r&7.'
+        - 'eco give %Player% 75'
+      BlackListed-Permissions: {}
+    4:
+      DisplayName: '&8◆ &2100 ⛃ &8◆'
+      DisplayItem: '339'
+      DisplayAmount: 64
+      Lore: []
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n100 ⛃&r&7.'
+        - 'eco give %Player% 100'
+      BlackListed-Permissions: {}
+    5:
+      DisplayName: '&8◆ &2200 ⛃ &8◆'
+      DisplayItem: '339'
+      DisplayAmount: 64
+      Lore: []
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n200 ⛃&r&7.'
+        - 'eco give %Player% 200'
+      BlackListed-Permissions: {}
+    6:
+      DisplayName: '&8◆ &a128x Exp Bottles &8◆'
+      DisplayItem: '384'
+      DisplayAmount: 64
+      Lore: []
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:384, Amount:128'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n128x Exp Bottles&r&7.'
+      BlackListed-Permissions: {}
+    7:
+      DisplayName: '&8◆ &a256x Exp Bottles &8◆'
+      DisplayItem: '384'
+      DisplayAmount: 64
+      Lore: []
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:384, Amount:256'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n256x Exp Bottles&r&7.'
+      BlackListed-Permissions: {}
+    8:
+      DisplayName: '&8◆ &e32x Golden Apples &8◆'
+      DisplayItem: '322'
+      DisplayAmount: 32
+      Lore: []
+      MaxRange: 100
+      Chance: 8
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:322, Amount:32'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n32x Golden Apples&r&7.'
+      BlackListed-Permissions: {}
+    9:
+      DisplayName: '&8◆ &e2x Notch Apple &8◆'
+      DisplayItem: '322:1'
+      DisplayAmount: 2
+      Lore: []
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:322:1, Amount:2'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n2x Notch Apple&r&7.'
+      BlackListed-Permissions: {}
+    10:
+      DisplayName: '&8◆ &eEnchanted Book Pack &8◆'
+      DisplayItem: '403'
+      DisplayAmount: 7
+      Lore: []
+      DisplayEnchantments:
+        - 'DAMAGE_ALL:5'
+        - 'PROTECTION_ENVIRONMENTAL:4'
+        - 'DEPTH_STRIDER:3'
+        - 'PROTECTION_FALL:4'
+        - 'DURABILITY:3'
+        - 'ARROW_DAMAGE:5'
+        - 'DIG_SPEED:5'
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Enchanted Book Pack&r&7.'
+        - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:16,lvl:5}]}'
+        - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:0,lvl:4}]}'
+        - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:8,lvl:3}]}'
+        - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:2,lvl:4}]}'
+        - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:34,lvl:3}]}'
+        - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:48,lvl:5}]}'
+        - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:32,lvl:5}]}'
+      BlackListed-Permissions: {}
+    11:
+      DisplayName: '&8◆ &bHorse Kit &8◆'
+      DisplayItem: '54'
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened an &6&nAntique Crate&r &7and won &n1x Horse Kit&r&7.'
+        - 'kit horse %Player%'
+      BlackListed-Permissions: {}
+    12:
+      DisplayName: '&8◆ &aHorse2 Kit &8◆'
+      DisplayItem: '54'
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 3
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Horse2 Kit&r&7.'
+        - 'kit horse2 %Player%'
+      BlackListed-Permissions: {}
+    13:
+      DisplayName: '&8◆ &e2x Mythical Crate Keys &8◆'
+      DisplayItem: '351:1'
+      DisplayAmount: 2
+      Lore: []
+      MaxRange: 100
+      Chance: 2
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n2x Mythical Crate Keys&r&7.'
+        - 'cc give p Mythical 2 %Player%'
+      BlackListed-Permissions: {}
+    14:
+      DisplayName: '&8◆ &91x Key Pack &8◆'
+      DisplayItem: '351:6'
+      DisplayAmount: 4
+      Lore: []
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Key Pack&r&7.'
+        - 'cc give p Old 2 %Player%'
+        - 'cc give p Antique 2 %Player%'
+        - 'cc give p Ancient 2 %Player%'
+        - 'cc give p Mythical 2 %Player%'
+      BlackListed-Permissions: {}
+    15:
+      DisplayName: '&8◆ &b1x Tool Pack &8◆'
+      DisplayItem: '278'
+      DisplayAmount: 3
+      Lore: []
+      DisplayEnchantments:
+        - 'DIG_SPEED:5'
+        - 'LOOT_BONUS_BLOCKS:3'
+        - 'DURABILITY:3'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Tool Pack&r&7.'
+        - 'give %Player% 278 1 name:&bMining_Pickaxe efficiency:5 fortune:3 unbreaking:3'
+        - 'give %Player% 277 1 name:&bMining_Shovel efficiency:5 fortune:3 unbreaking:3'
+        - 'give %Player% 279 1 name:&bMining_Axe efficiency:5 fortune:3 unbreaking:3'
+      BlackListed-Permissions: {}
+    16:
+      DisplayName: '&8◆ &b1x Weapon Pack &8◆'
+      DisplayItem: '276'
+      DisplayAmount: 2
+      Lore: []
+      DisplayEnchantments:
+        - 'DAMAGE_ALL:5'
+        - 'FIRE_ASPECT:2'
+        - 'LOOT_BONUS_MOBS:3'
+        - 'ARROW_DAMAGE:5'
+        - 'DURABILITY:3'
+        - 'ARROW_FIRE:1'
+      MaxRange: 100
+      Chance: 5
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Weapon Pack&r&7.'
+        - 'give %Player% 276 1 name:&bKilling_Sword sharpness:5 fire_aspect:2 looting:3'
+        - 'give %Player% 261 1 name:&bKilling_Bow power:5 unbreaking:3 flame:1 infinity:1'
+      BlackListed-Permissions: {}
+    17:
+      DisplayName: '&8◆ &d4x Tool Enchantment Books &8◆'
+      DisplayItem: '340'
+      DisplayAmount: 4
+      Lore: []
+      MaxRange: 100
+      Chance: 6
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n4x Tool Enchantment Books&r&7.'
+        - 'ce lostbook Tool 4 %Player%'
+      BlackListed-Permissions: {}
+    18:
+      DisplayName: '&8◆ &b4x Weapon Enchantment Books &8◆'
+      DisplayItem: '340'
+      DisplayAmount: 4
+      Lore: []
+      MaxRange: 100
+      Chance: 6
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n4x Weapon Enchantment Books&r&7.'
+        - 'ce lostbook Weapon 4 %Player%'
+      BlackListed-Permissions: {}
+    19:
+      DisplayName: '&8◆ &a4x Armor Enchantment Books &8◆'
+      DisplayItem: '340'
+      DisplayAmount: 4
+      Lore: []
+      MaxRange: 100
+      Chance: 6
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n4x Armor Enchantment Books&r&7.'
+        - 'ce lostbook Armor 4 %Player%'
+      BlackListed-Permissions: {}
+    20:
+      DisplayName: '&8◆ &e4x Random Enchantment Books &8◆'
+      DisplayItem: '340'
+      DisplayAmount: 4
+      Lore: []
+      MaxRange: 100
+      Chance: 6
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n4x Random Enchantment Books&r&7.'
+        - 'ce lostbook Random 4 %Player%'
+      BlackListed-Permissions: {}
+    21:
+      DisplayName: '&8◆ &e3x White Scroll &8◆'
+      DisplayItem: '395'
+      DisplayAmount: 3
+      Lore: []
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n3x White Scroll&r&7.'
+        - 'ce scroll white 3 %Player%'
+      BlackListed-Permissions: {}
+    22:
+      DisplayName: '&8◆ 3x Black Scroll &8◆'
+      DisplayItem: '351'
+      DisplayAmount: 3
+      Lore: []
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n3x Black Scroll&r&7.'
+        - 'ce scroll black 3 %Player%'
+      BlackListed-Permissions: {}
+    23:
+      DisplayName: '&8◆ &d3x Transmog Scroll &8◆'
+      DisplayItem: '339'
+      DisplayAmount: 3
+      Lore: []
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n3x Transmog Scroll&r&7.'
+        - 'ce scroll transmog 3 %Player%'
+      BlackListed-Permissions: {}
+    24:
+      DisplayName: '&8◆ &e2x Scrambling Rune &8◆'
+      DisplayItem: '388'
+      DisplayAmount: 2
+      Lore: []
+      MaxRange: 100
+      Chance: 4
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n2x Scrambling Rune&r&7.'
+        - 'ce scrambler 2 %Player%'
+      BlackListed-Permissions: {}
+    25:
+      DisplayName: '&8◆ &93x Wither Skull &8◆'
+      DisplayItem: '397:1'
+      DisplayAmount: 3
+      Lore: []
+      MaxRange: 100
+      Chance: 2
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:397:1, Amount:3'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n3x Wither Skull&r&7.'
+      BlackListed-Permissions: {}
+    26:
+      DisplayName: '&8◆ &eCoal Rank &8◆'
+      DisplayItem: '399'
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 1
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Coal Rank&r&7.'
+        - 'pex user %Player% group add Coal'
+      BlackListed-Permissions:
+        - 'rank.coal'
+    27:
+      DisplayName: '&8◆ &eIron Rank &8◆'
+      DisplayItem: '399'
+      DisplayAmount: 2
+      Lore: []
+      MaxRange: 1000
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Iron Rank&r&7.'
+        - 'pex user %Player% group add Iron'
+      BlackListed-Permissions:
+        - 'rank.iron'
+    28:
+      DisplayName: '&8◆ &eGold Rank &8◆'
+      DisplayItem: '399'
+      DisplayAmount: 3
+      Lore: []
+      MaxRange: 10000
+      Chance: 25
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Gold Rank&r&7.'
+        - 'pex user %Player% group add Gold'
+      BlackListed-Permissions:
+        - 'rank.gold'
+    29:
+      DisplayName: '&8◆ &eDiamond Rank &8◆'
+      DisplayItem: '399'
+      DisplayAmount: 4
+      Lore: []
+      MaxRange: 1000
+      Chance: 1
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Diamond Rank&r&7.'
+        - 'pex user %Player% group add Diamond'
+      BlackListed-Permissions:
+        - 'rank.diamond'
+    30:
+      DisplayName: '&8◆ &eEmerald Rank &8◆'
+      DisplayItem: '399'
+      DisplayAmount: 5
+      Lore: []
+      MaxRange: 10000
+      Chance: 5
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Emerald Rank&r&7.'
+        - 'pex user %Player% group add Emerald'
+      BlackListed-Permissions:
+        - 'rank.emerald'
+    31:
+      DisplayName: '&8◆ &cMiner Tag &8◆'
+      DisplayItem: '421'
+      DisplayAmount: 1
+      Lore:
+        - '&7View your tags with &n/tags&r&7.'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Miner Tag&r&7.'
+        - 'pex user %Player% add deluxetags.tag.Miner'
+      BlackListed-Permissions:
+        - 'deluxetags.tag.Miner'
+    32:
+      DisplayName: '&8◆ &cNaughty Tag &8◆'
+      DisplayItem: '421'
+      DisplayAmount: 1
+      Lore:
+        - '&7View your tags with &n/tags&r&7.'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Naughty Tag&r&7.'
+        - 'pex user %Player% add deluxetags.tag.Naughty'
+      BlackListed-Permissions:
+        - 'deluxetags.tag.Naughty'
+    33:
+      DisplayName: '&8◆ &cBuilder Tag &8◆'
+      DisplayItem: '421'
+      DisplayAmount: 1
+      Lore:
+        - '&7View your tags with &n/tags&r&7.'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Builder Tag&r&7.'
+        - 'pex user %Player% add deluxetags.tag.Builder'
+      BlackListed-Permissions:
+        - 'deluxetags.tag.Builder'
+    34:
+      DisplayName: '&8◆ &cAwesome Tag &8◆'
+      DisplayItem: '421'
+      DisplayAmount: 1
+      Lore:
+        - '&7View your tags with &n/tags&r&7.'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Awesome Tag&r&7.'
+        - 'pex user %Player% add deluxetags.tag.Awesome'
+      BlackListed-Permissions:
+        - 'deluxetags.tag.Awesome'
+    35:
+      DisplayName: '&8◆ &cRedstone Master Tag &8◆'
+      DisplayItem: '421'
+      DisplayAmount: 1
+      Lore:
+        - '&7View your tags with &n/tags&r&7.'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Redstone Master Tag&r&7.'
+        - 'pex user %Player% add deluxetags.tag.RedstoneMaster'
+      BlackListed-Permissions:
+        - 'deluxetags.tag.RedstoneMaster'
+    36:
+      DisplayName: '&8◆ &cPowerful Tag &8◆'
+      DisplayItem: '421'
+      DisplayAmount: 1
+      Lore:
+        - '&7View your tags with &n/tags&r&7.'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Powerful Tag&r&7.'
+        - 'pex user %Player% add deluxetags.tag.Powerful'
+      BlackListed-Permissions:
+        - 'deluxetags.tag.Powerful'
+    37:
+      DisplayName: '&8◆ &cTNT Tag &8◆'
+      DisplayItem: '421'
+      DisplayAmount: 1
+      Lore:
+        - '&7View your tags with &n/tags&r&7.'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x TNT Tag&r&7.'
+        - 'pex user %Player% add deluxetags.tag.TNT'
+      BlackListed-Permissions:
+        - 'deluxetags.tag.TNT'
+    38:
+      DisplayName: '&8◆ &cFarmer Tag &8◆'
+      DisplayItem: '421'
+      DisplayAmount: 1
+      Lore:
+        - '&7View your tags with &n/tags&r&7.'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Farmer Tag&r&7.'
+        - 'pex user %Player% add deluxetags.tag.Farmer'
+      BlackListed-Permissions:
+        - 'deluxetags.tag.Farmer'
+    39:
+      DisplayName: '&8◆ &cCave Explorer Tag &8◆'
+      DisplayItem: '421'
+      DisplayAmount: 1
+      Lore:
+        - '&7View your tags with &n/tags&r&7.'
+      MaxRange: 100
+      Chance: 2
+      Firework: true
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Cave Explorer Tag&r&7.'
+        - 'pex user %Player% add deluxetags.tag.CaveExplorer'
+      BlackListed-Permissions:
+        - 'deluxetags.tag.CaveExplorer'
+    40:
+      DisplayName: '&8◆ &6Villager Egg &8◆'
+      DisplayItem: '383:120'
+      DisplayAmount: 2
+      Lore: []
+      MaxRange: 100
+      Chance: 7
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:383:120, Amount:2'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n2x Villager Eggs&r&7.'
+      BlackListed-Permissions: {}
+    41:
+      DisplayName: '&8◆ &6Parrot Egg &8◆'
+      DisplayItem: '383:105'
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 7
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:383:105, Amount:1'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Parrot Egg&r&7.'
+      BlackListed-Permissions: {}
+    42:
+      DisplayName: '&8◆ &6Llama Egg &8◆'
+      DisplayItem: '383:103'
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 7
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:383:103, Amount:1'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Llama Egg&r&7.'
+      BlackListed-Permissions: {}
+    43:
+      DisplayName: '&8◆ &6Horse Egg &8◆'
+      DisplayItem: '383:100'
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 7
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:383:100, Amount:1'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Horse Egg&r&7.'
+      BlackListed-Permissions: {}
+    44:
+      DisplayName: '&8◆ &6Donkey Egg &8◆'
+      DisplayItem: '383:31'
+      DisplayAmount: 1
+      Lore: []
+      MaxRange: 100
+      Chance: 7
+      Firework: false
+      Glowing: false
+      Player: ''
+      Unbreakable: false
+      Items:
+        - 'Item:383:31, Amount:1'
+      Commands:
+        - 'broadcast &7%Player% has just opened a &c&nMythical Crate&r &7and won &n1x Donkey Egg&r&7.'
+      BlackListed-Permissions: {}
+    45:
+      DisplayName: '&8◆ &b4x Bandages &8◆'
+      DisplayItem: '339'
+      DisplayAmount: 4
+      Lore:
+        - '&7* Used to treat flesh wounds.'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened an &c&nMythical Crate&r &7and won &n4x Bandages&r&7.'
+        - 'kit bandage %Player%'
+        - 'kit bandage %Player%'
+        - 'kit bandage %Player%'
+        - 'kit bandage %Player%'
+      BlackListed-Permissions: {}
+    46:
+      DisplayName: '&8◆ &b4x Splints &8◆'
+      DisplayItem: '280'
+      DisplayAmount: 4
+      Lore:
+        - '&7* Used to treat a broken leg.'
+      MaxRange: 100
+      Chance: 10
+      Firework: false
+      Glowing: true
+      Player: ''
+      Unbreakable: false
+      Commands:
+        - 'broadcast &7%Player% has just opened an &c&nMythical Crate&r &7and won &n4x Splints&r&7.'
+        - 'kit splint %Player%'
+        - 'kit splint %Player%'
+        - 'kit splint %Player%'
+        - 'kit splint %Player%'
+      BlackListed-Permissions: {}

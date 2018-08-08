@@ -1,0 +1,151 @@
+Messages:
+  Config-Reload: '&aYou have just reloaded the config file.'
+  Need-To-UnStack-Item: '&cYou need to unstack that item before using it.'
+  Not-An-Enchantment: '&cThat is not an enchantment.'
+  Right-Click-Black-Scroll: '&7Black scrolls will remove a random enchantment from your item.'
+  Black-Scroll-Unsuccessful: '&cThat black scroll was unsuccessful in removing an enchantment from that item.'
+  Need-More-XP-Lvls: '&cYou need &6%XP% &cmore experience levels.'
+  Need-More-Total-XP: '&cYou need &6%XP% &cmore experience.'
+  Need-More-Money: '&cYou are in need of &a$%Money_Needed%&c.'
+  Hit-Enchantment-Max: |-
+    &cThis item has reached the maximum amount of enchantments it can have.
+    &7You can purchase a rank at &nstore.servername.com&r &7to increase the slots.
+  Inventory-Full: '&cYour inventory is full, make some space and try again.'
+  Tinker-Inventory-Full: '&cThe inventory is full. Sell all or remove items.'
+  Tinker-Sold-Msg: '&7Your trade was successful with the tinkerer.'
+  Players-Only: '&cOnly players can use this command.'
+  No-Perm: '&cYou do not have permission to use that command!'
+  Not-Online: '&cThat player is not online.'
+  Remove-Enchantment: '&7You have removed the enchantment &a%Enchantment% &7from this item.'
+  Doesnt-Have-Enchantment: '&cYour item does not contain the enchantment &6%Enchantment%&c.'
+  Doesnt-Have-Item-In-Hand: '&cYou must have an item in your hand.'
+  Not-A-Number: '&c%Arg% is not a number.'
+  Get-Success-Dust: '&7You have gained &a%Amount% &7Success Dust.'
+  Give-Success-Dust: '&7You have given &a%Amount% &7Success Dust to &6%Player%&7.'
+  Get-Destroy-Dust: '&7You have gained &a%Amount% &7Destroy Dust.'
+  Give-Destroy-Dust: '&7You have given &a%Amount% &7Destroy Dust to &6%Player%&7.'
+  Get-Mystery-Dust: '&7You have gained &a%Amount% &7Mystery Dust.'
+  Give-Mystery-Dust: '&7You have given &a%Amount% &7Mystery Dust to &6%Player%&7.'
+  Not-A-Category: '&6%Category% &cis not a category.'
+  Clean-Lost-Book: '&7You have just uncovered an enchantment book and found %Found%&7.'
+  Book-Works: '&aThe enchantment was successfully applied to that item.'
+  Book-Failed: '&cThe enchantment did not apply successfully but it did not destroy the item.'
+  Item-Destroyed: |-
+    &cYour item was destroyed by an unsuccessful enchantment book.
+    &7You could have saved your item if you had a white scroll.
+  Item-Was-Protected: '&cLuckily your item was blessed with Devine Protection and didn''t break.'
+  Give-Protection-Crystal: '&7You have just given %Player% %Amount% Protection Crystals.'
+  Get-Protection-Crystal: '&7You have gained %Amount% Protection Crystals.'
+  Give-Scrambler-Crystal: '&7You have just given %Player% %Amount% &eScrambling Runes&7.'
+  Get-Scrambler-Crystal: '&7You have gained %Amount% &eScrambling Runes&7.'
+  Break-Enchantment-Shop-Sign: '&cYou have just removed a Crazy Enchantment Shop Sign.'
+  Send-Enchantment-Book: '&7You have sent &6%Player% &7a custom enchantment Book.'
+  Not-A-GKit: '&c%Kit% is not a GKit.'
+  Still-In-Cooldown: |-
+    &cYou need to wait before you can redeem this kit again.
+    &7This kit &nunlocks&r &7in &n%Day%d %Hour%h %Minute%m %Second%s&r&7.
+  Given-GKit: '&7You have gave &6%Player%&7 a %Kit%&7.'
+  Received-GKit: '&7You have just received %Kit%&7.'
+  No-GKit-Permission: |-
+    &cYou do not have &naccess&r &cto this gkit.
+    &7Unlock this gkit now at &nstore.servername.com&r&7.
+  Spawned-Book: '&7You have just spawned a book at &6%World%, %X%, %Y%, %Z%&7.'
+  Reset-GKit: '&7You have just reset %Player%''s %GKit% kit cooldown.'
+  Enchantment-Upgrade:
+    Success: '&aYou have just upgraded &7%Enchantment%&7 to level &7%Level%&a.'
+    Destroyed: '&cYour upgrade failed and the lower level enchantment was lost.'
+    Failed: '&cThe book failed to upgrade to the item.'
+  Rage:
+    Building: '&c&lRage &8>> &7Your rage is &abuilding&7, keep on attacking!'
+    Cooled-Down: '&c&lRage &8>> &7Your rage multiplier was lost and is on cooldown.'
+    Rage-Up: '&c&lRage &8>> &7You are now doing &a&n%Level%x&r&7 damage.'
+    Damaged: '&c&lRage &8>> &7You have been attacked and you &clost &7your damage multiplier.'
+  InfoGUI:
+    Inventory:
+      Size: 27
+      Name: '&8* &nEnchantment Info&r &8*'
+    Categories-Info:
+      Back:
+        Item: 330
+        Right: '&c&lBack'
+        Left: '&c&lBack'
+      Helmets:
+        Item: 310
+        Slot: 2
+        Name: '&8* &a&nHelmet Enchantments&r &8*'
+        Lore:
+          - '&7Click to see all the &nhelmet&r &7enchantments.'
+      Boots:
+        Item: 313
+        Slot: 20
+        Name: '&8* &b&nBoots Enchantments&r &8*'
+        Lore:
+          - '&7Click to see all the &nboots&r &7enchantments.'
+      Armor:
+        Item: 311
+        Slot: 11
+        Name: '&8* &e&nArmor Enchantments&r &8*'
+        Lore:
+          - '&7Click to see all the &narmor&r &7enchantments.'
+      Bow:
+        Item: 261
+        Slot: 14
+        Name: '&8* &d&nBow Enchantments&r &8*'
+        Lore:
+          - '&7Click to see all the &nbow&r &7enchantments.'
+      Sword:
+        Item: 276
+        Slot: 13
+        Name: '&8* &c&nSword Enchantments&r &8*'
+        Lore:
+          - '&7Click to see all the &nsword&r &7enchantments.'
+      Axe:
+        Item: 279
+        Slot: 15
+        Name: '&8* &3&nAxe Enchantments&r &8*'
+        Lore:
+          - '&7Click to see all the &naxe&r &7enchantments.'
+      Tool:
+        Item: 277
+        Slot: 8
+        Name: '&8* &9&nTool Enchantments&r &8*'
+        Lore:
+          - '&7Click to see all the &ntool&r &7enchantments.'
+      Pickaxe:
+        Item: 278
+        Slot: 17
+        Name: '&8* &6&nPickaxe Enchantments&r &8*'
+        Lore:
+          - '&7Click to see all the &npickaxe&r &7enchantments.'
+      Misc:
+        Item: 345
+        Slot: 26
+        Name: '&8* &2&nMisc Enchantments&r &8*'
+        Lore:
+          - '&7Click to see all the &nmiscellaneous&r &7enchantments.'
+      Other:
+        Item: 388
+        Slot: 23
+        Name: '&8* &7&nOther&r &8*'
+        Lore:
+          - '&7Click to see information about other stuff.'
+    BlackSmith:
+      - '&7The blacksmith combines 2 of the same'
+      - '&7enchantments to make a higher one. The'
+      - '&7blacksmith only accepts books.'
+    Black-Scroll:
+      - '&7A black scroll removed a random custom'
+      - '&7enchantment from your item and converts'
+      - '&7it into a book.'
+    White-Scroll:
+      - '&7A white scroll protects your item from'
+      - '&7being destroyed if an enchantment book'
+      - '&7fails. This protection is one time.'
+    Tinker:
+      - '&7Trade books and enchanted items for dust'
+      - '&7and experience.'
+    Success-Dust:
+      - '&7This increases the success rate on your'
+      - '&7enchantment book.'
+    Destroy-Dust:
+      - '&7Decreased the destroy rate of a book.'

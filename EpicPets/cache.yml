@@ -1,0 +1,17 @@
+28bf27b1-fb09-4058-b7a7-b5a5874141c3:
+  player:
+    name: JustNoHacks
+  pet:
+    showName: true
+    setSmall: true
+    setVisible: true
+    showArms: true
+    sneakProtect: true
+    isDead: false
+    name: §lNo name
+    head: §fAstronaut
+    helmet: 'NULL'
+    chestplate: §1Blue
+    leggings: §dFuschia
+    boots: 'NULL'
+    foods: 91

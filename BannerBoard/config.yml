@@ -1,0 +1,113 @@
+# This is the BannerBoard configuration
+# Make sure to always make a backup of this file before making any changes!
+# Made by BigTeddy98
+# 
+# Every BannerBoard has some internal settings stored in this file.
+# Please do not make any changes to whatever is in the internal section.
+
+lastUsedId: 9
+idrange:
+  startid: 25000
+  amount: 5000
+skinserver: http://www.skinrender.com:2798/
+bannerboards:
+  '2':
+    internal:
+      frames:
+      - world_-569.0_70.0_916.0_0.0_0.0
+      - world_-570.0_70.0_916.0_0.0_0.0
+      - world_-571.0_70.0_916.0_0.0_0.0
+      facing: SOUTH
+    configurable:
+      renderers:
+      - IMAGE -src shadersnew.png -witdth 384 -height 128
+      - TEXT -text ENCHANTER -size 55 -font Minecrafter Alt -color 255,255,255 -strokeColor
+        0,0,0 -strokeThickness 1 -xOffset 10 -yOffset 85
+  '4':
+    internal:
+      frames:
+      - world_-618.0_75.0_870.0_0.0_0.0
+      - world_-618.0_75.0_869.0_0.0_0.0
+      - world_-618.0_75.0_868.0_0.0_0.0
+      facing: WEST
+    configurable:
+      renderers:
+      - IMAGE -src shadersnew.png -witdth 384 -height 128
+      - TEXT -text QUESTS -size 55 -font Minecrafter Alt -color 255,255,255 -strokeColor
+        0,0,0 -strokeThickness 1 -xOffset 65 -yOffset 85
+  '5':
+    internal:
+      frames:
+      - world_-572.0_79.0_879.0_0.0_0.0
+      - world_-572.0_78.0_879.0_0.0_0.0
+      - world_-572.0_77.0_879.0_0.0_0.0
+      - world_-573.0_79.0_879.0_0.0_0.0
+      - world_-573.0_78.0_879.0_0.0_0.0
+      - world_-573.0_77.0_879.0_0.0_0.0
+      - world_-574.0_79.0_879.0_0.0_0.0
+      - world_-574.0_78.0_879.0_0.0_0.0
+      - world_-574.0_77.0_879.0_0.0_0.0
+      - world_-575.0_79.0_879.0_0.0_0.0
+      - world_-575.0_78.0_879.0_0.0_0.0
+      - world_-575.0_77.0_879.0_0.0_0.0
+      - world_-576.0_79.0_879.0_0.0_0.0
+      - world_-576.0_78.0_879.0_0.0_0.0
+      - world_-576.0_77.0_879.0_0.0_0.0
+      facing: SOUTH
+    configurable:
+      renderers:
+      - IMAGE -src image1.png -witdth 640 -height 384
+      - TEXT -text SURVIVAL -size 110 -font Minecrafter Alt -color 255,255,255 -strokeColor
+        0,0,0 -strokeThickness 1 -xOffset 40 -yOffset 110
+      - TEXT -text START YOUR ADVENTURE TODAY -size 30 -font Minecrafter Alt -color
+        255,255,255 -strokeColor 0,0,0 -strokeThickness 1 -xOffset 50 -yOffset 150
+      - TEXT -text GET STARTED BY CLAIMING YOUR -size 30 -font Minecrafter Alt -color
+        255,255,255 -strokeColor 0,0,0 -strokeThickness 1 -xOffset 40 -yOffset 180
+      - TEXT -text DAILY REWARD AND VENTURING -size 30 -font Minecrafter Alt -color
+        255,255,255 -strokeColor 0,0,0 -strokeThickness 1 -xOffset 55 -yOffset 210
+      - TEXT -text INTO THE WILD! -size 30 -font Minecrafter Alt -color 255,255,255
+        -strokeColor 0,0,0 -strokeThickness 1 -xOffset 190 -yOffset 240
+      - TEXT -text HAVE FUN! -size 30 -font Minecrafter Alt -color 255,255,255 -strokeColor
+        0,0,0 -strokeThickness 1 -xOffset 230 -yOffset 300
+  '6':
+    internal:
+      frames:
+      - world_-532.0_73.0_874.0_0.0_0.0
+      - world_-533.0_73.0_874.0_0.0_0.0
+      - world_-534.0_73.0_874.0_0.0_0.0
+      facing: SOUTH
+    configurable:
+      renderers:
+      - IMAGE -src shadersnew.png -witdth 384 -height 128
+      - TEXT -text BANKER -size 55 -font Minecrafter Alt -color 255,255,255 -strokeColor
+        0,0,0 -strokeThickness 1 -xOffset 65 -yOffset 85
+  '7':
+    internal:
+      frames:
+      - world_-558.0_69.0_848.0_0.0_0.0
+      - world_-557.0_69.0_848.0_0.0_0.0
+      - world_-556.0_69.0_848.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - IMAGE -src shadersnew.png -witdth 384 -height 128
+      - TEXT -text MARKET -size 55 -font Minecrafter Alt -color 255,255,255 -strokeColor
+        0,0,0 -strokeThickness 1 -xOffset 65 -yOffset 85
+  '9':
+    internal:
+      frames:
+      - world_-622.0_84.0_914.0_0.0_0.0
+      - world_-622.0_84.0_913.0_0.0_0.0
+      - world_-622.0_84.0_912.0_0.0_0.0
+      facing: WEST
+    configurable:
+      renderers:
+      - IMAGE -src shadersnew.png -witdth 384 -height 128
+      - TEXT -text HOSPITAL -size 55 -font Minecrafter Alt -color 255,255,255 -strokeColor
+        0,0,0 -strokeThickness 1 -xOffset 65 -yOffset 85
+skins:
+  profileLookupURL: https://sessionserver.mojang.com/session/minecraft/profile/
+  offlineMode:
+    uuidLookupURL: https://api.mojang.com/users/profiles/minecraft/
+    isOfflineMode: false
+skinrender_key: INSERT_SKINRENDER_KEY_HERE

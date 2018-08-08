@@ -1,0 +1,71 @@
+cooldown: 86400000
+savetoip: false
+loginclaim:
+  enabled: false
+  delay: 3
+claim:
+  sound:
+    enabled: true
+    type: ENTITY_PLAYER_LEVELUP
+    volume: 1
+    pitch: 1
+noreward:
+  sound:
+    enabled: true
+    type: BLOCK_ANVIL_LAND
+    volume: 1
+    pitch: 1
+rewards:
+  basic:
+    name: Basic
+    permission: false
+    random: true
+    claim-message: '&aSurvival-Dawn > &7Du hast deinen Standard Daily Reward erhalten.'
+    broadcast: ''
+    commands:
+    - give %player minecraft:iron_ingot 16
+    - give %player minecraft:gold_ingot 8
+    - give %player minecraft:diamond 4
+    - give %player minecraft:golden_apple 5
+    - give %player minecraft:ender_chest 2
+    - give %player minecraft:saddle 1
+    - give %player minecraft:ender_pearl 5
+    - cc give p Old 2 %player
+    - cc give p Antique 1 %player
+    - bbgive %player 3 water
+    - bbgive %player 3 lava
+    - bbgive %player 3 milk
+    - furniture give beartrap %player 1
+    - furniture give cactusplant %player 1
+    - furniture give camera %player 1
+    - furniture give campchair %player 1
+    - furniture give campfire1 %player 1
+    - furniture give campfire2 %player 1
+    - furniture give fence %player 1
+    - furniture give campchair %player 1
+    - furniture give crossbow %player 1
+    - furniture give flowerpot %player 1
+    - furniture give schooltable %player 1
+    - furniture give hammock %player 1
+    - furniture give streetlamp %player 1
+    - furniture give table %player 1
+    - furniture give sunshade %player 1
+    - furniture give tent1 %player 1
+    - furniture give tent2 %player 1
+    - furniture give tent3 %player 1
+  advanced:
+    name: Advanced
+    permission: true
+    random: true
+    claim-message: '&aSurvival-Dawn > &7Du hast deinen Spezial Daily Reward erhalten.'
+    broadcast: ''
+    commands:
+    - give %player minecraft:diamond_pickaxe 1
+    - give %player minecraft:diamond_sword 1
+    - give %player minecraft:diamond_axe 1
+    - give %player minecraft:diamond_shovel 1
+    - give %player minecraft:sponge 1
+    - give %player minecraft:enchanting_table 1
+    - give %player minecraft:anvil 1
+    - give %player minecraft:experience_bottle 16
+    - cc give p Ancient 1 %player

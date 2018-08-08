@@ -1,0 +1,22 @@
+#Hello and welcome to the Plugin Block Configuration
+#Plugin Blocker by FluffedWolf
+#Version 2.0
+#Recoded and with more features 
+
+#This is what will appear on the player's screen
+Title: '&r'
+
+#This will appear under the Title
+SubTitle: '&r'
+
+#This will appear under the SubTitle above the inventory hotbar
+ActionBar: '&r'
+
+#This is how much time it will take for the messages to fade into the player's screen
+FadeIn: 10
+
+#This is how much time it will stay on the screen
+Stay: 60
+
+#This is how much time it will take for the message to fade out of the player's screen
+FadeOut: 10

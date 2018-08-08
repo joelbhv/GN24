@@ -1,0 +1,163 @@
+enchants: 
+  PROTECTION_FIRE: 
+  - fireprotection
+  - flameprotection
+  - fireprotect
+  - flameprotect
+  - fireprot
+  - flameprot
+  - firep
+  - flamep
+  - pf
+  - pfire
+  ARROW_FIRE: 
+  - flame
+  - firearrow
+  - af
+  - fl
+  DAMAGE_ALL: 
+  - sharpness
+  - alldamage
+  - alldmg
+  - sharp
+  - dal
+  - s
+  WATER_WORKER: 
+  - aquaaffinity
+  - waterworker
+  - watermine
+  - ww
+  - aquaa
+  - aa
+  ARROW_KNOCKBACK: 
+  - punch
+  - arrowpunch
+  - arrowkb
+  - arrowknockback
+  - ak
+  DEPTH_STRIDER: 
+  - depthstrider
+  - ds
+  VANISHING_CURSE: 
+  - vanishingcurse
+  DURABILITY: 
+  - unbreaking
+  - durability
+  - dura
+  - d
+  KNOCKBACK: 
+  - knockback
+  - kback
+  - kb
+  - k
+  LUCK: 
+  - luck
+  - luckofsea
+  - luckofseas
+  LOOT_BONUS_BLOCKS: 
+  - fortune
+  - blockslootbonus
+  - fort
+  - lbb
+  - f
+  BINDING_CURSE: 
+  - bindingcurse
+  PROTECTION_ENVIRONMENTAL: 
+  - protection
+  - prot
+  - protect
+  - p
+  DIG_SPEED: 
+  - efficiency
+  - digspeed
+  - minespeed
+  - cutspeed
+  - ds
+  - eff
+  MENDING: 
+  - mending
+  - mend
+  - md
+  FROST_WALKER: 
+  - frostwalker
+  - frostwalk
+  - fw
+  LURE: 
+  - lure
+  - rodlure
+  LOOT_BONUS_MOBS: 
+  - looting
+  - mobslootbonus
+  - loot
+  - mobloot
+  - lbm
+  - l
+  DAMAGE_UNDEAD: 
+  - smite
+  - undeaddamage
+  - du
+  - damageundead
+  - sm
+  PROTECTION_EXPLOSIONS: 
+  - blastprotection
+  - explosionsprotection
+  - explosionprotection
+  - expprot
+  - bprotection
+  - blastprotect
+  - pe
+  - pblast
+  FIRE_ASPECT: 
+  - fireaspect
+  - fire
+  - fa
+  SWEEPING_EDGE: 
+  - sweepingedge
+  THORNS: 
+  - thorns
+  - highcrit
+  - thorn
+  - highercrit
+  - t
+  DAMAGE_ARTHROPODS: 
+  - baneofarthropods
+  - ardmg
+  - baneofarthropod
+  - arthropod
+  - dar
+  - arth
+  - boa
+  OXYGEN: 
+  - respiration
+  - breathing
+  - o
+  SILK_TOUCH: 
+  - silktouch
+  - softtouch
+  - st
+  PROTECTION_PROJECTILE: 
+  - projectileprotection
+  - projprot
+  - pp
+  PROTECTION_FALL: 
+  - featherfalling
+  - fallprotection
+  - fallprot
+  - pfall
+  ARROW_DAMAGE: 
+  - power
+  - arrowdamahe
+  - arrowpower
+  - ad
+  - pow
+  ARROW_INFINITE: 
+  - infinity
+  - inf
+  - ai
+names: 
+  STONE: 
+  - stone
+  - ston
+  GRASS: 
+  - grass
+  - gras
