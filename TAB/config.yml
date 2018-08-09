@@ -25,14 +25,14 @@ header-footer-refresh-interval-ticks: 1
 
 header:
   - '&r'
-  - '&e&l◆  &6&l&nSURVIVAL&r  &e&l◆'
+  - '&e&l◆  &6&l&nGameNetz24 - Survival&r  &e&l◆'
   - '&r'
 footer:
   - '&r'
   - '&ePing: &7%ping%'
-  - '&ePlayers Online: &7%online%'
+  - '&eSpieler Online: &7%online%'
   - '&r'
-  - '&6www.serverwebsite.com'
+  - '&6www.GameNetz24.de'
 
 show-ping-in-tab: false
 invalid-ping-replacement: -1
@@ -84,23 +84,23 @@ rank-aliases:
 #for a guide how to "bypass" this, check FAQ on plugin's spigot page
 Groups:
   Owner:
-    tabprefix: "&c[STAFF]&f "
-    tagprefix: "&c[STAFF]&f "
+    tabprefix: "&c[Projektleitung]&f "
+    tagprefix: "&c[Projektleitung]&f "
   Admin:
-    tabprefix: "&c[STAFF]&f "
-    tagprefix: "&c[STAFF]&f "
+    tabprefix: "&c[Admin]&f "
+    tagprefix: "&c[Admin]&f "
   Manager:
-    tabprefix: "&c[STAFF]&f "
-    tagprefix: "&c[STAFF]&f "
+    tabprefix: "&c[Management]&f "
+    tagprefix: "&c[Management]&f "
   SrModerator:
-    tabprefix: "&c[STAFF]&f "
-    tagprefix: "&c[STAFF]&f "
+    tabprefix: "&c[Moderations Leitung]&f "
+    tagprefix: "&c[Moderations Leitung]&f "
   Moderator:
-    tabprefix: "&c[STAFF]&f "
-    tagprefix: "&c[STAFF]&f "
+    tabprefix: "&c[Moderator]&f "
+    tagprefix: "&c[Moderator]&f "
   Helper:
-    tabprefix: "&c[STAFF]&f "
-    tagprefix: "&c[STAFF]&f "
+    tabprefix: "&c[Helfer]&f "
+    tagprefix: "&c[Helfer]&f "
   Emerald:
     tabprefix: "&a"
     tagprefix: "&a"
