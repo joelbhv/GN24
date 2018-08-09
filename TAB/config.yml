@@ -45,6 +45,7 @@ per-world-playerlist: false
 if-a-player-is-assigned-to-more-than-1-group-the-group-higher-in-this-list-will-be-used-to-apply-prefix-suffix:
   - "Owner"
   - "Admin"
+  - "Developer"
   - "Manager"
   - "SrModerator"
   - "Moderator"
@@ -62,6 +63,7 @@ staff-groups:
   - "Admin"
   - "Manager"
   - "Owner"
+  - "Developer"
   - "SrModerator"
   - "Moderator"
   - "Helper"
@@ -86,6 +88,9 @@ Groups:
   Owner:
     tabprefix: "&c[Projektleitung]&f "
     tagprefix: "&c[Projektleitung]&f "
+  Developer:
+    tabprefix: "&c[Development]&f "
+    tagprefix: "&c[Development]&f "
   Admin:
     tabprefix: "&c[Admin]&f "
     tagprefix: "&c[Admin]&f "

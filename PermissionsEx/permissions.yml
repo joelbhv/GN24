@@ -217,7 +217,7 @@ groups:
     - srmoderator
   developer:
     options:
-      prefix: '&8(&4Developer&8)&4 '
+      prefix: '&8(&4Development&8)&4 '
     permissions:
     - '*'
   owner:
