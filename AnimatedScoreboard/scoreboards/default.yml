@@ -1,31 +1,28 @@
 display:
   title:
     text:
-    - '&6&lS'
-    - '&6&lSU'
-    - '&6&lSUR'
-    - '&6&lSURV'
-    - '&6&lSURVI'
-    - '&6&lSURVIV'
-    - '&6&lSURVIVA'
-    - '&6&lSURVIVAL'
-    - '&e&lSURVIVAL'
-    - '&6&lSURVIVAL'
-    - '&6&lSURVIVA'
-    - '&6&lSURVIV'
-    - '&6&lSURVI'
-    - '&6&lSURV'
-    - '&6&lSUR'
-    - '&6&lSU'
-    - '&6&lS'
-    - '&6&l-'
-    - '&6&lD'
-    - '&6&lDA'
-    - '&6&lDAW'
-    - '&6&lDAWN'
-    - '&6&lDAW'
-    - '&6&lDA'
-    - '&6&lD'
+    - '&6&lG'
+    - '&6&lGA'
+    - '&6&lGAM'
+    - '&6&lGAME'
+    - '&6&lGAMEN'
+    - '&6&lGAMENE'
+    - '&6&lGAMENET'
+    - '&6&lGAMENETZ'
+    - '&e&lGAMENETZ2'
+    - '&6&lGAMENETZ24'
+    - '&6&lGAMENETZ24'
+    - '&6&lGAMENETZ24'
+    - '&6&lGAMENETZ24'
+    - '&6&lGAMENETZ2'
+    - '&6&lGAMENETZ'
+    - '&6&lGAMENET'
+    - '&6&lGAMENE'
+    - '&6&lGAMEN'
+    - '&6&lGAME'
+    - '&6&lGAM'
+    - '&6&lGA'
+    - '&6&lG'
     random: false
     interval: 8
   line-1:
@@ -36,19 +33,19 @@ display:
     score: 99
   line-2:
     text:
-    - '&6➢ Spieler Information'
+    - '&6➢ Info'
     random: false
     interval: 1000
     score: 98
   line-3:
     text:
-    - '&e ◆ Benutzername: &7%player_name%'
+    - '&e ◆ Name: &7%player_name%'
     random: false
     interval: 1000
     score: 97
   line-4:
     text:
-    - '&e ◆ Geldbeutel: &7%vault_eco_balance_formatted% ⛃'
+    - '&e ◆ Geld: &7%vault_eco_balance_formatted% ⛃'
     random: false
     interval: 20
     score: 96

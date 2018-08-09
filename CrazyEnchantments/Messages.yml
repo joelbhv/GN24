@@ -9,7 +9,7 @@ Messages:
   Need-More-Money: '&cYou are in need of &a$%Money_Needed%&c.'
   Hit-Enchantment-Max: |-
     &cThis item has reached the maximum amount of enchantments it can have.
-    &7You can purchase a rank at &nstore.servername.com&r &7to increase the slots.
+    &7You can purchase a rank at &nstore.GameNetz24.de&r &7to increase the slots.
   Inventory-Full: '&cYour inventory is full, make some space and try again.'
   Tinker-Inventory-Full: '&cThe inventory is full. Sell all or remove items.'
   Tinker-Sold-Msg: '&7Your trade was successful with the tinkerer.'
@@ -48,7 +48,7 @@ Messages:
   Received-GKit: '&7You have just received %Kit%&7.'
   No-GKit-Permission: |-
     &cYou do not have &naccess&r &cto this gkit.
-    &7Unlock this gkit now at &nstore.servername.com&r&7.
+    &7Unlock this gkit now at &nstore.GameNetz24.de&r&7.
   Spawned-Book: '&7You have just spawned a book at &6%World%, %X%, %Y%, %Z%&7.'
   Reset-GKit: '&7You have just reset %Player%''s %GKit% kit cooldown.'
   Enchantment-Upgrade:
