@@ -112,7 +112,7 @@ reset-despawn-time-on-hit: true
 generate-random-name: true
 
 # This is the prefix to use for the random name. 12 characters max.
-random-name-prefix: Survival-Dawn
+random-name-prefix: GameNetz24
 
 # This message is displayed when a player is killed by another player. Set this to '' to display nothing.
 kill-message: '&8&l>> &c{victim} wurde von {attacker} umgebracht'

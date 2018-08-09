@@ -1,6 +1,6 @@
 #List of all the enchantments: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
 Settings:
-  Prefix: '&bSurvival-Dawn Kisten > '
+  Prefix: '&bGameNetz24 Kisten > '
   InventoryName: '&nKisten öffner...'
   InventorySize: 45
   KnockBack: true

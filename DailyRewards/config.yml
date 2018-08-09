@@ -20,7 +20,7 @@ rewards:
     name: Basic
     permission: false
     random: true
-    claim-message: '&aSurvival-Dawn > &7Du hast deinen Standard Daily Reward erhalten.'
+    claim-message: '&aGameNetz24 > &7Du hast deinen Standard Daily Reward erhalten.'
     broadcast: ''
     commands:
     - give %player minecraft:iron_ingot 16
@@ -57,7 +57,7 @@ rewards:
     name: Advanced
     permission: true
     random: true
-    claim-message: '&aSurvival-Dawn > &7Du hast deinen Spezial Daily Reward erhalten.'
+    claim-message: '&aGameNetz24 > &7Du hast deinen Spezial Daily Reward erhalten.'
     broadcast: ''
     commands:
     - give %player minecraft:diamond_pickaxe 1

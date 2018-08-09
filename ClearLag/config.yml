@@ -186,8 +186,8 @@ spawn-limiter:
 # -- 'broadcast-enabled' defines whether or not tps-meter should broadcast
 tps-meter:
   enabled: false
-  trigger-broadcast-message: '&6[Survival-Dawn] &cDer Server ist ausgelastet, er führt nun Maßnahmen durch'
-  recover-broadcast-message: '&6[Survival-Dawn] &aDer Server ist nicht mehr überladen!'
+  trigger-broadcast-message: '&6[GameNetz24] &cDer Server ist ausgelastet, er führt nun Maßnahmen durch'
+  recover-broadcast-message: '&6[GameNetz24] &aDer Server ist nicht mehr überladen!'
   broadcast-enabled: false
   interval: 15
   tps-trigger: 14.0
@@ -253,7 +253,7 @@ item-merger:
 # -- 'warnings' list warnings to be given out at specified times
 auto-removal:
   enabled: true
-  broadcast-message: '&eSurvival-Dawn > &e+RemoveAmount &7gedroppte Item(s) entfernt.'
+  broadcast-message: '&eGameNetz24 > &e+RemoveAmount &7gedroppte Item(s) entfernt.'
   broadcast-removal: true
   autoremoval-interval: 600
   world-filter:
@@ -277,8 +277,8 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:540 msg:&eSurvival-Dawn > &7Alle gedroppten Items werden in &e+remaining &7Sekunden gelöscht.'
-        - 'time:570 msg:&eSurvival-Dawn > &7Alle gedroppten Items werden in &e+remaining &7Sekunden gelöscht.'
+        - 'time:540 msg:&eGameNetz24 > &7Alle gedroppten Items werden in &e+remaining &7Sekunden gelöscht.'
+        - 'time:570 msg:&eGameNetz24 > &7Alle gedroppten Items werden in &e+remaining &7Sekunden gelöscht.'
 
 #What should be removed during /lagg clear
 command-remove:
@@ -308,7 +308,7 @@ limit:
   enabled: false
   max: 1000
   check-interval: 60
-  broadcast-message: '&6[Survival-Dawn] &aLimit erreicht, entferne +RemoveAmount Dinge!'
+  broadcast-message: '&6[GameNetz24] &aLimit erreicht, entferne +RemoveAmount Dinge!'
   world-filter:
   # - this_world <-This world will be ignored during removal!
   broadcast-removal: true
