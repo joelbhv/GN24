@@ -1,10 +1,4 @@
-Players:
-  bc62175f-dd8c-4006-8df6-452dd6286cb3:
-    Name: GrossVerdiener
-    Ancient: 0
-    Antique: 0
-    Mythical: 0
-    Old: 0
+Players: {}
 Offline-Players:
   '1':
     Old: 4

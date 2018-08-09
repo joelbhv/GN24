@@ -1,7 +1,7 @@
 #List of all the enchantments: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
 Settings:
-  Prefix: '&bGameNetz24 Kisten > '
-  InventoryName: '&nKisten öffner...'
+  Prefix: '&bCrates > '
+  InventoryName: '&nCrate opener...'
   InventorySize: 45
   KnockBack: true
   Update-Checker: true

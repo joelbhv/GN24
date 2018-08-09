@@ -1,24 +1,24 @@
 Locations:
   '1':
-    Crate: Alte
+    Crate: Old
     World: world
     X: -589
     Y: 69
     Z: 845
   '2':
-    Crate: Antike
+    Crate: Antique
     World: world
     X: -589
     Y: 69
     Z: 842
   '3':
-    Crate: Sehr Alte
+    Crate: Ancient
     World: world
     X: -586
     Y: 69
     Z: 839
   '4':
-    Crate: Mystische
+    Crate: Mythical
     World: world
     X: -583
     Y: 69
