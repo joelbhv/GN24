@@ -1,10 +1,10 @@
 &r
 &r
-&r            &fWelcome to &6&lSurvival&r&f!
-&r   &7&oExplore the world, fight monsters and
-&r          &7&obuild anything you want!
+&r            &fWillkommen auf dem &6&lGameNetz24 Survival Server&r&f!
+&r                    &7&oErkunde die Welt, bekämpfe Monster
+&r                       &7&ound baue alles was du willst
 &r
-&r        &e&lSHOP &f&nshop.yourserver.com
-&r      &6&lFORUMS &f&nforum.yourserver.com
+&r                       &e&lSHOP &f&nshop.GameNetz24.de
+&r                         &6&lFORUMS &f&nGameNetz24.de
 &r
 &r

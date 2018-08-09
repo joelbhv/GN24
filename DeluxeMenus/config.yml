@@ -462,12 +462,10 @@ gui_menus:
       '6':
         material: LOG
         slot: 5
-        display_name: '&8◆ &f&nSpawn Village&r &8◆'
+        display_name: '&8◆ &f&nSpawn&r &8◆'
         lore:
-        - '&7Click to teleport to the Spawn Village.'
+        - '&7Klicke um zum Spawn zu gelangen..'
         - '&r'
-        - '&f&oA place where you can find just'
-        - '&f&oabout anything you can think of.'
         left_click_commands:
         - '[player] warp spawn'
         - '[sound] BLOCK_PORTAL_TRAVEL'
@@ -477,12 +475,12 @@ gui_menus:
       '7':
         material: WATER_BUCKET
         slot: 6
-        display_name: '&8◆ &6&nLeap of Faith&r &8◆'
+        display_name: '&8◆ &6&nSprung des Glaubens&r &8◆'
         lore:
-        - '&7Click to teleport to the Leap of Faith.'
+        - '&7Klicke um dich zum Sprung des Glaubens zu teleportieren.'
         - '&r'
-        - '&6&oChallenge yourself! Jump from high up'
-        - '&6&oand try and land in the water.'
+        - '&6&oSpringe von weit oben'
+        - '&6&ound Lande im Wasser.'
         left_click_commands:
         - '[player] warp lof'
         - '[sound] BLOCK_PORTAL_TRAVEL'
