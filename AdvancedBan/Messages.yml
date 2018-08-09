@@ -1,6 +1,6 @@
 General:
-  Prefix: "&cPunishments >"
-  NoPerms: "&7You do not have permission to do this."
+  Prefix: "&cGameNetz24 >"
+  NoPerms: "&7Dafür hast du leider keine Rechte.."
   LayoutNotFound: "&7Unable to find a layout with that name."
   # This will be the replacement for the %DURATION% variable
   TimeLayoutD: "%D%day(s) %H%h %M%min and %S%sec"
@@ -16,16 +16,15 @@ Ban:
   AlreadyDone: "&c%NAME% &7ist schon gebannt."
   Exempt: "&7Du darfst folgende Person nicht bannen: &c%NAME%&7."
   Layout:
-  - '&cDu wurdest permanent von Survival-Dawn ausgeschlossen.'
+  - '&cDu wurdest permanent von GameNetz24 ausgeschlossen.'
   - '&7'
   - "&cGrund: &8\xbb &7%Grund%"
   - "&cGebannt von: &8\xbb &7%OPERATOR%"
   - '&7'
   - '&cDu findest es nicht gerechtfertigt? Beschwere dich.'
-  - "&cForum: &8\xbb &7www.s.com"
-  - "&cDiscord: &8\xbb &7discord.gg/sJuHDva"
+  - "&cForum: &8\xbb &7https://gamenetz24.de/forum/"
   Notification:
-  - "&cBan > &c%OPERATOR% &7has permanently banned &c%NAME% &7for &c%Grund%&7."
+  - "&cGameNetz24 > &c%OPERATOR% &7has permanently banned &c%NAME% &7for &c%Grund%&7."
 
 Ipban:
   Usage: "&7/banip [Name/IP] [Grund]"
@@ -36,27 +35,25 @@ Ipban:
   - "&cGebannt von: &8\xbb &7%OPERATOR%"
   - '&7'
   - '&cDu findest es nicht gerechtfertigt? Beschwere dich.'
-  - "&cForums: &8\xbb &7Survival-Dawn.xyz"
-  - "&cDiscord: &8\xbb &7discord.gg/sJuHDva"
+  - "&cForums: &8\xbb &7https://gamenetz24.de/forum/"
   Notification:
-  - "&cBan > &c%OPERATOR% &7wurde permanent von &c%NAME% &7für &c%Grund%&7 gebannt."
+  - "&cGameNetz24 > &c%OPERATOR% &7wurde permanent von &c%NAME% &7für &c%Grund%&7 gebannt."
   IpNotCashed: "&7There was no IP found for &c%NAME%&7."
 
 Tempban:
   Usage: "&7/tempban [Name] [Xmo/Xd/Xh/Xm/Xs] [Grund]"
   MaxDuration: "&7Du darfst nicht länger als folgendes bannen: &c%MAX%sec&7."
   Layout:
-  - '&cDu wurdest temporär von Survival-Dawn gebannt.'
+  - '&cDu wurdest temporär von GameNetz24 gebannt.'
   - '&7'
   - "&cGrund: &8\xbb &7%Grund%"
   - "&cLaenge: &8\xbb &7%DURATION%"
   - "&cGebannt von: &8\xbb &7%OPERATOR%"
   - '&7'
   - '&cDu findest es nicht gerechtfertigt? Beschwere dich.'
-  - "&cForums: &8\xbb &7Survival-Dawn.xyz"
-  - "&cDiscord: &8\xbb &7discord.gg/sJuHDva"
+  - "&cForums: &8\xbb &7https://gamenetz24.de/forum/"
   Notification:
-  - "&cBan > &c%OPERATOR% &7has temporarily banned &c%NAME% &7for &c%Grund%&7 for &c%DURATION%&7."
+  - "&cGameNetz24 > &c%OPERATOR% &7has temporarily banned &c%NAME% &7for &c%Grund%&7 for &c%DURATION%&7."
 
 Tempipban:
   Usage: "&7/tempipban [Name/IP] [Xmo/Xd/Xh/Xm/Xs] [Grund]"
@@ -69,10 +66,9 @@ Tempipban:
   - "&cGebannt von: &8\xbb &7%OPERATOR%"
   - '&7'
   - '&cUnfairly punished? Appeal on the forums.'
-  - "&cForums &8\xbb &7Survival-Dawn.xyz"
-  - "&cDiscord &8\xbb &7discord.gg/sJuHDva"
+  - "&cForums &8\xbb &7https://gamenetz24.de/forum/"
   Notification:
-  - "&cBan > &c%OPERATOR% &7has temporarily IP banned &c%NAME% &7for &c%Grund%&7 for &c%DURATION%&7."
+  - "&cGameNetz24 > &c%OPERATOR% &7has temporarily IP banned &c%NAME% &7for &c%Grund%&7 for &c%DURATION%&7."
 
 Mute:
   Usage: "&7/mute [Name] [Grund]"
@@ -84,24 +80,23 @@ Mute:
   - "&cDu wurdest permanent für &7%Grund%&c gemuted."
   - "&7◆ &cGemuted von: &7%OPERATOR%"
   - '&cDu findest es nicht gerechtfertigt? Beschwere dich.'
-  - '&cForum: &survival-dawn.xyz'
-  - '&r'
+  - '&cForum: &https://gamenetz24.de/forum/'
   Notification:
-  - "&cMute > &c%OPERATOR% &7has permanently muted &c%NAME% &7for &c%Grund%&7."
+  - "&cGameNetz24 > &c%OPERATOR% &7has permanently muted &c%NAME% &7for &c%Grund%&7."
 
 Tempmute:
   Usage: "&7/tempmute [Name] [Xmo/Xd/Xh/Xm/Xs] [Grund]"
-  MaxDuration: "&7You are not allowed to temporarily mute for more than &c%MAX%sec&7."
+  MaxDuration: "&7Du darfst nicht mehr als folgende Zeit muten: &c%MAX%sec&7."
   Layout:
   - '&r'
-  - "&cYou are temporarily muted for &7%Grund%&c."
-  - "&7* &cMuted by: &7%OPERATOR%"
-  - "&7* &cExpires in: &7%DURATION%"
-  - '&cIf you believe you were unfairly punished'
-  - '&cyou can appeal on the forums: &7yourserver.com'
+  - "&cDu bist für folgende Zeit gemuted: &7%Grund%&c."
+  - "&7* &cGemuted von: &7%OPERATOR%"
+  - "&7* &cEndet in: &7%DURATION%"
+  - '&cDu fühlst dich unfair behandelt?'
+  - '&cSchreibe eine Beschwerde im Forum: &7https://gamenetz24.de/forum/'
   - '&r'
   Notification:
-  - "&cMute > &c%OPERATOR% &7has temporarily muted &c%NAME% &7for &c%Grund%&7 for &c%DURATION%&7."
+  - "&cGameNetz24 > &c%OPERATOR% &7has temporarily muted &c%NAME% &7for &c%Grund%&7 for &c%DURATION%&7."
 
 Warn:
   Usage: "&7/warn [Name] [Grund]"
@@ -133,28 +128,28 @@ Kick:
   Usage: "/kick [Name] [Grund]"
   Done: "&c%NAME% &7wurde vom Server gekickt."
   NotOnline: "&c%NAME% &7ist nicht Online."
-  Exempt: "&7You are not allowed to kick &c%NAME%&7."
+  Exempt: "&7Du darfst folgende Person nicht kicken: &c%NAME%&7."
   Layout:
-  - '&cDu wurdest von Survival-Dawn.xyz gekickt.'
+  - '&cDu wurdest von GameNetz24 gekickt.'
   - '&7'
   - "&cGrund: &8\xbb &7%Grund%"
   - "&cGekickt von: &8\xbb &7%OPERATOR%"
   - '&7'
   - '&cDu findest es nicht gerechtfertigt? Beschwere dich'
-  - "&cForum: &8\xbb &7Survival-Dawn.xyz"
+  - "&cForum: &8\xbb &7https://gamenetz24.de/forum/"
   - "&cDiscord: &8\xbb &7discord.gg/sJuHDva"
   Notification:
   - "&cKick > &c%OPERATOR% &7has kicked &c%NAME% &7for &c%Grund%&7."
 
 UnBan:
   Usage: "&7/unban [Name/IP]"
-  NotPunished: "&c%NAME% &7is not banned."
-  Done: "&a%NAME% &7was successfully unbanned."
+  NotPunished: "&c%NAME% &7ist nicht gebannt."
+  Done: "&a%NAME% &7wurde Erfolgreich entbannt."
 
 UnMute:
   Usage: "&7/unmute [Name]"
-  NotPunished: "&c%NAME% is not muted."
-  Done: "&a%NAME% &7was successfully unmuted."
+  NotPunished: "&c%NAME% ist nicht gemuted."
+  Done: "&a%NAME% &7wurde Erfolgreich entmuted."
 
 UnWarn:
   Usage: "&7/unwarn [ID] or /unwarn clear [Name]"
