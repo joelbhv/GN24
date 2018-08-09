@@ -5,7 +5,7 @@ Crate:
   InGUI: true #If the crate shows in the /cc GUI. (If the crate type is QuickCrate/CrateOnTheGo/FireCracker then the Crate will not work. Quick Crate requires a Physical Crate.)
   Slot: 24 #Slot the item is in the GUI.
   OpeningBroadCast: false #Enables/Disables the Broadcasts message when they open a crate.
-  BroadCast: '&6Crates > &7%Player% is opening an &nAncient Crate&r&7.' #Message that is broadcasted when opening the crate.
+  BroadCast: '&6GameNetz24 > &7%Player% is opening an &nAncient Crate&r&7.' #Message that is broadcasted when opening the crate.
   Item: '54' #Item the crate is in the GUI
   Glowing: false #If the crate in the main /cc GUI is glowing or not.
   Name: '&8◆ &e&nAncient Crate&r &8◆' #Name of the item in the GUI.
@@ -64,7 +64,7 @@ Crate:
         - 'Item:264, Amount:16'
         - 'Item:388, Amount:8'
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Gem Package&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Gem Package&r&7.'
       BlackListed-Permissions: {}
     2:
       DisplayName: '&8◆ &235 ⛃ &8◆'
@@ -78,7 +78,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n35 ⛃&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n35 ⛃&r&7.'
         - 'eco give %Player% 35'
       BlackListed-Permissions: {}
     3:
@@ -93,7 +93,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n50 ⛃&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n50 ⛃&r&7.'
         - 'eco give %Player% 50'
       BlackListed-Permissions: {}
     4:
@@ -108,7 +108,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n75 ⛃&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n75 ⛃&r&7.'
         - 'eco give %Player% 75'
       BlackListed-Permissions: {}
     5:
@@ -123,7 +123,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n100 ⛃&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n100 ⛃&r&7.'
         - 'eco give %Player% 100'
       BlackListed-Permissions: {}
     6:
@@ -140,7 +140,7 @@ Crate:
       Items:
         - 'Item:384, Amount:32'
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n32x Exp Bottles&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n32x Exp Bottles&r&7.'
       BlackListed-Permissions: {}
     7:
       DisplayName: '&8◆ &a64x Exp Bottles &8◆'
@@ -156,7 +156,7 @@ Crate:
       Items:
         - 'Item:384, Amount:64'
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n64x Exp Bottles&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n64x Exp Bottles&r&7.'
       BlackListed-Permissions: {}
     8:
       DisplayName: '&8◆ &a128x Exp Bottles &8◆'
@@ -172,7 +172,7 @@ Crate:
       Items:
         - 'Item:384, Amount:128'
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n128x Exp Bottles&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n128x Exp Bottles&r&7.'
       BlackListed-Permissions: {}
     9:
       DisplayName: '&8◆ &d32x Enderpearls &8◆'
@@ -188,7 +188,7 @@ Crate:
       Items:
         - 'Item:368, Amount:32'
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n32x Enderpearls&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n32x Enderpearls&r&7.'
       BlackListed-Permissions: {}
     10:
       DisplayName: '&8◆ &e16x Golden Apples &8◆'
@@ -204,7 +204,7 @@ Crate:
       Items:
         - 'Item:322, Amount:16'
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n16x Golden Apples&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n16x Golden Apples&r&7.'
       BlackListed-Permissions: {}
     11:
       DisplayName: '&8◆ &e1x Notch Apple &8◆'
@@ -220,7 +220,7 @@ Crate:
       Items:
         - 'Item:322:1, Amount:1'
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Notch Apple&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Notch Apple&r&7.'
       BlackListed-Permissions: {}
     12:
       DisplayName: '&8◆ &eEnchanted Book &8◆'
@@ -236,7 +236,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Enchanted Book&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Enchanted Book&r&7.'
         - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:16,lvl:4}]}'
       BlackListed-Permissions: {}
     13:
@@ -253,7 +253,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Enchanted Book&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Enchanted Book&r&7.'
         - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:0,lvl:4}]}'
       BlackListed-Permissions: {}
     14:
@@ -270,7 +270,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Enchanted Book&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Enchanted Book&r&7.'
         - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:8,lvl:3}]}'
       BlackListed-Permissions: {}
     15:
@@ -287,7 +287,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Enchanted Book&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Enchanted Book&r&7.'
         - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:2,lvl:4}]}'
       BlackListed-Permissions: {}
     16:
@@ -304,7 +304,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Enchanted Book&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Enchanted Book&r&7.'
         - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:34,lvl:3}]}'
       BlackListed-Permissions: {}
     17:
@@ -321,7 +321,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Enchanted Book&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Enchanted Book&r&7.'
         - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:48,lvl:4}]}'
       BlackListed-Permissions: {}
     18:
@@ -338,7 +338,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Enchanted Book&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Enchanted Book&r&7.'
         - 'give %Player% enchanted_book 1 0 {StoredEnchantments:[{id:32,lvl:4}]}'
       BlackListed-Permissions: {}
     19:
@@ -353,7 +353,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &nOld Crate&r &7and won &n1x Blacksmith Kit&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &nOld Crate&r &7und hat folgendes gewonnen: &n1x Blacksmith Kit&r&7.'
         - 'kit blacksmith %Player%'
       BlackListed-Permissions: {}
     20:
@@ -368,7 +368,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &6&nAntique Crate&r &7and won &n1x Horse Kit&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &6&nAntique Crate&r &7und hat folgendes gewonnen: &n1x Horse Kit&r&7.'
         - 'kit horse %Player%'
       BlackListed-Permissions: {}
     21:
@@ -383,7 +383,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Horse2 Kit&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Horse2 Kit&r&7.'
         - 'kit horse2 %Player%'
       BlackListed-Permissions: {}
     22:
@@ -398,7 +398,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n2x Ancient Crate Keys&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n2x Ancient Crate Keys&r&7.'
         - 'cc give p Ancient 2 %Player%'
       BlackListed-Permissions: {}
     23:
@@ -413,7 +413,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n2x Mythical Crate Keys&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n2x Mythical Crate Keys&r&7.'
         - 'cc give p Mythical 2 %Player%'
       BlackListed-Permissions: {}
     24:
@@ -432,7 +432,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Mining Pickaxe&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Mining Pickaxe&r&7.'
         - 'give %Player% 278 1 name:&bMining_Pickaxe efficiency:4 fortune:3 unbreaking:2'
       BlackListed-Permissions: {}
     25:
@@ -451,7 +451,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Mining Shovel&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Mining Shovel&r&7.'
         - 'give %Player% 277 1 name:&bMining_Shovel efficiency:4 fortune:3 unbreaking:2'
       BlackListed-Permissions: {}
     26:
@@ -470,7 +470,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Mining Axe&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Mining Axe&r&7.'
         - 'give %Player% 279 1 name:&bMining_Axe efficiency:4 fortune:3 unbreaking:2'
       BlackListed-Permissions: {}
     27:
@@ -489,7 +489,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Killing Sword&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Killing Sword&r&7.'
         - 'give %Player% 276 1 name:&bKilling_Sword sharpness:4 fire_aspect:2 looting:3'
       BlackListed-Permissions: {}
     28:
@@ -508,7 +508,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Killing Sword&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Killing Sword&r&7.'
         - 'give %Player% 261 1 name:&bKilling_Bow power:4 unbreaking:3 flame:1'
       BlackListed-Permissions: {}
     29:
@@ -523,7 +523,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n2x Tool Enchantment Books&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n2x Tool Enchantment Books&r&7.'
         - 'ce lostbook Tool 2 %Player%'
       BlackListed-Permissions: {}
     30:
@@ -538,7 +538,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n2x Weapon Enchantment Books&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n2x Weapon Enchantment Books&r&7.'
         - 'ce lostbook Weapon 2 %Player%'
       BlackListed-Permissions: {}
     31:
@@ -553,7 +553,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n2x Armor Enchantment Books&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n2x Armor Enchantment Books&r&7.'
         - 'ce lostbook Armor 2 %Player%'
       BlackListed-Permissions: {}
     32:
@@ -568,7 +568,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x White Scroll&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x White Scroll&r&7.'
         - 'ce scroll white 1 %Player%'
       BlackListed-Permissions: {}
     33:
@@ -583,7 +583,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Black Scroll&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Black Scroll&r&7.'
         - 'ce scroll black 1 %Player%'
       BlackListed-Permissions: {}
     34:
@@ -598,7 +598,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Transmog Scroll&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Transmog Scroll&r&7.'
         - 'ce scroll transmog 1 %Player%'
       BlackListed-Permissions: {}
     35:
@@ -613,7 +613,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Scrambling Rune&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Scrambling Rune&r&7.'
         - 'ce scrambler 1 %Player%'
       BlackListed-Permissions: {}
     36:
@@ -630,7 +630,7 @@ Crate:
       Items:
         - 'Item:397:1, Amount:1'
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Wither Skull&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Wither Skull&r&7.'
       BlackListed-Permissions: {}
     37:
       DisplayName: '&8◆ &cMiner Tag &8◆'
@@ -645,7 +645,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Miner Tag&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Miner Tag&r&7.'
         - 'pex user %Player% add deluxetags.tag.Miner'
       BlackListed-Permissions:
         - 'deluxetags.tag.Miner'
@@ -662,7 +662,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Naughty Tag&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Naughty Tag&r&7.'
         - 'pex user %Player% add deluxetags.tag.Naughty'
       BlackListed-Permissions:
         - 'deluxetags.tag.Naughty'
@@ -679,7 +679,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Builder Tag&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Builder Tag&r&7.'
         - 'pex user %Player% add deluxetags.tag.Builder'
       BlackListed-Permissions:
         - 'deluxetags.tag.Builder'
@@ -696,7 +696,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Awesome Tag&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Awesome Tag&r&7.'
         - 'pex user %Player% add deluxetags.tag.Awesome'
       BlackListed-Permissions:
         - 'deluxetags.tag.Awesome'
@@ -713,7 +713,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Redstone Master Tag&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Redstone Master Tag&r&7.'
         - 'pex user %Player% add deluxetags.tag.RedstoneMaster'
       BlackListed-Permissions:
         - 'deluxetags.tag.RedstoneMaster'
@@ -730,7 +730,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n1x Powerful Tag&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n1x Powerful Tag&r&7.'
         - 'pex user %Player% add deluxetags.tag.Powerful'
       BlackListed-Permissions:
         - 'deluxetags.tag.Powerful'
@@ -747,7 +747,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n3x Bandages&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n3x Bandages&r&7.'
         - 'kit bandage %Player%'
         - 'kit bandage %Player%'
         - 'kit bandage %Player%'
@@ -765,7 +765,7 @@ Crate:
       Player: ''
       Unbreakable: false
       Commands:
-        - 'broadcast &7%Player% has just opened an &e&nAncient Crate&r &7and won &n3x Splints&r&7.'
+        - 'broadcast &7%Player% hat gerade folgende Kiste geöffnet &e&nAncient Crate&r &7und hat folgendes gewonnen: &n3x Splints&r&7.'
         - 'kit splint %Player%'
         - 'kit splint %Player%'
         - 'kit splint %Player%'
