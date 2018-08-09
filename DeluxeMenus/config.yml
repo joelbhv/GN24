@@ -1353,11 +1353,12 @@ gui_menus:
         slot: 8
         data: 7
   help:
-    menu_title: '&nHelp'
+    menu_title: '&nHilfe Menue'
     open_command:
     - chelper
     - helper
     - help
+    - hilfe
     size: 18
     open_requirement:
       requirements:
@@ -1372,98 +1373,93 @@ gui_menus:
         slot: 0
         display_name: '&8◆ &b&nBig Buckets&r &8◆'
         lore:
-        - '&7Big Buckets store more than 1 source'
-        - '&7block of water/lava/milk. This saves'
-        - '&7you from carrying a lot of buckets.'
+        - '&7BigBuckets können mehr als eine Einheit'
+        - '&7Flüssigkeit beinhalten. Das erspart'
+        - '&7dir das lästige rumschleppen.'
       '2':
         material: GOLD_INGOT
         slot: 1
         display_name: '&8◆ &e&nDaily Reward&r &8◆'
         lore:
-        - '&7Get a reward every day, this includes'
-        - '&7treasure, furniture and more. Donators'
-        - '&7get access to the Donator reward.'
+        - '&7Im Daily Reward kannst du jeden Tag etwas neues bekommen'
+        - '&7von Ausrüstung zu Schlüsseln bis hin zu Möbeln. Ränge'
+        - '&7bekommen eine höhere Chance für bessere Items.'
       '3':
         material: WOOD_SWORD
         slot: 2
         display_name: '&8◆ &d&nRandom Teleport&r &8◆'
         lore:
-        - '&7Teleport anywhere in the wild by going'
-        - '&7to the Explorer at spawn.'
+        - '&7Teleportiere dich in die Wildniss.'
+        - '&7Der Random Teleport steht am Spawn.'
       '4':
         material: BOOK
         slot: 3
         display_name: '&8◆ &a&nCustom Enchantments&r &8◆'
         lore:
-        - '&7Custom enchantments can be purchased from'
-        - '&7the enchanter. These enchantments give'
-        - '&7your items special abilities.'
+        - '&7Besondere Enchantments können beim Enchanter erworben werden.'
+        - '&7Oder einfach mit /ce.'
       '5':
         material: CHEST
         slot: 4
-        display_name: '&8◆ &c&nAuction House&r &8◆'
+        display_name: '&8◆ &c&nAuktions Haus&r &8◆'
         lore:
-        - '&7Sell items to other players on the auction'
-        - '&7house. Simply do the &n/ah&r &7command to'
-        - '&7get started.'
+        - '&7An und Verkauf von Spielern auf dem Server.'
+        - '&7folge den Schildern oder verwende /ah'
       '6':
         material: APPLE
         slot: 5
         display_name: '&8◆ &a&nShop&r &8◆'
         lore:
-        - '&7Purchase or sell items at the shop menu.'
-        - '&7You can access this with &n/shop&r&7.'
+        - '&7Kaufe oder Verkaufe Items beim Shop.'
+        - '&7Folge den Schildern oder verwende /shop.'
       '7':
         material: EYE_OF_ENDER
         slot: 6
-        display_name: '&8◆ &d&nRelic Merchant&r &8◆'
+        display_name: '&8◆ &d&nRelic Verkäufer&r &8◆'
         lore:
-        - '&7Buy cool perks such as ranks here for'
-        - '&7coins. These perks last forever.'
+        - '&7Kaufe Perks und Ränge hier mit deinen'
+        - '&7Coins. Diese Perks halten für immer..'
       '8':
         material: STONE
         slot: 7
         display_name: '&8◆ &e&nQuest Master&r &8◆'
         lore:
-        - '&7Start quests with &n/quests&r&7. When'
-        - '&7you complete a quest, you will get a'
-        - '&7reward.'
+        - '&7Starte hier deine Quests und erhalte Belohnungen!'
+        - '&7Folge den Schildern oder benutze /quests'
       '9':
         material: DOUBLE_PLANT
         slot: 8
         display_name: '&8◆ &b&nBanker&r &8◆'
         lore:
-        - '&7Trade coins for experience at this'
-        - '&7banker. Teleport to him with &n/warp&r&7.'
+        - '&7Tausche deine Coins in Erfahrung um'
+        - '&7Folge den Schildern oder nutze /warp'
       '10':
         material: SIGN
         slot: 9
         display_name: '&8◆ &2&nPanel&r &8◆'
         lore:
-        - '&7Navigate through the panel with the'
-        - '&7&n/panel&r &7inventory.'
+        - '&7Das Panel bietet dir sehr viele Informationen wie z.B Tag oder Nacht einstellungen.'
+        - '&7&nNutze das Panel mit /panel.'
       '11':
         material: BONE
         slot: 10
         display_name: '&8◆ &3&nCustom Mobs&r &8◆'
         lore:
-        - '&7Custom hostile mobs spawn randomly in'
-        - '&7the wilderness. This will make your'
-        - '&7adventures through the night more'
-        - '&7interesting.'
+        - '&7Besondere Tiere und Monster spawnen in der Nacht'
+        - '&7diese Sollen deine nächtlichen Wanderungen durch die Nacht'
+        - '&7etwas spannender machen!'
       '12':
         material: TRIPWIRE_HOOK
         slot: 11
-        display_name: '&8◆ &4&nDiseases&r &8◆'
+        display_name: '&8◆ &4&nKrankheiten&r &8◆'
         lore:
-        - '&7You can get a disease whenever you do'
-        - '&7something. Each disease requires a cure'
-        - '&7to be crafted to get rid of that disease.'
-        - '&7You can also see a doctor to be healed.'
+        - '&7Du kannst jederzeit durch verschiedene Dinge erkranken.'
+        - '&7Jede Erkrankung braucht eine Heilung'
+        - '&7die du Craften musst.'
+        - '&7Du kannst dich auch im Krankenhaus heilen lassen.'
         - '&r'
-        - '&7The more you get a disease, your immunity'
-        - '&7will build so you have a lower chance of'
-        - '&7getting it again.'
+        - '&7Jemehr Kranknheiten du bekommst'
+        - '&7destso Immmuner wirst du gegen diese.'
       '13':
         material: STAINED_GLASS_PANE
         slot: 12
